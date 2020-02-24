@@ -364,7 +364,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: {r: 0, g: 1, b: 0, a: 1}
-  position: {x: 0, y: 0, z: 0}
   intensity: 3
 --- !u!1001 &833069338659809840
 PrefabInstance:

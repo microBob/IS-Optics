@@ -98,20 +98,23 @@ public class Rect : MonoBehaviour
         Debug.Log(points.Count);
     }
 
-    private void RenderPoints(Boolean animate=false)
+    private void RenderPoints(Boolean animate = false)
     {
         foreach (GameObject point in points)
         {
-            float distance = Vector3.Distance(lightSource.position, point.transform.position);
+            Vector3 lightPos = lightSource.transform.position;
+            Vector3 myPos = point.transform.position;
+            float distance = Vector3.Distance(lightPos, myPos);
+            Debug.DrawLine(lightPos, myPos, Color.cyan);
             float distance2 = Mathf.Pow(distance, 2);
 
             Vector3 hsvColor;
             Color.RGBToHSV(lightSource.color, out hsvColor.x, out hsvColor.y, out hsvColor.z);
             hsvColor.z = lightSource.intensity / distance2;
-            hsvColor.z = Mathf.Clamp(hsvColor.z, 0, 1);
-            
-            Debug.Log("Distance: "+distance+"; Color: "+hsvColor.ToString());
-            
+            hsvColor.z = Mathf.Clamp(hsvColor.z, 0f, 1f);
+
+            Debug.Log("Distance: " + distance + "; Color: " + hsvColor.ToString());
+
             point.GetComponent<Renderer>().material.color = Color.HSVToRGB(hsvColor.x, hsvColor.y, hsvColor.z);
         }
     }
