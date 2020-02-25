@@ -11,20 +11,21 @@ public class CameraController : MonoBehaviour
     private float _xCamRot;
     private float _yCamRot;
 
-    private bool active = true;
+    private bool _active = true;
 
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        _yCamRot = 30;
-        _xCamRot = -40;
+        var rotation = transform.rotation;
+        _yCamRot = rotation.eulerAngles.x;
+        _xCamRot = rotation.eulerAngles.y;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (active)
+        if (_active)
         {
             float mouseX = Input.GetAxis("Mouse X");
             float mouseY = Input.GetAxis("Mouse Y");
@@ -44,14 +45,14 @@ public class CameraController : MonoBehaviour
             transform.position += movement;
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || (Input.GetMouseButton(0) && _active))
         {
-            active = false;
-            Cursor.lockState = CursorLockMode.Confined;
+            _active = false;
+            Cursor.lockState = CursorLockMode.None;
         }
         else if (Input.GetMouseButton(0))
         {
-            active = true;
+            _active = true;
             Cursor.lockState = CursorLockMode.Locked;
         }
     }

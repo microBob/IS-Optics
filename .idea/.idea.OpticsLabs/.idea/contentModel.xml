@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="PointLight.cs" t="Include" />
+          <e p="RaycastLabs.cs" t="Include" />
           <e p="Shapes" t="Include">
             <e p="Rect.cs" t="Include" />
           </e>

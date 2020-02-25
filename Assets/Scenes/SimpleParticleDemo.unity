@@ -159,9 +159,7 @@ MonoBehaviour:
     type: 3}
   lightSource: {fileID: 1668508049}
   renderResolution: 10
-  loc: {x: 0, y: 0, z: 0}
-  size: {x: 2, y: 2, z: 2}
-  rot: {x: 0, y: 0, z: 0}
+  size: {x: 1, y: 1, z: 1}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,8 +255,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32968ebcea07622499a28b956483f700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flySpeed: 1
-  lookSpeed: 10
+  flySpeed: 2
+  lookSpeed: 5
 --- !u!1 &1668508044
 GameObject:
   m_ObjectHideFlags: 0
