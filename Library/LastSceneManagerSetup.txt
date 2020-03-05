@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SimpleParticleDemo.unity
+- path: Assets/Scenes/PrimitiveLabs.unity
   isLoaded: 1
   isActive: 1
