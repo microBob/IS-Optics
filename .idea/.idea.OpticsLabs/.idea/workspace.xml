@@ -3,22 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3c9dcb34-c645-4c25-8257-5dca8332fb72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mesh/FlatEditable.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mesh/FlatEditable.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SimpleParticleDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SimpleParticleDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PointLight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PointLight.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shapes/Rect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shapes/Rect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CrashedAssetImports.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/584814-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/584814-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/2b/2b64066520ebc024b9c0bc43a1d5934b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2b/2b64066520ebc024b9c0bc43a1d5934b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/2b/2b64066520ebc024b9c0bc43a1d5934b.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2b/2b64066520ebc024b9c0bc43a1d5934b.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/51/516bc52d4a8b8d74bbd97598305c78a8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/51/516bc52d4a8b8d74bbd97598305c78a8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/a2/a2a378c1054e86c49b01abc6516f5f7e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a2/a2a378c1054e86c49b01abc6516f5f7e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/ad/adb8471441060ff4fb5766849372029f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/ad/adb8471441060ff4fb5766849372029f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
@@ -107,7 +99,7 @@
       <workItem from="1582697552411" duration="1498000" />
       <workItem from="1582760022299" duration="340000" />
       <workItem from="1583384910895" duration="5086000" />
-      <workItem from="1583428682671" duration="6606000" />
+      <workItem from="1583428682671" duration="9247000" />
     </task>
     <servers />
   </component>

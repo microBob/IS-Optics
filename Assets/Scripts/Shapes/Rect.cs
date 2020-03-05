@@ -14,13 +14,13 @@ namespace Shapes
 
         public Vector3 size = Vector3.one;
         private Vector3 _loc;
-        private Vector3 _rot;
 
         private Vector3 _pointSize;
-        private List<GameObject> points = new List<GameObject>();
+        private List<GameObject> _points = new List<GameObject>();
 
         public bool render = true;
         private int _iteratorIndex = 0;
+        private Vector3 _lastLightLoc;
 
         // Start is called before the first frame update
         void Start()
@@ -28,7 +28,9 @@ namespace Shapes
             // Update public points
             Transform rectTransform = transform;
             _loc = rectTransform.position;
-            _rot = rectTransform.rotation.eulerAngles;
+
+            // Initialize
+            _lastLightLoc = lightSource.transform.position;
 
             PopulatePoints();
         }
@@ -49,14 +51,9 @@ namespace Shapes
                     float yCoordinate = -usedDim.y + (yDirection * size.y / renderResolution);
                     Debug.Log("Working on Coordinate: " + xCoordinate + ", " + yCoordinate + ", " + usedDim.z);
 
-                    Vector3 posVec = new Vector3(xCoordinate, yCoordinate, usedDim.z);
+                    Vector3 posVec = new Vector3(xCoordinate, yCoordinate, -usedDim.z);
 
-                    GameObject point = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                    point.transform.position = _loc + posVec;
-                    point.transform.rotation = Quaternion.Euler(_rot);
-                    point.transform.localScale = _pointSize;
-
-                    points.Add(point);
+                    _points.Add(CreatePoint(posVec));
                 }
             }
 
@@ -79,12 +76,7 @@ namespace Shapes
 
                         Vector3 posVec = new Vector3(xCoordinate, yCoordinate, zCoordinate);
 
-                        GameObject point = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                        point.transform.position = _loc + posVec;
-                        point.transform.rotation = Quaternion.Euler(_rot);
-                        point.transform.localScale = _pointSize;
-
-                        points.Add(point);
+                        _points.Add(CreatePoint(posVec));
                     }
                 }
             }
@@ -97,31 +89,22 @@ namespace Shapes
                     float yCoordinate = -usedDim.y + (yDirection * size.y / renderResolution);
                     Debug.Log("Working on Coordinate: " + xCoordinate + ", " + yCoordinate + ", " + usedDim.z);
 
-                    Vector3 posVec = new Vector3(xCoordinate, yCoordinate, -usedDim.z);
+                    Vector3 posVec = new Vector3(xCoordinate, yCoordinate, usedDim.z);
 
-                    GameObject point = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                    point.transform.position = _loc + posVec;
-                    point.transform.rotation = Quaternion.Euler(_rot);
-                    point.transform.localScale = _pointSize;
-
-                    points.Add(point);
+                    _points.Add(CreatePoint(posVec));
                 }
             }
 
-            Debug.Log(points.Count);
+            Debug.Log(_points.Count);
         }
 
         // Update is called once per frame
         void Update()
         {
-        }
-
-        private void FixedUpdate()
-        {
             if (render)
             {
                 Vector3 lightPos = lightSource.transform.position;
-                GameObject workingPoint = points[_iteratorIndex];
+                GameObject workingPoint = _points[_iteratorIndex];
                 Vector3 pointPos = workingPoint.transform.position;
 
                 float distance = Vector3.Distance(lightPos, pointPos);
@@ -139,18 +122,39 @@ namespace Shapes
                         Color.RGBToHSV(lightSource.color, out hsvColor.x, out hsvColor.y, out hsvColor.z);
                         hsvColor.z = lightSource.intensity / distance2;
                         hsvColor.z = Mathf.Clamp(hsvColor.z, 0f, 1f);
-                    }
 
-                    workingPoint.GetComponent<Renderer>().material.color =
-                        Color.HSVToRGB(hsvColor.x, hsvColor.y, hsvColor.z);
+                        workingPoint.GetComponent<Renderer>().material.color =
+                            Color.HSVToRGB(hsvColor.x, hsvColor.y, hsvColor.z);
+                    }
                 }
 
                 _iteratorIndex++;
-                if (_iteratorIndex == points.Count)
+                if (_iteratorIndex == _points.Count)
                 {
-                    _iteratorIndex = 0;
+                    render = false;
                 }
             }
+            else
+            {
+                if (_iteratorIndex == _points.Count && lightSource.transform.position != _lastLightLoc)
+                {
+                    _iteratorIndex = 0;
+                    render = true;
+                }
+            }
+
+            Debug.Log("Delta Time: " + Time.deltaTime);
+        }
+
+
+        private GameObject CreatePoint(Vector3 loc)
+        {
+            GameObject point = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            point.transform.position = _loc + loc;
+            point.transform.localScale = _pointSize;
+            point.GetComponent<Renderer>().material.color = Color.white;
+
+            return point;
         }
     }
 }
