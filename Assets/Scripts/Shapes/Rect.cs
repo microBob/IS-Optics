@@ -2,185 +2,155 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-public class Rect : MonoBehaviour
+namespace Shapes
 {
-    public GameObject pointObjc;
-    public PointLight lightSource;
-
-    public int renderResolution = 10;
-
-    public Vector3 size = Vector3.one;
-    private Vector3 loc;
-    private Vector3 rot;
-
-    private Vector3 _pointSize;
-    private List<GameObject> points = new List<GameObject>();
-
-    // Start is called before the first frame update
-    void Start()
+    public class Rect : MonoBehaviour
     {
-        // Update public points
-        Transform rectTransform = transform;
-        loc = rectTransform.position;
-        rot = rectTransform.rotation.eulerAngles;
+        public PointLight lightSource;
 
-        PopulatePoints();
-        // RenderPoint(0);
-        RenderPoints();
-    }
+        public int renderResolution = 10;
 
-    private void PopulatePoints()
-    {
-        // Instantiate stuff
-        _pointSize = new Vector3(size.x / renderResolution, size.y / renderResolution, size.z / renderResolution);
+        public Vector3 size = Vector3.one;
+        private Vector3 _loc;
+        private Vector3 _rot;
 
-        // Create Render Points
-        float usedXDim = size.x / 2;
-        float usedYDim = size.y / 2;
-        float usedZDim = size.z / 2;
+        private Vector3 _pointSize;
+        private List<GameObject> points = new List<GameObject>();
 
-        for (int xDirection = 0; xDirection < renderResolution + 1; xDirection++)
+        public bool render = true;
+        private int _iteratorIndex = 0;
+
+        // Start is called before the first frame update
+        void Start()
         {
-            float xCoordinate = -usedXDim + (xDirection * size.x / renderResolution);
-            for (int yDirection = 0; yDirection < renderResolution + 1; yDirection++)
-            {
-                float yCoordinate = -usedYDim + (yDirection * size.y / renderResolution);
-                Debug.Log("Working on Coordinate: " + xCoordinate + ", " + yCoordinate + ", " + usedZDim);
+            // Update public points
+            Transform rectTransform = transform;
+            _loc = rectTransform.position;
+            _rot = rectTransform.rotation.eulerAngles;
 
-                Vector3 posVec = new Vector3(xCoordinate, yCoordinate, usedZDim);
-
-                GameObject item = (GameObject) Instantiate(pointObjc, loc + posVec, Quaternion.Euler(rot));
-                item.transform.localScale = _pointSize;
-
-                points.Add(item);
-            }
+            PopulatePoints();
         }
 
-        for (int zDirection = 1; zDirection < renderResolution; zDirection++)
+        private void PopulatePoints()
         {
+            // Instantiate stuff
+            _pointSize = size / renderResolution;
+
+            // Create Render Points
+            Vector3 usedDim = size / 2;
+
             for (int xDirection = 0; xDirection < renderResolution + 1; xDirection++)
             {
-                float xCoordinate = -usedXDim + (xDirection * size.x / renderResolution);
-
-                int tRenderResolution = 2;
-                if (xDirection == 0 || xDirection == renderResolution)
+                float xCoordinate = -usedDim.x + (xDirection * size.x / renderResolution);
+                for (int yDirection = 0; yDirection < renderResolution + 1; yDirection++)
                 {
-                    tRenderResolution = renderResolution + 2;
-                }
+                    float yCoordinate = -usedDim.y + (yDirection * size.y / renderResolution);
+                    Debug.Log("Working on Coordinate: " + xCoordinate + ", " + yCoordinate + ", " + usedDim.z);
 
-                for (int yDirection = 0; yDirection < tRenderResolution; yDirection++)
-                {
-                    float yCoordinate = -usedYDim + (yDirection * size.y / (tRenderResolution - 1));
-                    float zCoordinate = -usedZDim + (zDirection * size.z / renderResolution);
+                    Vector3 posVec = new Vector3(xCoordinate, yCoordinate, usedDim.z);
 
-                    Vector3 posVec = new Vector3(xCoordinate, yCoordinate, zCoordinate);
+                    GameObject point = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                    point.transform.position = _loc + posVec;
+                    point.transform.rotation = Quaternion.Euler(_rot);
+                    point.transform.localScale = _pointSize;
 
-                    GameObject item = (GameObject) Instantiate(pointObjc, loc + posVec, Quaternion.Euler(rot));
-                    item.transform.localScale = _pointSize;
-
-                    points.Add(item);
+                    points.Add(point);
                 }
             }
+
+            for (int zDirection = 1; zDirection < renderResolution; zDirection++)
+            {
+                for (int xDirection = 0; xDirection < renderResolution + 1; xDirection++)
+                {
+                    float xCoordinate = -usedDim.x + (xDirection * size.x / renderResolution);
+
+                    int tRenderResolution = 2;
+                    if (xDirection == 0 || xDirection == renderResolution)
+                    {
+                        tRenderResolution = renderResolution + 2;
+                    }
+
+                    for (int yDirection = 0; yDirection < tRenderResolution; yDirection++)
+                    {
+                        float yCoordinate = -usedDim.y + (yDirection * size.y / (tRenderResolution - 1));
+                        float zCoordinate = -usedDim.z + (zDirection * size.z / renderResolution);
+
+                        Vector3 posVec = new Vector3(xCoordinate, yCoordinate, zCoordinate);
+
+                        GameObject point = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                        point.transform.position = _loc + posVec;
+                        point.transform.rotation = Quaternion.Euler(_rot);
+                        point.transform.localScale = _pointSize;
+
+                        points.Add(point);
+                    }
+                }
+            }
+
+            for (int xDirection = 0; xDirection < renderResolution + 1; xDirection++)
+            {
+                float xCoordinate = -usedDim.x + (xDirection * size.x / renderResolution);
+                for (int yDirection = 0; yDirection < renderResolution + 1; yDirection++)
+                {
+                    float yCoordinate = -usedDim.y + (yDirection * size.y / renderResolution);
+                    Debug.Log("Working on Coordinate: " + xCoordinate + ", " + yCoordinate + ", " + usedDim.z);
+
+                    Vector3 posVec = new Vector3(xCoordinate, yCoordinate, -usedDim.z);
+
+                    GameObject point = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                    point.transform.position = _loc + posVec;
+                    point.transform.rotation = Quaternion.Euler(_rot);
+                    point.transform.localScale = _pointSize;
+
+                    points.Add(point);
+                }
+            }
+
+            Debug.Log(points.Count);
         }
 
-        for (int xDirection = 0; xDirection < renderResolution + 1; xDirection++)
+        // Update is called once per frame
+        void Update()
         {
-            float xCoordinate = -usedXDim + (xDirection * size.x / renderResolution);
-            for (int yDirection = 0; yDirection < renderResolution + 1; yDirection++)
-            {
-                float yCoordinate = -usedYDim + (yDirection * size.y / renderResolution);
-                Debug.Log("Working on Coordinate: " + xCoordinate + ", " + yCoordinate + ", " + usedZDim);
-
-                Vector3 posVec = new Vector3(xCoordinate, yCoordinate, -usedZDim);
-
-                GameObject item = (GameObject) Instantiate(pointObjc, loc + posVec, Quaternion.Euler(rot));
-                item.transform.localScale = _pointSize;
-                item.GetComponent<BoxCollider>().transform.localScale = _pointSize;
-                item.GetComponent<BoxCollider>().transform.rotation = Quaternion.Euler(rot);
-
-                points.Add(item);
-            }
         }
 
-        Debug.Log(points.Count);
-    }
-
-    private void RenderPoint(int pointIndex = 0)
-    {
-        GameObject point = points[pointIndex];
-
-        Vector3 lightPos = lightSource.transform.position;
-        Vector3 myPos = point.transform.position;
-
-        if (Physics.Raycast(lightPos,
-            (myPos - lightPos).normalized, out RaycastHit hit, Mathf.Infinity))
+        private void FixedUpdate()
         {
-            Debug.DrawRay(lightPos, (myPos - lightPos).normalized * hit.distance, Color.cyan, Mathf.Infinity);
-
-            Debug.DrawLine(lightPos, hit.transform.position, Color.magenta, Mathf.Infinity);
-
-            GameObject hitObjDebug = (GameObject) Instantiate(pointObjc, hit.transform.position, Quaternion.Euler(rot));
-            hitObjDebug.transform.localScale = _pointSize;
-
-
-            if (hit.collider.gameObject.transform.position == myPos)
+            if (render)
             {
-                point.GetComponent<Renderer>().material.color = Color.green;
-            }
-            else
-            {
-                hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.red;
-                point.GetComponent<Renderer>().material.color = Color.cyan;
-            }
-        }
-    }
+                Vector3 lightPos = lightSource.transform.position;
+                GameObject workingPoint = points[_iteratorIndex];
+                Vector3 pointPos = workingPoint.transform.position;
 
-    private void RenderPoints(Boolean animate = false)
-    {
-        foreach (GameObject point in points)
-        {
-            Vector3 lightPos = lightSource.transform.position;
-            Vector3 myPos = point.transform.position;
-            float distance = Vector3.Distance(lightPos, myPos);
-            float distance2 = Mathf.Pow(distance, 2);
+                float distance = Vector3.Distance(lightPos, pointPos);
+                float distance2 = Mathf.Pow(distance, 2);
+                Vector3 rayDir = (pointPos - lightPos).normalized;
 
-            Vector3 hsvColor = Vector3.zero;
+                Vector3 hsvColor = Vector3.zero;
 
-            if (Physics.Raycast(lightPos, (myPos - lightPos).normalized, out RaycastHit hit,
-                Mathf.Infinity))
-            {
-                Debug.DrawRay(lightPos, (myPos - lightPos).normalized * hit.distance, Color.cyan, Mathf.Infinity);
-                Debug.DrawLine(lightPos, hit.transform.position, Color.magenta, Mathf.Infinity);
-
-                if (hit.collider.gameObject.transform.position == myPos)
+                if (Physics.Raycast(lightPos, rayDir, out RaycastHit hit))
                 {
-                    Color.RGBToHSV(lightSource.color, out hsvColor.x, out hsvColor.y, out hsvColor.z);
-                    hsvColor.z = lightSource.intensity / distance2;
-                    hsvColor.z = Mathf.Clamp(hsvColor.z, 0f, 1f);
+                    Debug.DrawRay(lightPos, rayDir * hit.distance, Color.cyan);
+
+                    if (hit.collider == workingPoint.GetComponent<Collider>())
+                    {
+                        Color.RGBToHSV(lightSource.color, out hsvColor.x, out hsvColor.y, out hsvColor.z);
+                        hsvColor.z = lightSource.intensity / distance2;
+                        hsvColor.z = Mathf.Clamp(hsvColor.z, 0f, 1f);
+                    }
+
+                    workingPoint.GetComponent<Renderer>().material.color =
+                        Color.HSVToRGB(hsvColor.x, hsvColor.y, hsvColor.z);
                 }
-                else
+
+                _iteratorIndex++;
+                if (_iteratorIndex == points.Count)
                 {
-                    hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.red;
+                    _iteratorIndex = 0;
                 }
             }
-
-
-            point.GetComponent<Renderer>().material.color = Color.HSVToRGB(hsvColor.x, hsvColor.y, hsvColor.z);
-
-            // bool cont = true;
-            // while (cont)
-            // {
-            //     if (Input.GetKeyDown(KeyCode.Return))
-            //     {
-            //         cont = false;
-            //     }
-            // }
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
     }
 }
