@@ -24,10 +24,10 @@ public class Rect : MonoBehaviour
         Transform rectTransform = transform;
         loc = rectTransform.position;
         rot = rectTransform.rotation.eulerAngles;
-        
+
         PopulatePoints();
-        RenderPoint(0);
-        // RenderPoints();
+        // RenderPoint(0);
+        RenderPoints();
     }
 
     private void PopulatePoints()
@@ -96,6 +96,8 @@ public class Rect : MonoBehaviour
 
                 GameObject item = (GameObject) Instantiate(pointObjc, loc + posVec, Quaternion.Euler(rot));
                 item.transform.localScale = _pointSize;
+                item.GetComponent<BoxCollider>().transform.localScale = _pointSize;
+                item.GetComponent<BoxCollider>().transform.rotation = Quaternion.Euler(rot);
 
                 points.Add(item);
             }
@@ -104,21 +106,36 @@ public class Rect : MonoBehaviour
         Debug.Log(points.Count);
     }
 
-    private void RenderPoint(int pointIndex=0)
+    private void RenderPoint(int pointIndex = 0)
     {
         GameObject point = points[pointIndex];
-        
+
         Vector3 lightPos = lightSource.transform.position;
         Vector3 myPos = point.transform.position;
-        
+
         if (Physics.Raycast(lightPos,
             (myPos - lightPos).normalized, out RaycastHit hit, Mathf.Infinity))
         {
-            Debug.DrawRay(lightPos,
-                (myPos - lightPos).normalized * hit.distance, Color.cyan,Mathf.Infinity);
-            hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.red;
+            Debug.DrawRay(lightPos, (myPos - lightPos).normalized * hit.distance, Color.cyan, Mathf.Infinity);
+
+            Debug.DrawLine(lightPos, hit.transform.position, Color.magenta, Mathf.Infinity);
+
+            GameObject hitObjDebug = (GameObject) Instantiate(pointObjc, hit.transform.position, Quaternion.Euler(rot));
+            hitObjDebug.transform.localScale = _pointSize;
+
+
+            if (hit.collider.gameObject.transform.position == myPos)
+            {
+                point.GetComponent<Renderer>().material.color = Color.green;
+            }
+            else
+            {
+                hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.red;
+                point.GetComponent<Renderer>().material.color = Color.cyan;
+            }
         }
     }
+
     private void RenderPoints(Boolean animate = false)
     {
         foreach (GameObject point in points)
@@ -134,13 +151,18 @@ public class Rect : MonoBehaviour
                 Mathf.Infinity))
             {
                 Debug.DrawRay(lightPos, (myPos - lightPos).normalized * hit.distance, Color.cyan, Mathf.Infinity);
-                Debug.Log("Distance: "+hit.distance);
-                
-                hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.red;
-                
-                Color.RGBToHSV(lightSource.color, out hsvColor.x, out hsvColor.y, out hsvColor.z);
-                hsvColor.z = lightSource.intensity / distance2;
-                hsvColor.z = Mathf.Clamp(hsvColor.z, 0f, 1f);
+                Debug.DrawLine(lightPos, hit.transform.position, Color.magenta, Mathf.Infinity);
+
+                if (hit.collider.gameObject.transform.position == myPos)
+                {
+                    Color.RGBToHSV(lightSource.color, out hsvColor.x, out hsvColor.y, out hsvColor.z);
+                    hsvColor.z = lightSource.intensity / distance2;
+                    hsvColor.z = Mathf.Clamp(hsvColor.z, 0f, 1f);
+                }
+                else
+                {
+                    hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.red;
+                }
             }
 
 
