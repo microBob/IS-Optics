@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightSource: {fileID: 1668508049}
-  renderResolution: 10
+  renderResolution: 15
   size: {x: 1, y: 1, z: 1}
   render: 1
 --- !u!1 &534669902
@@ -362,4 +362,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: {r: 0, g: 1, b: 0, a: 1}
   intensity: 3
-  animate: 0
+  animate: 1

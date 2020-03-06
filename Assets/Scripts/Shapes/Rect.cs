@@ -103,47 +103,62 @@ namespace Shapes
         {
             if (render)
             {
-                Vector3 lightPos = lightSource.transform.position;
-                GameObject workingPoint = _points[_iteratorIndex];
-                Vector3 pointPos = workingPoint.transform.position;
-
-                float distance = Vector3.Distance(lightPos, pointPos);
-                float distance2 = Mathf.Pow(distance, 2);
-                Vector3 rayDir = (pointPos - lightPos).normalized;
-
-                Vector3 hsvColor = Vector3.zero;
-
-                if (Physics.Raycast(lightPos, rayDir, out RaycastHit hit))
-                {
-                    Debug.DrawRay(lightPos, rayDir * hit.distance, Color.cyan);
-
-                    if (hit.collider == workingPoint.GetComponent<Collider>())
-                    {
-                        Color.RGBToHSV(lightSource.color, out hsvColor.x, out hsvColor.y, out hsvColor.z);
-                        hsvColor.z = lightSource.intensity / distance2;
-                        hsvColor.z = Mathf.Clamp(hsvColor.z, 0f, 1f);
-
-                        workingPoint.GetComponent<Renderer>().material.color =
-                            Color.HSVToRGB(hsvColor.x, hsvColor.y, hsvColor.z);
-                    }
-                }
-
-                _iteratorIndex++;
-                if (_iteratorIndex == _points.Count)
-                {
-                    render = false;
-                }
+                // RenderFromLightSource();
+                RenderFromPoint();
             }
             else
             {
-                if (_iteratorIndex == _points.Count && lightSource.transform.position != _lastLightLoc)
+                if (lightSource.transform.position != _lastLightLoc)
                 {
-                    _iteratorIndex = 0;
                     render = true;
                 }
             }
 
             Debug.Log("Delta Time: " + Time.deltaTime);
+        }
+
+        private void RenderFromLightSource()
+        {
+            Vector3 lightPos = lightSource.transform.position;
+            GameObject workingPoint = _points[_iteratorIndex];
+            Vector3 pointPos = workingPoint.transform.position;
+
+            float distance = Vector3.Distance(lightPos, pointPos);
+            float distance2 = Mathf.Pow(distance, 2);
+            Vector3 rayDir = (pointPos - lightPos).normalized;
+
+            Vector3 hsvColor = Vector3.zero;
+
+            if (Physics.Raycast(lightPos, rayDir, out RaycastHit hit))
+            {
+                Debug.DrawRay(lightPos, rayDir * hit.distance, Color.cyan);
+
+                if (hit.collider == workingPoint.GetComponent<Collider>())
+                {
+                    Color.RGBToHSV(lightSource.color, out hsvColor.x, out hsvColor.y, out hsvColor.z);
+                    hsvColor.z = lightSource.intensity / distance2;
+                    hsvColor.z = Mathf.Clamp(hsvColor.z, 0f, 1f);
+
+                    workingPoint.GetComponent<Renderer>().material.color =
+                        Color.HSVToRGB(hsvColor.x, hsvColor.y, hsvColor.z);
+                }
+            }
+
+            _iteratorIndex++;
+            if (_iteratorIndex == _points.Count)
+            {
+                _iteratorIndex = 0;
+                render = false;
+            }
+        }
+        private void RenderFromPoint()
+        {
+            foreach (GameObject point in _points)
+            {
+                point.GetComponent<R2SelfRender>().SetDoRender();
+            }
+
+            render = false;
         }
 
 
@@ -152,7 +167,11 @@ namespace Shapes
             GameObject point = GameObject.CreatePrimitive(PrimitiveType.Sphere);
             point.transform.position = _loc + loc;
             point.transform.localScale = _pointSize;
-            point.GetComponent<Renderer>().material.color = Color.white;
+            point.GetComponent<Renderer>().material.color = Color.black;
+
+            point.AddComponent<R2SelfRender>();
+            
+            point.GetComponent<R2SelfRender>().SetLightSource(lightSource);
 
             return point;
         }

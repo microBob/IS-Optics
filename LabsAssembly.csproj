@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\PointLight.cs" />
     <Compile Include="Assets\Scripts\PrimitiveLabs.cs" />
+    <Compile Include="Assets\Scripts\R2SelfRender.cs" />
     <Compile Include="Assets\Scripts\RaycastLabs.cs" />
     <Compile Include="Assets\Scripts\Shapes\Rect.cs" />
     <None Include="Assets\Scripts\LabsAssembly.asmdef" />

@@ -7,7 +7,7 @@ using UnityEngine.Serialization;
 public class PointLight : MonoBehaviour
 {
     public Color color = Color.green;
-    public float intensity = 3;
+    public float intensity = 2;
 
     public bool animate = false;
     private float _time = 0;
@@ -23,8 +23,8 @@ public class PointLight : MonoBehaviour
         if (animate)
         {
             _time += Time.deltaTime;
-            int speed = 2;
-            int size = 2;
+            float speed = 0.5f;
+            float size = 2;
             transform.position =
                 new Vector3(Mathf.Cos(_time * speed), Mathf.Sin(_time * speed), Mathf.Cos(_time * speed)) * size;
         }

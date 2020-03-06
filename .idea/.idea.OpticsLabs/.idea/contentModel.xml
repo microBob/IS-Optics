@@ -10,6 +10,7 @@
           <e p="LabsAssembly.asmdef" t="Include" />
           <e p="PointLight.cs" t="Include" />
           <e p="PrimitiveLabs.cs" t="Include" />
+          <e p="R2SelfRender.cs" t="Include" />
           <e p="RaycastLabs.cs" t="Include" />
           <e p="Shapes" t="Include">
             <e p="Rect.cs" t="Include" />
