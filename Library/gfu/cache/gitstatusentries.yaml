@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-03-13T08:47:18.061-07:00
+  lastUpdatedAtString: 2020-03-13T10:54:33.889-07:00
   initializedAtString: 2020-03-13T08:43:54.900-07:00
   entries:
+  - path: .idea/.idea.OpticsLabs/.idea/contentModel.xml
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/.idea/.idea.OpticsLabs/.idea/contentModel.xml
+    projectPath: .idea/.idea.OpticsLabs/.idea/contentModel.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: .idea/.idea.OpticsLabs/.idea/indexLayout.xml
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/.idea/.idea.OpticsLabs/.idea/indexLayout.xml
     projectPath: .idea/.idea.OpticsLabs/.idea/indexLayout.xml
@@ -28,453 +34,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+  - path: Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+    projectPath: Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub.meta
-    projectPath: Assets/Plugins/GitHub.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor.meta
-    projectPath: Assets/Plugins/GitHub/Editor.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-    projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/big-logo@2x.png
-    projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-    projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/credits.txt
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/credits.txt
-    projectPath: Assets/Plugins/GitHub/Editor/credits.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/credits.txt.meta
-    projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/eula.txt
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/eula.txt
-    projectPath: Assets/Plugins/GitHub/Editor/eula.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/eula.txt.meta
-    projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
-    projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
-    projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.pdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb.meta
-    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/libsfw.bundle
-    projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-    projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/libsfw.so
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/libsfw.so
-    projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/libsfw.so.meta
-    projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-    projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-    projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-    projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-    projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/sfw.net.dll
-    projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/System.Threading.dll
-    projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
-    projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
-    projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/x64.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/x64.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x64.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-    projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-    projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/x86.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/x86.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x86.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-    projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
-    projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/Scenes/PlaneMirrors.unity
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scenes/PlaneMirrors.unity
+    projectPath: Assets/Scenes/PlaneMirrors.unity
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
-    projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+  - path: Assets/Scenes/PlaneMirrors.unity.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scenes/PlaneMirrors.unity.meta
+    projectPath: Assets/Scenes/PlaneMirrors.unity.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -484,6 +58,150 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets/Scripts/ParticleDemo.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/ParticleDemo.meta
+    projectPath: Assets/Scripts/ParticleDemo.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/ParticleDemo/R2SelfRender.cs
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/ParticleDemo/R2SelfRender.cs
+    projectPath: Assets/Scripts/ParticleDemo/R2SelfRender.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/ParticleDemo/R2SelfRender.cs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/ParticleDemo/R2SelfRender.cs.meta
+    projectPath: Assets/Scripts/ParticleDemo/R2SelfRender.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/ParticleDemo/Rect.cs
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/ParticleDemo/Rect.cs
+    projectPath: Assets/Scripts/ParticleDemo/Rect.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/ParticleDemo/Rect.cs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/ParticleDemo/Rect.cs.meta
+    projectPath: Assets/Scripts/ParticleDemo/Rect.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/PlaneMirror.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/PlaneMirror.meta
+    projectPath: Assets/Scripts/PlaneMirror.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/PlaneMirror/PlaneMirrorPointLight.cs
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/PlaneMirror/PlaneMirrorPointLight.cs
+    projectPath: Assets/Scripts/PlaneMirror/PlaneMirrorPointLight.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/PlaneMirror/PlaneMirrorPointLight.cs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/PlaneMirror/PlaneMirrorPointLight.cs.meta
+    projectPath: Assets/Scripts/PlaneMirror/PlaneMirrorPointLight.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/Primitive Labs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/Primitive
+      Labs.meta
+    projectPath: Assets/Scripts/Primitive Labs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/Primitive Labs/PrimitiveLabs.cs
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/Primitive
+      Labs/PrimitiveLabs.cs
+    projectPath: Assets/Scripts/Primitive Labs/PrimitiveLabs.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/Primitive Labs/PrimitiveLabs.cs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/Primitive
+      Labs/PrimitiveLabs.cs.meta
+    projectPath: Assets/Scripts/Primitive Labs/PrimitiveLabs.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/PrimitiveLabs.cs
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/PrimitiveLabs.cs
+    projectPath: Assets/Scripts/PrimitiveLabs.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/PrimitiveLabs.cs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/PrimitiveLabs.cs.meta
+    projectPath: Assets/Scripts/PrimitiveLabs.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/R2SelfRender.cs
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/R2SelfRender.cs
+    projectPath: Assets/Scripts/R2SelfRender.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/R2SelfRender.cs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/R2SelfRender.cs.meta
+    projectPath: Assets/Scripts/R2SelfRender.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/Raycast Labs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/Raycast
+      Labs.meta
+    projectPath: Assets/Scripts/Raycast Labs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/Raycast Labs/RaycastLabs.cs
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/Raycast
+      Labs/RaycastLabs.cs
+    projectPath: Assets/Scripts/Raycast Labs/RaycastLabs.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/Raycast Labs/RaycastLabs.cs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/Raycast
+      Labs/RaycastLabs.cs.meta
+    projectPath: Assets/Scripts/Raycast Labs/RaycastLabs.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Scripts/RaycastLabs.cs
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/RaycastLabs.cs
+    projectPath: Assets/Scripts/RaycastLabs.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/RaycastLabs.cs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/RaycastLabs.cs.meta
+    projectPath: Assets/Scripts/RaycastLabs.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/Shapes.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/Shapes.meta
+    projectPath: Assets/Scripts/Shapes.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/Shapes/Rect.cs
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/Shapes/Rect.cs
+    projectPath: Assets/Scripts/Shapes/Rect.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scripts/Shapes/Rect.cs.meta
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Scripts/Shapes/Rect.cs.meta
+    projectPath: Assets/Scripts/Shapes/Rect.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: LabsAssembly.csproj
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/LabsAssembly.csproj
     projectPath: LabsAssembly.csproj
@@ -496,39 +214,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/AssetImportState
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/AssetImportState
-    projectPath: Library/AssetImportState
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/CrashedAssetImports.txt
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/CrashedAssetImports.txt
-    projectPath: Library/CrashedAssetImports.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/CurrentLayout.dwlt
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/CurrentLayout.dwlt
-    projectPath: Library/CurrentLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/EditorInstance.json
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/EditorUserBuildSettings.asset
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/EditorUserBuildSettings.asset
-    projectPath: Library/EditorUserBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/gfu/cache/gitlocks.yaml
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/gfu/cache/gitlocks.yaml
-    projectPath: Library/gfu/cache/gitlocks.yaml
+  - path: Library/gfu/cache/branches.yaml
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -536,734 +224,146 @@ MonoBehaviour:
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/gfu/cache/gitlog.yaml
     projectPath: Library/gfu/cache/gitlog.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/gfu/cache/gitstatusentries.yaml
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/gfu/cache/gitstatusentries.yaml
     projectPath: Library/gfu/cache/gitstatusentries.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/gfu/cache/gituser.yaml
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/gfu/cache/gituser.yaml
     projectPath: Library/gfu/cache/gituser.yaml
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/LastSceneManagerSetup.txt
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/LastSceneManagerSetup.txt
-    projectPath: Library/LastSceneManagerSetup.txt
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/11/1163d9e5ff247014782aa072f00ac314
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/11/1163d9e5ff247014782aa072f00ac314
+    projectPath: Library/metadata/11/1163d9e5ff247014782aa072f00ac314
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
-    projectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
-    projectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e
-    projectPath: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e.info
-    projectPath: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/13/136dc24f151211d438acee17aff4e934
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/13/136dc24f151211d438acee17aff4e934
-    projectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/13/136dc24f151211d438acee17aff4e934.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/13/136dc24f151211d438acee17aff4e934.info
-    projectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/15/151a1d946b98deb4b98445400983ba92
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/15/151a1d946b98deb4b98445400983ba92
-    projectPath: Library/metadata/15/151a1d946b98deb4b98445400983ba92
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
-    projectPath: Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
-    projectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
-    projectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/18/181f65fb096cedd4493bc9971257d8b1
-    projectPath: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/18/181f65fb096cedd4493bc9971257d8b1.info
-    projectPath: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/18/18e096a98c2704c40a818dd1214cd179
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/18/18e096a98c2704c40a818dd1214cd179
-    projectPath: Library/metadata/18/18e096a98c2704c40a818dd1214cd179
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/18/18e096a98c2704c40a818dd1214cd179.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/18/18e096a98c2704c40a818dd1214cd179.info
-    projectPath: Library/metadata/18/18e096a98c2704c40a818dd1214cd179.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
-    projectPath: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+  - path: Library/metadata/2b/2b64066520ebc024b9c0bc43a1d5934b
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/2b/2b64066520ebc024b9c0bc43a1d5934b
+    projectPath: Library/metadata/2b/2b64066520ebc024b9c0bc43a1d5934b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
-    projectPath: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
+  - path: Library/metadata/4c/4cbe540b6fa5e4684aa01ed6fb059870
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/4c/4cbe540b6fa5e4684aa01ed6fb059870
+    projectPath: Library/metadata/4c/4cbe540b6fa5e4684aa01ed6fb059870
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
-    projectPath: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
+  - path: Library/metadata/4c/4cbe540b6fa5e4684aa01ed6fb059870.info
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/4c/4cbe540b6fa5e4684aa01ed6fb059870.info
+    projectPath: Library/metadata/4c/4cbe540b6fa5e4684aa01ed6fb059870.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/metadata/23/23c8bee69b591054094d32918f98facd
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/23/23c8bee69b591054094d32918f98facd
-    projectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/23/23c8bee69b591054094d32918f98facd.info
-    projectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
-    projectPath: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
-    projectPath: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9
-    projectPath: Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9.info
-    projectPath: Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
-    projectPath: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+  - path: Library/metadata/51/516bc52d4a8b8d74bbd97598305c78a8
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/51/516bc52d4a8b8d74bbd97598305c78a8
+    projectPath: Library/metadata/51/516bc52d4a8b8d74bbd97598305c78a8
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
-    projectPath: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+  - path: Library/metadata/56/567136e65e3524c5bbf1cbfe7c311ddd
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/56/567136e65e3524c5bbf1cbfe7c311ddd
+    projectPath: Library/metadata/56/567136e65e3524c5bbf1cbfe7c311ddd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/56/567136e65e3524c5bbf1cbfe7c311ddd.info
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/56/567136e65e3524c5bbf1cbfe7c311ddd.info
+    projectPath: Library/metadata/56/567136e65e3524c5bbf1cbfe7c311ddd.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/82/82f33eafd2c6c4fa6a17f6c52bf12a9a
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/82/82f33eafd2c6c4fa6a17f6c52bf12a9a
+    projectPath: Library/metadata/82/82f33eafd2c6c4fa6a17f6c52bf12a9a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/82/82f33eafd2c6c4fa6a17f6c52bf12a9a.info
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/82/82f33eafd2c6c4fa6a17f6c52bf12a9a.info
+    projectPath: Library/metadata/82/82f33eafd2c6c4fa6a17f6c52bf12a9a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/ac/ac447eada267f4404bcb29c89e4c5231
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/ac/ac447eada267f4404bcb29c89e4c5231
+    projectPath: Library/metadata/ac/ac447eada267f4404bcb29c89e4c5231
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/ac/ac447eada267f4404bcb29c89e4c5231.info
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/ac/ac447eada267f4404bcb29c89e4c5231.info
+    projectPath: Library/metadata/ac/ac447eada267f4404bcb29c89e4c5231.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/d0/d073a5e24d49f4dcea560755c1907214
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/d0/d073a5e24d49f4dcea560755c1907214
+    projectPath: Library/metadata/d0/d073a5e24d49f4dcea560755c1907214
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
-    projectPath: Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
+  - path: Library/metadata/d3/d3fca96a4b2e1b14d8dc7bd8286df578
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/d3/d3fca96a4b2e1b14d8dc7bd8286df578
+    projectPath: Library/metadata/d3/d3fca96a4b2e1b14d8dc7bd8286df578
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/3c/3c6c403084eacec478a1129ce20061ea
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/3c/3c6c403084eacec478a1129ce20061ea
-    projectPath: Library/metadata/3c/3c6c403084eacec478a1129ce20061ea
+  - path: Library/metadata/e1/e102c7d26e18f7e478e649693d9df70d
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/e1/e102c7d26e18f7e478e649693d9df70d
+    projectPath: Library/metadata/e1/e102c7d26e18f7e478e649693d9df70d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/e1/e102c7d26e18f7e478e649693d9df70d.info
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/e1/e102c7d26e18f7e478e649693d9df70d.info
+    projectPath: Library/metadata/e1/e102c7d26e18f7e478e649693d9df70d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/e3/e3fecc80318364426b43feb954cf6248
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/e3/e3fecc80318364426b43feb954cf6248
+    projectPath: Library/metadata/e3/e3fecc80318364426b43feb954cf6248
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/e3/e3fecc80318364426b43feb954cf6248.info
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/e3/e3fecc80318364426b43feb954cf6248.info
+    projectPath: Library/metadata/e3/e3fecc80318364426b43feb954cf6248.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/ec/ec8a28adbba054c0e84c2fc3fa253717
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/ec/ec8a28adbba054c0e84c2fc3fa253717
+    projectPath: Library/metadata/ec/ec8a28adbba054c0e84c2fc3fa253717
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/ec/ec8a28adbba054c0e84c2fc3fa253717.info
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/ec/ec8a28adbba054c0e84c2fc3fa253717.info
+    projectPath: Library/metadata/ec/ec8a28adbba054c0e84c2fc3fa253717.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/metadata/f1/f1ead3d5628d143d28f1beb804a005a5
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/f1/f1ead3d5628d143d28f1beb804a005a5
+    projectPath: Library/metadata/f1/f1ead3d5628d143d28f1beb804a005a5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
-    projectPath: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/40/405b9b51bb344a128608d968297df79c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/40/405b9b51bb344a128608d968297df79c
-    projectPath: Library/metadata/40/405b9b51bb344a128608d968297df79c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/41/4113173d5e95493ab8765d7b08371de4
-    projectPath: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/46/46098a81a64a45c5b756320e10a22f13
-    projectPath: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5
-    projectPath: Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5.info
-    projectPath: Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
-    projectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    projectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
-    projectPath: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
-    projectPath: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
-    projectPath: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e
-    projectPath: Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e.info
-    projectPath: Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/4c/4c433abcdb28444ebb7bd395ba5c76fc
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/4c/4c433abcdb28444ebb7bd395ba5c76fc
-    projectPath: Library/metadata/4c/4c433abcdb28444ebb7bd395ba5c76fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/4d/4dfd3f5da88944ec6ac5977d676c30c6
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/4d/4dfd3f5da88944ec6ac5977d676c30c6
-    projectPath: Library/metadata/4d/4dfd3f5da88944ec6ac5977d676c30c6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    projectPath: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5
-    projectPath: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5.info
-    projectPath: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/5a/5a2082a44711bad4b90f693579c2b336
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/5a/5a2082a44711bad4b90f693579c2b336
-    projectPath: Library/metadata/5a/5a2082a44711bad4b90f693579c2b336
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/5a/5a2082a44711bad4b90f693579c2b336.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/5a/5a2082a44711bad4b90f693579c2b336.info
-    projectPath: Library/metadata/5a/5a2082a44711bad4b90f693579c2b336.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
-    projectPath: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/63/636d33ae594884e7d80b569f429d245d
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/63/636d33ae594884e7d80b569f429d245d
-    projectPath: Library/metadata/63/636d33ae594884e7d80b569f429d245d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
-    projectPath: Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
-    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
-    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb
-    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb.info
-    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
-    projectPath: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
-    projectPath: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615
-    projectPath: Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615.info
-    projectPath: Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
-    projectPath: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/76/7668179ede524d6396c8b7d84461ea29
-    projectPath: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
-    projectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
-    projectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
-    projectPath: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/84/844f815391db42d49455cbf1a7bfc434
-    projectPath: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2
-    projectPath: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2.info
-    projectPath: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
-    projectPath: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
-    projectPath: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
-    projectPath: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/87/877ef3585573ce44eab899298be23158
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/87/877ef3585573ce44eab899298be23158
-    projectPath: Library/metadata/87/877ef3585573ce44eab899298be23158
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/87/877ef3585573ce44eab899298be23158.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/87/877ef3585573ce44eab899298be23158.info
-    projectPath: Library/metadata/87/877ef3585573ce44eab899298be23158.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
-    projectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
-    projectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
-    projectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
-    projectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/a2/a2a378c1054e86c49b01abc6516f5f7e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/a2/a2a378c1054e86c49b01abc6516f5f7e
-    projectPath: Library/metadata/a2/a2a378c1054e86c49b01abc6516f5f7e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/a2/a2a378c1054e86c49b01abc6516f5f7e.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/a2/a2a378c1054e86c49b01abc6516f5f7e.info
-    projectPath: Library/metadata/a2/a2a378c1054e86c49b01abc6516f5f7e.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
-    projectPath: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
-    projectPath: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/ac/acc34040a66fe4170bc8885268860cfe
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/ac/acc34040a66fe4170bc8885268860cfe
-    projectPath: Library/metadata/ac/acc34040a66fe4170bc8885268860cfe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
-    projectPath: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/b5/b5da970776034f77a070d99423d68791
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/b5/b5da970776034f77a070d99423d68791
-    projectPath: Library/metadata/b5/b5da970776034f77a070d99423d68791
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
-    projectPath: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c
-    projectPath: Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c.info
-    projectPath: Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
-    projectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
-    projectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab
-    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab.info
-    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
-    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
-    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/ca/cad92998c5182496e8b989b406d9f156
-    projectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
-    projectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/ce/ce4ec0f498d1b1a4f90fe94e115b6f9a
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/ce/ce4ec0f498d1b1a4f90fe94e115b6f9a
-    projectPath: Library/metadata/ce/ce4ec0f498d1b1a4f90fe94e115b6f9a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
-    projectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
-    projectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
-    projectPath: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
-    projectPath: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/da/dae2ecee8a704dd59797e26554ff8606
-    projectPath: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/da/dae2ecee8a704dd59797e26554ff8606.info
-    projectPath: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
-    projectPath: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
-    projectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
-    projectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/e1/e1007cd261c84053beb0c3537782908d
-    projectPath: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
-    projectPath: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
-    projectPath: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
-    projectPath: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
-    projectPath: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/f7/f70555f144d8491a825f0804e09c671c
-    projectPath: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
-    projectPath: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
-    projectPath: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/f8/f8eca3a711f4842eba0c52ea9885ef7f
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/f8/f8eca3a711f4842eba0c52ea9885ef7f
-    projectPath: Library/metadata/f8/f8eca3a711f4842eba0c52ea9885ef7f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
-    projectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
-    projectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
-    projectPath: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
-    projectPath: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library/ProtocolInstance.json
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ProtocolInstance.json
     projectPath: Library/ProtocolInstance.json
@@ -1274,23 +374,23 @@ MonoBehaviour:
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
     projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ScriptAssemblies/BuiltinAssemblies.stamp
     projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Library/ScriptAssemblies/LabsAssembly.dll
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ScriptAssemblies/LabsAssembly.dll
     projectPath: Library/ScriptAssemblies/LabsAssembly.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/LabsAssembly.pdb
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ScriptAssemblies/LabsAssembly.pdb
+    projectPath: Library/ScriptAssemblies/LabsAssembly.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1330,66 +430,78 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/ScriptMapper
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ScriptMapper
-    projectPath: Library/ScriptMapper
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ShaderCache/1/12c8cb6c97aadd63930d4df1577a5d98.bin
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/1/12c8cb6c97aadd63930d4df1577a5d98.bin
-    projectPath: Library/ShaderCache/1/12c8cb6c97aadd63930d4df1577a5d98.bin
+  - path: Library/ShaderCache/1/13922b4db9b6ce01562af9f29f4cb94a.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/1/13922b4db9b6ce01562af9f29f4cb94a.bin
+    projectPath: Library/ShaderCache/1/13922b4db9b6ce01562af9f29f4cb94a.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/3/36ea0c81b351a588318892e9bea7766d.bin
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/3/36ea0c81b351a588318892e9bea7766d.bin
-    projectPath: Library/ShaderCache/3/36ea0c81b351a588318892e9bea7766d.bin
+  - path: Library/ShaderCache/2/27e70ff32a6db772db93cbfcf82d713c.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/2/27e70ff32a6db772db93cbfcf82d713c.bin
+    projectPath: Library/ShaderCache/2/27e70ff32a6db772db93cbfcf82d713c.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/7/79b9fd9fe3d69c0f817d2465d8353fed.bin
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/7/79b9fd9fe3d69c0f817d2465d8353fed.bin
-    projectPath: Library/ShaderCache/7/79b9fd9fe3d69c0f817d2465d8353fed.bin
+  - path: Library/ShaderCache/4/4599b35ad3986e14fb464710d6d6f6af.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/4/4599b35ad3986e14fb464710d6d6f6af.bin
+    projectPath: Library/ShaderCache/4/4599b35ad3986e14fb464710d6d6f6af.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/8/83eb57e0e0268eeb6e950ffc9e81b944.bin
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/8/83eb57e0e0268eeb6e950ffc9e81b944.bin
-    projectPath: Library/ShaderCache/8/83eb57e0e0268eeb6e950ffc9e81b944.bin
+  - path: Library/ShaderCache/7/71cd66e1fb729c0ddd5149df1e85b823.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/7/71cd66e1fb729c0ddd5149df1e85b823.bin
+    projectPath: Library/ShaderCache/7/71cd66e1fb729c0ddd5149df1e85b823.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/b/b43fa3ddb7c96aede69545aa7a48ea1b.bin
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/b/b43fa3ddb7c96aede69545aa7a48ea1b.bin
-    projectPath: Library/ShaderCache/b/b43fa3ddb7c96aede69545aa7a48ea1b.bin
+  - path: Library/ShaderCache/7/75d95b7013f30597d6049f8fa5b252b7.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/7/75d95b7013f30597d6049f8fa5b252b7.bin
+    projectPath: Library/ShaderCache/7/75d95b7013f30597d6049f8fa5b252b7.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/d/d777eb82b0f2f3a0c88a217683eda89a.bin
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/d/d777eb82b0f2f3a0c88a217683eda89a.bin
-    projectPath: Library/ShaderCache/d/d777eb82b0f2f3a0c88a217683eda89a.bin
+  - path: Library/ShaderCache/8/8dceebda514e1128d5ab6eda3c4a0cbd.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/8/8dceebda514e1128d5ab6eda3c4a0cbd.bin
+    projectPath: Library/ShaderCache/8/8dceebda514e1128d5ab6eda3c4a0cbd.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/f/f3912f11bf4da0129e53690db2da8e71.bin
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/f/f3912f11bf4da0129e53690db2da8e71.bin
-    projectPath: Library/ShaderCache/f/f3912f11bf4da0129e53690db2da8e71.bin
+  - path: Library/ShaderCache/9/905c53e0567012f35f6dc6cbd1e30812.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/9/905c53e0567012f35f6dc6cbd1e30812.bin
+    projectPath: Library/ShaderCache/9/905c53e0567012f35f6dc6cbd1e30812.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/f/fa8de331d661085d3571ddf5c8e6f0cf.bin
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/f/fa8de331d661085d3571ddf5c8e6f0cf.bin
-    projectPath: Library/ShaderCache/f/fa8de331d661085d3571ddf5c8e6f0cf.bin
+  - path: Library/ShaderCache/c/c2135cf69ae701fd7dd13aa612539f68.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/c/c2135cf69ae701fd7dd13aa612539f68.bin
+    projectPath: Library/ShaderCache/c/c2135cf69ae701fd7dd13aa612539f68.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler.exe0.log
+  - path: Library/ShaderCache/c/cfdd4906ef13783999df58d8515d3587.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/c/cfdd4906ef13783999df58d8515d3587.bin
+    projectPath: Library/ShaderCache/c/cfdd4906ef13783999df58d8515d3587.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/d/d9084b001cb42b4c4b8574c0d6090725.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/d/d9084b001cb42b4c4b8574c0d6090725.bin
+    projectPath: Library/ShaderCache/d/d9084b001cb42b4c4b8574c0d6090725.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/d/da2e16488ddc0785633889dc6b293d23.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/d/da2e16488ddc0785633889dc6b293d23.bin
+    projectPath: Library/ShaderCache/d/da2e16488ddc0785633889dc6b293d23.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/ShaderCache/d/dcaae80eae2c6e66d69f0653914d2315.bin
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/ShaderCache/d/dcaae80eae2c6e66d69f0653914d2315.bin
+    projectPath: Library/ShaderCache/d/dcaae80eae2c6e66d69f0653914d2315.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/shadercompiler-UnityShaderCompiler0.log
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/shadercompiler-UnityShaderCompiler0.log
     projectPath: Library/shadercompiler-UnityShaderCompiler0.log
@@ -1402,15 +514,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: OpticsLabs.sln
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/OpticsLabs.sln
-    projectPath: OpticsLabs.sln
+  - path: Library/StateCache/Hierarchy/fd8176-mainStage.json
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/StateCache/Hierarchy/fd8176-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/fd8176-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/StateCache/SceneView/2dcdb6-mainStage.json
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/StateCache/SceneView/2dcdb6-mainStage.json
+    projectPath: Library/StateCache/SceneView/2dcdb6-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/StateCache/SceneView/3fa96c-mainStage.json
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/StateCache/SceneView/3fa96c-mainStage.json
+    projectPath: Library/StateCache/SceneView/3fa96c-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings/ProjectVersion.txt
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/ProjectSettings/ProjectVersion.txt
-    projectPath: ProjectSettings/ProjectVersion.txt
+  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj/Debug/LabsAssembly.csprojAssemblyReference.cache
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/obj/Debug/LabsAssembly.csprojAssemblyReference.cache
+    projectPath: obj/Debug/LabsAssembly.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1418,1073 +548,809 @@ MonoBehaviour:
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/__Backupscenes/0.backup
     projectPath: Temp/__Backupscenes/0.backup
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/LabsAssembly.dll
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/LabsAssembly.dll
+    projectPath: Temp/LabsAssembly.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/LabsAssembly.pdb
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/LabsAssembly.pdb
+    projectPath: Temp/LabsAssembly.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/ProcessJobs/a54242768f97d8c363816894392cecd9.bakert
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/ProcessJobs/a54242768f97d8c363816894392cecd9.bakert
+    projectPath: Temp/ProcessJobs/a54242768f97d8c363816894392cecd9.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
     fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
     projectPath: Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-00bbe2fd4922a409da66d0dd19442ad3
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-00bbe2fd4922a409da66d0dd19442ad3
-    projectPath: Temp/UnityTempFile-00bbe2fd4922a409da66d0dd19442ad3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-00d81527884234147a246e55f8a81377
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-00d81527884234147a246e55f8a81377
-    projectPath: Temp/UnityTempFile-00d81527884234147a246e55f8a81377
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-0162d773c990a4a7199471375de5bbfe
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-0162d773c990a4a7199471375de5bbfe
-    projectPath: Temp/UnityTempFile-0162d773c990a4a7199471375de5bbfe
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-00c898643322f45d799615f7b54054ea
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-00c898643322f45d799615f7b54054ea
+    projectPath: Temp/UnityTempFile-00c898643322f45d799615f7b54054ea
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-0364feb7984fe41acab6c69edc714d41
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-0364feb7984fe41acab6c69edc714d41
-    projectPath: Temp/UnityTempFile-0364feb7984fe41acab6c69edc714d41
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-03bbbd44abec54e37ad957a63a6ea347
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-03bbbd44abec54e37ad957a63a6ea347
-    projectPath: Temp/UnityTempFile-03bbbd44abec54e37ad957a63a6ea347
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-046526d2b252344ee9bb9d8875b016e5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-046526d2b252344ee9bb9d8875b016e5
-    projectPath: Temp/UnityTempFile-046526d2b252344ee9bb9d8875b016e5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-058216efc95e84db982ab5830c5f1650
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-058216efc95e84db982ab5830c5f1650
-    projectPath: Temp/UnityTempFile-058216efc95e84db982ab5830c5f1650
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-0593f6236caa54b249dc5463a6449b5d
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-0593f6236caa54b249dc5463a6449b5d
-    projectPath: Temp/UnityTempFile-0593f6236caa54b249dc5463a6449b5d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-06780a23b5c5d4e8db156fad528f9dc8
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-06780a23b5c5d4e8db156fad528f9dc8
-    projectPath: Temp/UnityTempFile-06780a23b5c5d4e8db156fad528f9dc8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-0897a8434806f4a8ba23422d0e72258f
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-0897a8434806f4a8ba23422d0e72258f
-    projectPath: Temp/UnityTempFile-0897a8434806f4a8ba23422d0e72258f
+  - path: Temp/UnityTempFile-016ead60865b34b52929dbe74d13a80f
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-016ead60865b34b52929dbe74d13a80f
+    projectPath: Temp/UnityTempFile-016ead60865b34b52929dbe74d13a80f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-0a628573e0c0b4d168012c194b27270b
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-0a628573e0c0b4d168012c194b27270b
-    projectPath: Temp/UnityTempFile-0a628573e0c0b4d168012c194b27270b
+  - path: Temp/UnityTempFile-03c2f7822fee542c48bc6c64572e9e98
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-03c2f7822fee542c48bc6c64572e9e98
+    projectPath: Temp/UnityTempFile-03c2f7822fee542c48bc6c64572e9e98
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-0e2df3ac112c2409c9f6e5c179f926b1
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-0e2df3ac112c2409c9f6e5c179f926b1
-    projectPath: Temp/UnityTempFile-0e2df3ac112c2409c9f6e5c179f926b1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-0ea9eacb339014a7dbfd9be9dd1fe030
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-0ea9eacb339014a7dbfd9be9dd1fe030
-    projectPath: Temp/UnityTempFile-0ea9eacb339014a7dbfd9be9dd1fe030
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-114939e4302b84347bf7385b49a0ce98
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-114939e4302b84347bf7385b49a0ce98
-    projectPath: Temp/UnityTempFile-114939e4302b84347bf7385b49a0ce98
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-12f8442f80f2641538c66ad26a4ac7ee
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-12f8442f80f2641538c66ad26a4ac7ee
-    projectPath: Temp/UnityTempFile-12f8442f80f2641538c66ad26a4ac7ee
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-136c4e4b1797a434eb93a5085a82fb81
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-136c4e4b1797a434eb93a5085a82fb81
-    projectPath: Temp/UnityTempFile-136c4e4b1797a434eb93a5085a82fb81
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-140054c00b0244ed9959acdbba8da4d2
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-140054c00b0244ed9959acdbba8da4d2
-    projectPath: Temp/UnityTempFile-140054c00b0244ed9959acdbba8da4d2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-16de43b390af240e29516eb6853ab72f
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-16de43b390af240e29516eb6853ab72f
-    projectPath: Temp/UnityTempFile-16de43b390af240e29516eb6853ab72f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-1882b89e59ab7436b94b647fe59dc6db
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-1882b89e59ab7436b94b647fe59dc6db
-    projectPath: Temp/UnityTempFile-1882b89e59ab7436b94b647fe59dc6db
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-190e7d4a3bc744b83a8b8ae0c47ac5f3
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-190e7d4a3bc744b83a8b8ae0c47ac5f3
-    projectPath: Temp/UnityTempFile-190e7d4a3bc744b83a8b8ae0c47ac5f3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-19d89a40291c44581b375dc8e0b907a7
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-19d89a40291c44581b375dc8e0b907a7
-    projectPath: Temp/UnityTempFile-19d89a40291c44581b375dc8e0b907a7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-1b5169045c97940c3b38e68d5b93d62c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-1b5169045c97940c3b38e68d5b93d62c
-    projectPath: Temp/UnityTempFile-1b5169045c97940c3b38e68d5b93d62c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-1c309a62463c64ba9bee59eb853e3621
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-1c309a62463c64ba9bee59eb853e3621
-    projectPath: Temp/UnityTempFile-1c309a62463c64ba9bee59eb853e3621
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-1d20354223135444ea3a41ef8aafaf9c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-1d20354223135444ea3a41ef8aafaf9c
-    projectPath: Temp/UnityTempFile-1d20354223135444ea3a41ef8aafaf9c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-2006f621887fd40c3bddc72c44621424
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2006f621887fd40c3bddc72c44621424
-    projectPath: Temp/UnityTempFile-2006f621887fd40c3bddc72c44621424
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-20968b1fd483540b481cf3e4b4315349
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-20968b1fd483540b481cf3e4b4315349
-    projectPath: Temp/UnityTempFile-20968b1fd483540b481cf3e4b4315349
+  - path: Temp/UnityTempFile-0aede0a13be964bf78c67d042306dfe9
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-0aede0a13be964bf78c67d042306dfe9
+    projectPath: Temp/UnityTempFile-0aede0a13be964bf78c67d042306dfe9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-2236adfda6a9e453eb26eade7857ec67
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2236adfda6a9e453eb26eade7857ec67
-    projectPath: Temp/UnityTempFile-2236adfda6a9e453eb26eade7857ec67
+  - path: Temp/UnityTempFile-0ff7fbb7c41434d5dbf92551f42ea2c2
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-0ff7fbb7c41434d5dbf92551f42ea2c2
+    projectPath: Temp/UnityTempFile-0ff7fbb7c41434d5dbf92551f42ea2c2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-22c98119356f248eb8865a975cc589ea
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-22c98119356f248eb8865a975cc589ea
-    projectPath: Temp/UnityTempFile-22c98119356f248eb8865a975cc589ea
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-23630182acc914562841eedab781f407
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-23630182acc914562841eedab781f407
-    projectPath: Temp/UnityTempFile-23630182acc914562841eedab781f407
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-24984ae283d234e268fefe8bcafc44e3
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-24984ae283d234e268fefe8bcafc44e3
-    projectPath: Temp/UnityTempFile-24984ae283d234e268fefe8bcafc44e3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-25142b5f4e58449d7829b27c6f129061
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-25142b5f4e58449d7829b27c6f129061
-    projectPath: Temp/UnityTempFile-25142b5f4e58449d7829b27c6f129061
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-26767920e8d7c464799efdeb326c66bb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-26767920e8d7c464799efdeb326c66bb
-    projectPath: Temp/UnityTempFile-26767920e8d7c464799efdeb326c66bb
+  - path: Temp/UnityTempFile-10cabb14ded1b4f13a05f5cd0a1c872e
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-10cabb14ded1b4f13a05f5cd0a1c872e
+    projectPath: Temp/UnityTempFile-10cabb14ded1b4f13a05f5cd0a1c872e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-272e85c24fd2e4513b63ae790d7f7200
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-272e85c24fd2e4513b63ae790d7f7200
-    projectPath: Temp/UnityTempFile-272e85c24fd2e4513b63ae790d7f7200
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-28e5a1f6856ea4091af5803fdfde8410
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-28e5a1f6856ea4091af5803fdfde8410
-    projectPath: Temp/UnityTempFile-28e5a1f6856ea4091af5803fdfde8410
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-28f66fe11c3fb4c68a3a7468f225154a
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-28f66fe11c3fb4c68a3a7468f225154a
-    projectPath: Temp/UnityTempFile-28f66fe11c3fb4c68a3a7468f225154a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-2b61864e810d2459282caf566dc7d61a
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2b61864e810d2459282caf566dc7d61a
-    projectPath: Temp/UnityTempFile-2b61864e810d2459282caf566dc7d61a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-2c0e6b900e357485686abca4a7af0397
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2c0e6b900e357485686abca4a7af0397
-    projectPath: Temp/UnityTempFile-2c0e6b900e357485686abca4a7af0397
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-2d605fe96d6a94eb6b8f86fc36575979
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2d605fe96d6a94eb6b8f86fc36575979
-    projectPath: Temp/UnityTempFile-2d605fe96d6a94eb6b8f86fc36575979
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-2d818afee8e2141f38ef128556bb108d
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2d818afee8e2141f38ef128556bb108d
-    projectPath: Temp/UnityTempFile-2d818afee8e2141f38ef128556bb108d
+  - path: Temp/UnityTempFile-135a00138392247069b403bfb2efc2e1
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-135a00138392247069b403bfb2efc2e1
+    projectPath: Temp/UnityTempFile-135a00138392247069b403bfb2efc2e1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-2f078bad0b6fa427cb0fd3e6963e1f6b
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2f078bad0b6fa427cb0fd3e6963e1f6b
-    projectPath: Temp/UnityTempFile-2f078bad0b6fa427cb0fd3e6963e1f6b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-2f7eeaac471504c7685c94b640f75013
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2f7eeaac471504c7685c94b640f75013
-    projectPath: Temp/UnityTempFile-2f7eeaac471504c7685c94b640f75013
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-31072f2550bc641148c411bd5603b873
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-31072f2550bc641148c411bd5603b873
-    projectPath: Temp/UnityTempFile-31072f2550bc641148c411bd5603b873
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-32cda2e53b7d54391a3ffb303a27538b
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-32cda2e53b7d54391a3ffb303a27538b
-    projectPath: Temp/UnityTempFile-32cda2e53b7d54391a3ffb303a27538b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-340c350bd91304c5dbabb5e43a6cf1bc
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-340c350bd91304c5dbabb5e43a6cf1bc
-    projectPath: Temp/UnityTempFile-340c350bd91304c5dbabb5e43a6cf1bc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-36f668becb8de4ba3b66fc27a9f7b59f
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-36f668becb8de4ba3b66fc27a9f7b59f
-    projectPath: Temp/UnityTempFile-36f668becb8de4ba3b66fc27a9f7b59f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-390abfed4947b45feac0d95bcd05d19c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-390abfed4947b45feac0d95bcd05d19c
-    projectPath: Temp/UnityTempFile-390abfed4947b45feac0d95bcd05d19c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-3d158aaffd72045beb2ab525c9ca26f8
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-3d158aaffd72045beb2ab525c9ca26f8
-    projectPath: Temp/UnityTempFile-3d158aaffd72045beb2ab525c9ca26f8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-40e6abae6603e4dcebaa1db5aab739b5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-40e6abae6603e4dcebaa1db5aab739b5
-    projectPath: Temp/UnityTempFile-40e6abae6603e4dcebaa1db5aab739b5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-414bc2589471e46099a4d570337415d3
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-414bc2589471e46099a4d570337415d3
-    projectPath: Temp/UnityTempFile-414bc2589471e46099a4d570337415d3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-418d2f5b96f6d4f6ca075ede477190f6
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-418d2f5b96f6d4f6ca075ede477190f6
-    projectPath: Temp/UnityTempFile-418d2f5b96f6d4f6ca075ede477190f6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-4320c0d2fd4b04c879a6bb461cc90942
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-4320c0d2fd4b04c879a6bb461cc90942
-    projectPath: Temp/UnityTempFile-4320c0d2fd4b04c879a6bb461cc90942
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-47028a2af1d57485682f4a4ce6b3a9a1
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-47028a2af1d57485682f4a4ce6b3a9a1
-    projectPath: Temp/UnityTempFile-47028a2af1d57485682f4a4ce6b3a9a1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-4c1c978e686a746bea192a2a7d017ed1
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-4c1c978e686a746bea192a2a7d017ed1
-    projectPath: Temp/UnityTempFile-4c1c978e686a746bea192a2a7d017ed1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-4dec969e8538c48ac8d37f31ebfdae33
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-4dec969e8538c48ac8d37f31ebfdae33
-    projectPath: Temp/UnityTempFile-4dec969e8538c48ac8d37f31ebfdae33
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-4e19b9957e475438db2318ae4e490ba9
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-4e19b9957e475438db2318ae4e490ba9
-    projectPath: Temp/UnityTempFile-4e19b9957e475438db2318ae4e490ba9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-4f1c35517c1a64332a524bcba40c9970
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-4f1c35517c1a64332a524bcba40c9970
-    projectPath: Temp/UnityTempFile-4f1c35517c1a64332a524bcba40c9970
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-4f3b0571e9c72440f95837578949c042
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-4f3b0571e9c72440f95837578949c042
-    projectPath: Temp/UnityTempFile-4f3b0571e9c72440f95837578949c042
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-503fa045889084597b1e8dddd3b5e58a
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-503fa045889084597b1e8dddd3b5e58a
-    projectPath: Temp/UnityTempFile-503fa045889084597b1e8dddd3b5e58a
+  - path: Temp/UnityTempFile-15298a329f54e4ee6bdea25feb15ebe8
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-15298a329f54e4ee6bdea25feb15ebe8
+    projectPath: Temp/UnityTempFile-15298a329f54e4ee6bdea25feb15ebe8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-518fa4b090ec54b2786c0691868c253a
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-518fa4b090ec54b2786c0691868c253a
-    projectPath: Temp/UnityTempFile-518fa4b090ec54b2786c0691868c253a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-521c8807e7a6c482889967b8e54fe646
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-521c8807e7a6c482889967b8e54fe646
-    projectPath: Temp/UnityTempFile-521c8807e7a6c482889967b8e54fe646
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-52208cd93f9ab4be3a16ea3f137f1f78
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-52208cd93f9ab4be3a16ea3f137f1f78
-    projectPath: Temp/UnityTempFile-52208cd93f9ab4be3a16ea3f137f1f78
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-55f13999564674fe8977eee74a1ea761
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-55f13999564674fe8977eee74a1ea761
-    projectPath: Temp/UnityTempFile-55f13999564674fe8977eee74a1ea761
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-56d219f54454a4b01a92aaee86e4473e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-56d219f54454a4b01a92aaee86e4473e
-    projectPath: Temp/UnityTempFile-56d219f54454a4b01a92aaee86e4473e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-577dc3514acc942118887e87d43e524e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-577dc3514acc942118887e87d43e524e
-    projectPath: Temp/UnityTempFile-577dc3514acc942118887e87d43e524e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-58711062efb8b41b18a8090187278f54
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-58711062efb8b41b18a8090187278f54
-    projectPath: Temp/UnityTempFile-58711062efb8b41b18a8090187278f54
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-5b4c70cd73ca14a20b7a32841547b412
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-5b4c70cd73ca14a20b7a32841547b412
-    projectPath: Temp/UnityTempFile-5b4c70cd73ca14a20b7a32841547b412
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-5d49c914a00b44a83ba3d40f37e4ffce
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-5d49c914a00b44a83ba3d40f37e4ffce
-    projectPath: Temp/UnityTempFile-5d49c914a00b44a83ba3d40f37e4ffce
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-5f1be71185a47409a9b06e4fcfa4a9d5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-5f1be71185a47409a9b06e4fcfa4a9d5
-    projectPath: Temp/UnityTempFile-5f1be71185a47409a9b06e4fcfa4a9d5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-5f8f3e2f935a941c6a79593501d04b52
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-5f8f3e2f935a941c6a79593501d04b52
-    projectPath: Temp/UnityTempFile-5f8f3e2f935a941c6a79593501d04b52
+  - path: Temp/UnityTempFile-15df22df740554eebbf87b4202cbd3f2
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-15df22df740554eebbf87b4202cbd3f2
+    projectPath: Temp/UnityTempFile-15df22df740554eebbf87b4202cbd3f2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-61d2743f873034c5fa81674703a3efa0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-61d2743f873034c5fa81674703a3efa0
-    projectPath: Temp/UnityTempFile-61d2743f873034c5fa81674703a3efa0
+  - path: Temp/UnityTempFile-1644034163666446e9cbc421d30527d8
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-1644034163666446e9cbc421d30527d8
+    projectPath: Temp/UnityTempFile-1644034163666446e9cbc421d30527d8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-624881c87ef2c4dc1b507ea9f273fce7
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-624881c87ef2c4dc1b507ea9f273fce7
-    projectPath: Temp/UnityTempFile-624881c87ef2c4dc1b507ea9f273fce7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-67c4b90bba87e4f20812b7ac57b7425c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-67c4b90bba87e4f20812b7ac57b7425c
-    projectPath: Temp/UnityTempFile-67c4b90bba87e4f20812b7ac57b7425c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-68f07511beeb94d82a517b93eed4b554
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-68f07511beeb94d82a517b93eed4b554
-    projectPath: Temp/UnityTempFile-68f07511beeb94d82a517b93eed4b554
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-694887474570c4ebdab9dcb2ef682ea8
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-694887474570c4ebdab9dcb2ef682ea8
-    projectPath: Temp/UnityTempFile-694887474570c4ebdab9dcb2ef682ea8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-6e15383b43bce451baebf5bb3e87ad6a
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-6e15383b43bce451baebf5bb3e87ad6a
-    projectPath: Temp/UnityTempFile-6e15383b43bce451baebf5bb3e87ad6a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7041078ec9bb84cae806c4b0f2d0e3e0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7041078ec9bb84cae806c4b0f2d0e3e0
-    projectPath: Temp/UnityTempFile-7041078ec9bb84cae806c4b0f2d0e3e0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-705e8c7a39ff34b49b0dab3a1611932f
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-705e8c7a39ff34b49b0dab3a1611932f
-    projectPath: Temp/UnityTempFile-705e8c7a39ff34b49b0dab3a1611932f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-71446f8e868e844df94c46e6672cb6b0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-71446f8e868e844df94c46e6672cb6b0
-    projectPath: Temp/UnityTempFile-71446f8e868e844df94c46e6672cb6b0
+  - path: Temp/UnityTempFile-1a905d26a98984fd68d243061686912a
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-1a905d26a98984fd68d243061686912a
+    projectPath: Temp/UnityTempFile-1a905d26a98984fd68d243061686912a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-7177af355d5de47cea0f7d60204c3daa
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7177af355d5de47cea0f7d60204c3daa
-    projectPath: Temp/UnityTempFile-7177af355d5de47cea0f7d60204c3daa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-71a58a2befce64612818ed4f2a87519c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-71a58a2befce64612818ed4f2a87519c
-    projectPath: Temp/UnityTempFile-71a58a2befce64612818ed4f2a87519c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7366dea8c7180409997b8d746a1935ff
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7366dea8c7180409997b8d746a1935ff
-    projectPath: Temp/UnityTempFile-7366dea8c7180409997b8d746a1935ff
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-73b52827f29e646b494a7ca6c75de541
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-73b52827f29e646b494a7ca6c75de541
-    projectPath: Temp/UnityTempFile-73b52827f29e646b494a7ca6c75de541
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7582a3510f9c3428ca548c56699395a4
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7582a3510f9c3428ca548c56699395a4
-    projectPath: Temp/UnityTempFile-7582a3510f9c3428ca548c56699395a4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-75c927ce55ed240ebba627f5966e389c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-75c927ce55ed240ebba627f5966e389c
-    projectPath: Temp/UnityTempFile-75c927ce55ed240ebba627f5966e389c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7958f2aae9b8d4fdb940d7c9c279a28e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7958f2aae9b8d4fdb940d7c9c279a28e
-    projectPath: Temp/UnityTempFile-7958f2aae9b8d4fdb940d7c9c279a28e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-79b146a96f464485eb2b016ef5c94192
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-79b146a96f464485eb2b016ef5c94192
-    projectPath: Temp/UnityTempFile-79b146a96f464485eb2b016ef5c94192
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-79fc48acc17854bc68f7671859d091a6
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-79fc48acc17854bc68f7671859d091a6
-    projectPath: Temp/UnityTempFile-79fc48acc17854bc68f7671859d091a6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7acf8357f220143d7a89f94d801d6ce3
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7acf8357f220143d7a89f94d801d6ce3
-    projectPath: Temp/UnityTempFile-7acf8357f220143d7a89f94d801d6ce3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7d95a2bf439014393be331d9ecff12d4
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7d95a2bf439014393be331d9ecff12d4
-    projectPath: Temp/UnityTempFile-7d95a2bf439014393be331d9ecff12d4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7e34284dbb2b640c5b96cedbbe25c2e5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7e34284dbb2b640c5b96cedbbe25c2e5
-    projectPath: Temp/UnityTempFile-7e34284dbb2b640c5b96cedbbe25c2e5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7e3e4f44a746d4752bf16883c259f056
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7e3e4f44a746d4752bf16883c259f056
-    projectPath: Temp/UnityTempFile-7e3e4f44a746d4752bf16883c259f056
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7e65cfd84b6ea49bbb96aec55475006e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7e65cfd84b6ea49bbb96aec55475006e
-    projectPath: Temp/UnityTempFile-7e65cfd84b6ea49bbb96aec55475006e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-7f2b0dbc93be14089a6373f10a652347
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7f2b0dbc93be14089a6373f10a652347
-    projectPath: Temp/UnityTempFile-7f2b0dbc93be14089a6373f10a652347
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-807830c810d8e42fab271d6806767cc8
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-807830c810d8e42fab271d6806767cc8
-    projectPath: Temp/UnityTempFile-807830c810d8e42fab271d6806767cc8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-831b164223fab46ad94ec5e1bf9d3262
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-831b164223fab46ad94ec5e1bf9d3262
-    projectPath: Temp/UnityTempFile-831b164223fab46ad94ec5e1bf9d3262
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-86da28372409646859e8ffb46926c46f
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-86da28372409646859e8ffb46926c46f
-    projectPath: Temp/UnityTempFile-86da28372409646859e8ffb46926c46f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-8839004e6a09e4f7a9b680cbbbd3b637
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-8839004e6a09e4f7a9b680cbbbd3b637
-    projectPath: Temp/UnityTempFile-8839004e6a09e4f7a9b680cbbbd3b637
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-888d4d284d946401eb7561882c85c092
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-888d4d284d946401eb7561882c85c092
-    projectPath: Temp/UnityTempFile-888d4d284d946401eb7561882c85c092
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-893524925c7674fa996532a3e567dcc6
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-893524925c7674fa996532a3e567dcc6
-    projectPath: Temp/UnityTempFile-893524925c7674fa996532a3e567dcc6
+  - path: Temp/UnityTempFile-1afd15ae9522541d4a6b6d384be8a190
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-1afd15ae9522541d4a6b6d384be8a190
+    projectPath: Temp/UnityTempFile-1afd15ae9522541d4a6b6d384be8a190
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-8bc21c775efb94e32a60c7375c461c8f
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-8bc21c775efb94e32a60c7375c461c8f
-    projectPath: Temp/UnityTempFile-8bc21c775efb94e32a60c7375c461c8f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-8d138269be5384f2fa5a2dd12b38b499
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-8d138269be5384f2fa5a2dd12b38b499
-    projectPath: Temp/UnityTempFile-8d138269be5384f2fa5a2dd12b38b499
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-8dd517a1feb874b2287c9aab8af5f81c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-8dd517a1feb874b2287c9aab8af5f81c
-    projectPath: Temp/UnityTempFile-8dd517a1feb874b2287c9aab8af5f81c
+  - path: Temp/UnityTempFile-1dc60faaddcd844dcbe894f888532900
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-1dc60faaddcd844dcbe894f888532900
+    projectPath: Temp/UnityTempFile-1dc60faaddcd844dcbe894f888532900
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-8f18ab0ac94a34d93a0c22e0824b75d0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-8f18ab0ac94a34d93a0c22e0824b75d0
-    projectPath: Temp/UnityTempFile-8f18ab0ac94a34d93a0c22e0824b75d0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-912097906fa804827969b97d0bf9debc
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-912097906fa804827969b97d0bf9debc
-    projectPath: Temp/UnityTempFile-912097906fa804827969b97d0bf9debc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-929f0062bee2a49e086cdf87a847b83e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-929f0062bee2a49e086cdf87a847b83e
-    projectPath: Temp/UnityTempFile-929f0062bee2a49e086cdf87a847b83e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-964db746dc07a4ae4a3477d5afae3642
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-964db746dc07a4ae4a3477d5afae3642
-    projectPath: Temp/UnityTempFile-964db746dc07a4ae4a3477d5afae3642
+  - path: Temp/UnityTempFile-1fd054a77510549f1ab5c4a5e754bf66
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-1fd054a77510549f1ab5c4a5e754bf66
+    projectPath: Temp/UnityTempFile-1fd054a77510549f1ab5c4a5e754bf66
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-96f03ee9afab3476f975d82c6f81da51
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-96f03ee9afab3476f975d82c6f81da51
-    projectPath: Temp/UnityTempFile-96f03ee9afab3476f975d82c6f81da51
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-98f84c9ff624a4297a4dec622dae2520
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-98f84c9ff624a4297a4dec622dae2520
-    projectPath: Temp/UnityTempFile-98f84c9ff624a4297a4dec622dae2520
+  - path: Temp/UnityTempFile-20718a6eab8d948d899bac3be8bab9c4
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-20718a6eab8d948d899bac3be8bab9c4
+    projectPath: Temp/UnityTempFile-20718a6eab8d948d899bac3be8bab9c4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-99189e14d50514d78add375b199b339a
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-99189e14d50514d78add375b199b339a
-    projectPath: Temp/UnityTempFile-99189e14d50514d78add375b199b339a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-9e7dcb3f57af44edb87536574b401ee3
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-9e7dcb3f57af44edb87536574b401ee3
-    projectPath: Temp/UnityTempFile-9e7dcb3f57af44edb87536574b401ee3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-9e827775985cf45b69a63bf24ab1b58e
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-9e827775985cf45b69a63bf24ab1b58e
-    projectPath: Temp/UnityTempFile-9e827775985cf45b69a63bf24ab1b58e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-9ef66f113cbf24046b4f3da17dafcff0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-9ef66f113cbf24046b4f3da17dafcff0
-    projectPath: Temp/UnityTempFile-9ef66f113cbf24046b4f3da17dafcff0
+  - path: Temp/UnityTempFile-20b7b849eba85460d9db50bc7c3ec483
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-20b7b849eba85460d9db50bc7c3ec483
+    projectPath: Temp/UnityTempFile-20b7b849eba85460d9db50bc7c3ec483
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-9f9a02fd507ca4db490b27b3a6db092d
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-9f9a02fd507ca4db490b27b3a6db092d
-    projectPath: Temp/UnityTempFile-9f9a02fd507ca4db490b27b3a6db092d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-a0ac98b47278c40319c4fab59ba03c84
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-a0ac98b47278c40319c4fab59ba03c84
-    projectPath: Temp/UnityTempFile-a0ac98b47278c40319c4fab59ba03c84
+  - path: Temp/UnityTempFile-20f83ee9724754204821f54a0008fad1
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-20f83ee9724754204821f54a0008fad1
+    projectPath: Temp/UnityTempFile-20f83ee9724754204821f54a0008fad1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-a2190d52e2e204109bf0b0cf27b1b677
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-a2190d52e2e204109bf0b0cf27b1b677
-    projectPath: Temp/UnityTempFile-a2190d52e2e204109bf0b0cf27b1b677
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-a793d6a39a9e0444ab5f6b642cc1e8cf
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-a793d6a39a9e0444ab5f6b642cc1e8cf
-    projectPath: Temp/UnityTempFile-a793d6a39a9e0444ab5f6b642cc1e8cf
+  - path: Temp/UnityTempFile-22bf2831ebbb448688ea3943505d1f02
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-22bf2831ebbb448688ea3943505d1f02
+    projectPath: Temp/UnityTempFile-22bf2831ebbb448688ea3943505d1f02
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-a87a6cd272b61451da60b593e90e4023
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-a87a6cd272b61451da60b593e90e4023
-    projectPath: Temp/UnityTempFile-a87a6cd272b61451da60b593e90e4023
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-a9fc23f71a5f44491bd3ba7a2f8185c7
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-a9fc23f71a5f44491bd3ba7a2f8185c7
-    projectPath: Temp/UnityTempFile-a9fc23f71a5f44491bd3ba7a2f8185c7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-aa4cceb2f1f9943a99fee3d9b7ae33af
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-aa4cceb2f1f9943a99fee3d9b7ae33af
-    projectPath: Temp/UnityTempFile-aa4cceb2f1f9943a99fee3d9b7ae33af
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-aa563cad8638a49d7ad31bbd966c3569
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-aa563cad8638a49d7ad31bbd966c3569
-    projectPath: Temp/UnityTempFile-aa563cad8638a49d7ad31bbd966c3569
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-aba940bf941794a45a281e4542f27bc5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-aba940bf941794a45a281e4542f27bc5
-    projectPath: Temp/UnityTempFile-aba940bf941794a45a281e4542f27bc5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-abb905262b542431c8448b9e68244be9
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-abb905262b542431c8448b9e68244be9
-    projectPath: Temp/UnityTempFile-abb905262b542431c8448b9e68244be9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-ad5ef51f172aa4527b272d2bf75dd9c3
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ad5ef51f172aa4527b272d2bf75dd9c3
-    projectPath: Temp/UnityTempFile-ad5ef51f172aa4527b272d2bf75dd9c3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-ad8862c0b21c84456a54d086ddb8f7b8
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ad8862c0b21c84456a54d086ddb8f7b8
-    projectPath: Temp/UnityTempFile-ad8862c0b21c84456a54d086ddb8f7b8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-ae1ed72a487a74687ba6e46b0a4768d7
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ae1ed72a487a74687ba6e46b0a4768d7
-    projectPath: Temp/UnityTempFile-ae1ed72a487a74687ba6e46b0a4768d7
+  - path: Temp/UnityTempFile-247b199c2750a4df5b40ae9a36d3ea53
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-247b199c2750a4df5b40ae9a36d3ea53
+    projectPath: Temp/UnityTempFile-247b199c2750a4df5b40ae9a36d3ea53
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-b0a1f93ae55f8490bbb25b81439c68b9
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b0a1f93ae55f8490bbb25b81439c68b9
-    projectPath: Temp/UnityTempFile-b0a1f93ae55f8490bbb25b81439c68b9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-b392fec493e9b4287845c44e252727a6
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b392fec493e9b4287845c44e252727a6
-    projectPath: Temp/UnityTempFile-b392fec493e9b4287845c44e252727a6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-b404b46ee13cd4a71bd87ae720aecae0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b404b46ee13cd4a71bd87ae720aecae0
-    projectPath: Temp/UnityTempFile-b404b46ee13cd4a71bd87ae720aecae0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-b44dd44cac32e4501890a837680d0ea0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b44dd44cac32e4501890a837680d0ea0
-    projectPath: Temp/UnityTempFile-b44dd44cac32e4501890a837680d0ea0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-b799647f6de5341f59a1058ba8413c12
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b799647f6de5341f59a1058ba8413c12
-    projectPath: Temp/UnityTempFile-b799647f6de5341f59a1058ba8413c12
+  - path: Temp/UnityTempFile-2a8399b81f1bc4519a622604f6d85b89
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2a8399b81f1bc4519a622604f6d85b89
+    projectPath: Temp/UnityTempFile-2a8399b81f1bc4519a622604f6d85b89
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-b7ec383d8a78c4d9e959b04464887621
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b7ec383d8a78c4d9e959b04464887621
-    projectPath: Temp/UnityTempFile-b7ec383d8a78c4d9e959b04464887621
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-b9777c793fc764d9f94ff6f2ef12d6f0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b9777c793fc764d9f94ff6f2ef12d6f0
-    projectPath: Temp/UnityTempFile-b9777c793fc764d9f94ff6f2ef12d6f0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-bb20db6eec8194af59dc5f31f40fd9eb
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-bb20db6eec8194af59dc5f31f40fd9eb
-    projectPath: Temp/UnityTempFile-bb20db6eec8194af59dc5f31f40fd9eb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-bc5b6943b441841cab5690781a955d06
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-bc5b6943b441841cab5690781a955d06
-    projectPath: Temp/UnityTempFile-bc5b6943b441841cab5690781a955d06
+  - path: Temp/UnityTempFile-2b00c92f649f4404ca8acb844f5ada20
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2b00c92f649f4404ca8acb844f5ada20
+    projectPath: Temp/UnityTempFile-2b00c92f649f4404ca8acb844f5ada20
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-bd0a3cd0e475f4e32ba5bb9971124484
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-bd0a3cd0e475f4e32ba5bb9971124484
-    projectPath: Temp/UnityTempFile-bd0a3cd0e475f4e32ba5bb9971124484
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-bdc4b89c948194317a70246e9bd3fbb7
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-bdc4b89c948194317a70246e9bd3fbb7
-    projectPath: Temp/UnityTempFile-bdc4b89c948194317a70246e9bd3fbb7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-c064ee7a64e534acab3537fed6e809e0
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c064ee7a64e534acab3537fed6e809e0
-    projectPath: Temp/UnityTempFile-c064ee7a64e534acab3537fed6e809e0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-c09be610bdcd44b839e1597bee31ece9
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c09be610bdcd44b839e1597bee31ece9
-    projectPath: Temp/UnityTempFile-c09be610bdcd44b839e1597bee31ece9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-c51ab9b644a494a3a8fe180d24b23d6b
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c51ab9b644a494a3a8fe180d24b23d6b
-    projectPath: Temp/UnityTempFile-c51ab9b644a494a3a8fe180d24b23d6b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-c6b71f8817ffa4472bf4944d116e58b9
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c6b71f8817ffa4472bf4944d116e58b9
-    projectPath: Temp/UnityTempFile-c6b71f8817ffa4472bf4944d116e58b9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-c6de4d6e7a20d46f8be57d6cfa65eb06
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c6de4d6e7a20d46f8be57d6cfa65eb06
-    projectPath: Temp/UnityTempFile-c6de4d6e7a20d46f8be57d6cfa65eb06
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-c7aca8ad74a8f42fd834549467fdd8ed
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c7aca8ad74a8f42fd834549467fdd8ed
-    projectPath: Temp/UnityTempFile-c7aca8ad74a8f42fd834549467fdd8ed
+  - path: Temp/UnityTempFile-2f558f7d47eb749188a1f66893978364
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-2f558f7d47eb749188a1f66893978364
+    projectPath: Temp/UnityTempFile-2f558f7d47eb749188a1f66893978364
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-c87f9867bba8a423999a1c8373bc90c3
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c87f9867bba8a423999a1c8373bc90c3
-    projectPath: Temp/UnityTempFile-c87f9867bba8a423999a1c8373bc90c3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-ca29dbaeb63f148eab4f8d795ee966b7
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ca29dbaeb63f148eab4f8d795ee966b7
-    projectPath: Temp/UnityTempFile-ca29dbaeb63f148eab4f8d795ee966b7
+  - path: Temp/UnityTempFile-328bd3d2deedc430cb05134abde62c6f
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-328bd3d2deedc430cb05134abde62c6f
+    projectPath: Temp/UnityTempFile-328bd3d2deedc430cb05134abde62c6f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-cb5ca29ace7244a7c83d31ab098859bc
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-cb5ca29ace7244a7c83d31ab098859bc
-    projectPath: Temp/UnityTempFile-cb5ca29ace7244a7c83d31ab098859bc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-cbaef677fb0954c659fb12c72b3a4f4d
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-cbaef677fb0954c659fb12c72b3a4f4d
-    projectPath: Temp/UnityTempFile-cbaef677fb0954c659fb12c72b3a4f4d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-ccdfa2c08d61741698ec30dbb6230654
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ccdfa2c08d61741698ec30dbb6230654
-    projectPath: Temp/UnityTempFile-ccdfa2c08d61741698ec30dbb6230654
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-cd8e5b05e0a89460d95c7afebc940753
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-cd8e5b05e0a89460d95c7afebc940753
-    projectPath: Temp/UnityTempFile-cd8e5b05e0a89460d95c7afebc940753
+  - path: Temp/UnityTempFile-33e1e41d01dc846b9ac721627e743125
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-33e1e41d01dc846b9ac721627e743125
+    projectPath: Temp/UnityTempFile-33e1e41d01dc846b9ac721627e743125
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-cdaa8ba2f8f804345b134533ddef6954
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-cdaa8ba2f8f804345b134533ddef6954
-    projectPath: Temp/UnityTempFile-cdaa8ba2f8f804345b134533ddef6954
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-ce1c6c649e9f348bdb1049265cd081cf
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ce1c6c649e9f348bdb1049265cd081cf
-    projectPath: Temp/UnityTempFile-ce1c6c649e9f348bdb1049265cd081cf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-cf2303a9a0ac1478bb8735afa4b4dad4
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-cf2303a9a0ac1478bb8735afa4b4dad4
-    projectPath: Temp/UnityTempFile-cf2303a9a0ac1478bb8735afa4b4dad4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-d0ad355352a1b42759f1eed8a5222277
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-d0ad355352a1b42759f1eed8a5222277
-    projectPath: Temp/UnityTempFile-d0ad355352a1b42759f1eed8a5222277
+  - path: Temp/UnityTempFile-3507d37b94981496ea4f4439576916fa
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-3507d37b94981496ea4f4439576916fa
+    projectPath: Temp/UnityTempFile-3507d37b94981496ea4f4439576916fa
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-d1cddf78f36704c77913fa1bfa653f56
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-d1cddf78f36704c77913fa1bfa653f56
-    projectPath: Temp/UnityTempFile-d1cddf78f36704c77913fa1bfa653f56
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-d68960beb6dea464c9d0e94fada1d1b5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-d68960beb6dea464c9d0e94fada1d1b5
-    projectPath: Temp/UnityTempFile-d68960beb6dea464c9d0e94fada1d1b5
+  - path: Temp/UnityTempFile-38604b1a9659245598e52e5fb47266ee
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-38604b1a9659245598e52e5fb47266ee
+    projectPath: Temp/UnityTempFile-38604b1a9659245598e52e5fb47266ee
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-d73886b1dd76a4f1ea3b09bc6bba08d4
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-d73886b1dd76a4f1ea3b09bc6bba08d4
-    projectPath: Temp/UnityTempFile-d73886b1dd76a4f1ea3b09bc6bba08d4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-d78fe42b8e2a5414da584581513d1990
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-d78fe42b8e2a5414da584581513d1990
-    projectPath: Temp/UnityTempFile-d78fe42b8e2a5414da584581513d1990
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-df442107dd1644efa930df814034e0e4
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-df442107dd1644efa930df814034e0e4
-    projectPath: Temp/UnityTempFile-df442107dd1644efa930df814034e0e4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-e045e884ea733435cb35782bfb6abbda
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-e045e884ea733435cb35782bfb6abbda
-    projectPath: Temp/UnityTempFile-e045e884ea733435cb35782bfb6abbda
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-e1fff7ea5454e4c7496bc48b153f139d
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-e1fff7ea5454e4c7496bc48b153f139d
-    projectPath: Temp/UnityTempFile-e1fff7ea5454e4c7496bc48b153f139d
+  - path: Temp/UnityTempFile-3cab91d5ea4ab48648e05da14feb50d5
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-3cab91d5ea4ab48648e05da14feb50d5
+    projectPath: Temp/UnityTempFile-3cab91d5ea4ab48648e05da14feb50d5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-e62210a46974447f28d6be7ab5a28e13
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-e62210a46974447f28d6be7ab5a28e13
-    projectPath: Temp/UnityTempFile-e62210a46974447f28d6be7ab5a28e13
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-e6eb9a7c85f6f4496a24b3b304618aec
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-e6eb9a7c85f6f4496a24b3b304618aec
-    projectPath: Temp/UnityTempFile-e6eb9a7c85f6f4496a24b3b304618aec
+  - path: Temp/UnityTempFile-3d0acd459f92549b38d5dff671d89cff
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-3d0acd459f92549b38d5dff671d89cff
+    projectPath: Temp/UnityTempFile-3d0acd459f92549b38d5dff671d89cff
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-e7d0719b092b34d00ab8a6f21371481c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-e7d0719b092b34d00ab8a6f21371481c
-    projectPath: Temp/UnityTempFile-e7d0719b092b34d00ab8a6f21371481c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-ea6f118555772419faa8610a11080eed
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ea6f118555772419faa8610a11080eed
-    projectPath: Temp/UnityTempFile-ea6f118555772419faa8610a11080eed
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-ebb6aa6f57f2044a0a944550ede9b7f7
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ebb6aa6f57f2044a0a944550ede9b7f7
-    projectPath: Temp/UnityTempFile-ebb6aa6f57f2044a0a944550ede9b7f7
+  - path: Temp/UnityTempFile-3dbb051971cee41fba18287803d0cf81
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-3dbb051971cee41fba18287803d0cf81
+    projectPath: Temp/UnityTempFile-3dbb051971cee41fba18287803d0cf81
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-ef4b37d3331a0428382baae968f7b741
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ef4b37d3331a0428382baae968f7b741
-    projectPath: Temp/UnityTempFile-ef4b37d3331a0428382baae968f7b741
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-efbda448c266c48678a0b572ba4ee8df
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-efbda448c266c48678a0b572ba4ee8df
-    projectPath: Temp/UnityTempFile-efbda448c266c48678a0b572ba4ee8df
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-f004c16bb677648f0a940c1b6c53f0c9
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-f004c16bb677648f0a940c1b6c53f0c9
-    projectPath: Temp/UnityTempFile-f004c16bb677648f0a940c1b6c53f0c9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-f07496b652e1b4dfb959293b86661916
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-f07496b652e1b4dfb959293b86661916
-    projectPath: Temp/UnityTempFile-f07496b652e1b4dfb959293b86661916
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-f1275b24e88724d8fa583c00c2e366f5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-f1275b24e88724d8fa583c00c2e366f5
-    projectPath: Temp/UnityTempFile-f1275b24e88724d8fa583c00c2e366f5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-f5bc15dc85ee047438432acd20827dc5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-f5bc15dc85ee047438432acd20827dc5
-    projectPath: Temp/UnityTempFile-f5bc15dc85ee047438432acd20827dc5
+  - path: Temp/UnityTempFile-3f2590884167641b19edd56cd9b17397
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-3f2590884167641b19edd56cd9b17397
+    projectPath: Temp/UnityTempFile-3f2590884167641b19edd56cd9b17397
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-f939f5cc363eb49978fd5c6882ccda41
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-f939f5cc363eb49978fd5c6882ccda41
-    projectPath: Temp/UnityTempFile-f939f5cc363eb49978fd5c6882ccda41
+  - path: Temp/UnityTempFile-3f74ef392fa354625aa8038617f87f12
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-3f74ef392fa354625aa8038617f87f12
+    projectPath: Temp/UnityTempFile-3f74ef392fa354625aa8038617f87f12
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-fbcf5f95e444d4dce99ffac91d7b8620
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-fbcf5f95e444d4dce99ffac91d7b8620
-    projectPath: Temp/UnityTempFile-fbcf5f95e444d4dce99ffac91d7b8620
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-41efacc6f9cd54d5d91dcf02cc5e9ba3
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-41efacc6f9cd54d5d91dcf02cc5e9ba3
+    projectPath: Temp/UnityTempFile-41efacc6f9cd54d5d91dcf02cc5e9ba3
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-fce41c236e4304c35b9c85797469e7d5
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-fce41c236e4304c35b9c85797469e7d5
-    projectPath: Temp/UnityTempFile-fce41c236e4304c35b9c85797469e7d5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-42b34df9552c6437c8c322f53ab55bdd
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-42b34df9552c6437c8c322f53ab55bdd
+    projectPath: Temp/UnityTempFile-42b34df9552c6437c8c322f53ab55bdd
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-fda060a4253e1409f9395924ea4ca936
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-fda060a4253e1409f9395924ea4ca936
-    projectPath: Temp/UnityTempFile-fda060a4253e1409f9395924ea4ca936
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-45216d3a3e47447cb8a9e697ca1647ec
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-45216d3a3e47447cb8a9e697ca1647ec
+    projectPath: Temp/UnityTempFile-45216d3a3e47447cb8a9e697ca1647ec
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-ff5fab785f1c6456c9db243791d53bd9
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ff5fab785f1c6456c9db243791d53bd9
-    projectPath: Temp/UnityTempFile-ff5fab785f1c6456c9db243791d53bd9
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-47199794d62f443a1af05cedda35ff06
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-47199794d62f443a1af05cedda35ff06
+    projectPath: Temp/UnityTempFile-47199794d62f443a1af05cedda35ff06
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-ff819a5f484d2421d9b607000dc5737c
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ff819a5f484d2421d9b607000dc5737c
-    projectPath: Temp/UnityTempFile-ff819a5f484d2421d9b607000dc5737c
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-494b5b2e3f7504a2abccad7061a577b6
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-494b5b2e3f7504a2abccad7061a577b6
+    projectPath: Temp/UnityTempFile-494b5b2e3f7504a2abccad7061a577b6
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Tests.csproj
-    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Tests.csproj
-    projectPath: Tests.csproj
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-4d56e5311ce71427bb09e8789a276f65
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-4d56e5311ce71427bb09e8789a276f65
+    projectPath: Temp/UnityTempFile-4d56e5311ce71427bb09e8789a276f65
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-4e0c273bf2f88464aa8e7f8dacb9c856
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-4e0c273bf2f88464aa8e7f8dacb9c856
+    projectPath: Temp/UnityTempFile-4e0c273bf2f88464aa8e7f8dacb9c856
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-51ecc8227daa243d181df8cb9507cca5
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-51ecc8227daa243d181df8cb9507cca5
+    projectPath: Temp/UnityTempFile-51ecc8227daa243d181df8cb9507cca5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-54d8683de9b91439585b8159363e5a2f
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-54d8683de9b91439585b8159363e5a2f
+    projectPath: Temp/UnityTempFile-54d8683de9b91439585b8159363e5a2f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-551c5b03baf5649bbab7e45ebd193bec
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-551c5b03baf5649bbab7e45ebd193bec
+    projectPath: Temp/UnityTempFile-551c5b03baf5649bbab7e45ebd193bec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-56c8f1e946ca94d3d81a1e8d0e5433cf
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-56c8f1e946ca94d3d81a1e8d0e5433cf
+    projectPath: Temp/UnityTempFile-56c8f1e946ca94d3d81a1e8d0e5433cf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-56ff53d78c9694b64b07539beaec66f3
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-56ff53d78c9694b64b07539beaec66f3
+    projectPath: Temp/UnityTempFile-56ff53d78c9694b64b07539beaec66f3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-57143fa420c4a4ee0871a9a29e11d151
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-57143fa420c4a4ee0871a9a29e11d151
+    projectPath: Temp/UnityTempFile-57143fa420c4a4ee0871a9a29e11d151
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-5a14a40eb7b07493394dbbb78224d976
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-5a14a40eb7b07493394dbbb78224d976
+    projectPath: Temp/UnityTempFile-5a14a40eb7b07493394dbbb78224d976
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-5d7bca613738d45bbbbad47102db4848
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-5d7bca613738d45bbbbad47102db4848
+    projectPath: Temp/UnityTempFile-5d7bca613738d45bbbbad47102db4848
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-5e3ffd6a952474776a1af1f07962e9f4
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-5e3ffd6a952474776a1af1f07962e9f4
+    projectPath: Temp/UnityTempFile-5e3ffd6a952474776a1af1f07962e9f4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-5ffa9a768ecc64dd5a82a81b85c8fb37
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-5ffa9a768ecc64dd5a82a81b85c8fb37
+    projectPath: Temp/UnityTempFile-5ffa9a768ecc64dd5a82a81b85c8fb37
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-61029da46e22c49e5a6290cf68b6b8d2
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-61029da46e22c49e5a6290cf68b6b8d2
+    projectPath: Temp/UnityTempFile-61029da46e22c49e5a6290cf68b6b8d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-625608e81657a4de3bcf373b6e3800f6
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-625608e81657a4de3bcf373b6e3800f6
+    projectPath: Temp/UnityTempFile-625608e81657a4de3bcf373b6e3800f6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-6348a515accf24bfea3d05ba0957367b
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-6348a515accf24bfea3d05ba0957367b
+    projectPath: Temp/UnityTempFile-6348a515accf24bfea3d05ba0957367b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-65c2e3de219f842798dd32709f55d94a
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-65c2e3de219f842798dd32709f55d94a
+    projectPath: Temp/UnityTempFile-65c2e3de219f842798dd32709f55d94a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-65d50ad1896a94c4fa2f8f78e307e647
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-65d50ad1896a94c4fa2f8f78e307e647
+    projectPath: Temp/UnityTempFile-65d50ad1896a94c4fa2f8f78e307e647
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-695bd1fd59d144505953c70d703c036e
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-695bd1fd59d144505953c70d703c036e
+    projectPath: Temp/UnityTempFile-695bd1fd59d144505953c70d703c036e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-6a86b2cda2556455e8c0e0cf30b0f5ed
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-6a86b2cda2556455e8c0e0cf30b0f5ed
+    projectPath: Temp/UnityTempFile-6a86b2cda2556455e8c0e0cf30b0f5ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-6d6fbe126ba6c4518b10580732ef8b83
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-6d6fbe126ba6c4518b10580732ef8b83
+    projectPath: Temp/UnityTempFile-6d6fbe126ba6c4518b10580732ef8b83
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-71c527c547cf04a1a9ce296652cea332
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-71c527c547cf04a1a9ce296652cea332
+    projectPath: Temp/UnityTempFile-71c527c547cf04a1a9ce296652cea332
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-735eab75e29384ace8dff24a139569e4
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-735eab75e29384ace8dff24a139569e4
+    projectPath: Temp/UnityTempFile-735eab75e29384ace8dff24a139569e4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-78ad5e52335694f9bb48e6c316b907d3
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-78ad5e52335694f9bb48e6c316b907d3
+    projectPath: Temp/UnityTempFile-78ad5e52335694f9bb48e6c316b907d3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-7a2027e609b3c4c46819cdb90aa4027e
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7a2027e609b3c4c46819cdb90aa4027e
+    projectPath: Temp/UnityTempFile-7a2027e609b3c4c46819cdb90aa4027e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-7f82e2151bd374e0caa61a13f7eaebdb
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-7f82e2151bd374e0caa61a13f7eaebdb
+    projectPath: Temp/UnityTempFile-7f82e2151bd374e0caa61a13f7eaebdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-8122236e648bb4fed813f104a572b6b7
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-8122236e648bb4fed813f104a572b6b7
+    projectPath: Temp/UnityTempFile-8122236e648bb4fed813f104a572b6b7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-816ac2d951b4246ccbf10760b9125b96
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-816ac2d951b4246ccbf10760b9125b96
+    projectPath: Temp/UnityTempFile-816ac2d951b4246ccbf10760b9125b96
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-84940f70ee3f54a03ad2ffd96991cb6b
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-84940f70ee3f54a03ad2ffd96991cb6b
+    projectPath: Temp/UnityTempFile-84940f70ee3f54a03ad2ffd96991cb6b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-868c382b9025447da8de3a847ee84cda
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-868c382b9025447da8de3a847ee84cda
+    projectPath: Temp/UnityTempFile-868c382b9025447da8de3a847ee84cda
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-87bbe8ba7e936406c9516408099f77f2
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-87bbe8ba7e936406c9516408099f77f2
+    projectPath: Temp/UnityTempFile-87bbe8ba7e936406c9516408099f77f2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-88a0e3e52d0ea4791ab11a45bef1741c
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-88a0e3e52d0ea4791ab11a45bef1741c
+    projectPath: Temp/UnityTempFile-88a0e3e52d0ea4791ab11a45bef1741c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-895902e7ca1814953bbcb6675c07dd47
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-895902e7ca1814953bbcb6675c07dd47
+    projectPath: Temp/UnityTempFile-895902e7ca1814953bbcb6675c07dd47
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-8986e3c8938834cf1be87002d8f0e653
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-8986e3c8938834cf1be87002d8f0e653
+    projectPath: Temp/UnityTempFile-8986e3c8938834cf1be87002d8f0e653
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-8a2f159d9b224455a8bfe67e1d8d1796
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-8a2f159d9b224455a8bfe67e1d8d1796
+    projectPath: Temp/UnityTempFile-8a2f159d9b224455a8bfe67e1d8d1796
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-8d319f0839dab49e8883289c6f6bb9d4
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-8d319f0839dab49e8883289c6f6bb9d4
+    projectPath: Temp/UnityTempFile-8d319f0839dab49e8883289c6f6bb9d4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-90ea40b8980514add9e0c97b3f6e638f
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-90ea40b8980514add9e0c97b3f6e638f
+    projectPath: Temp/UnityTempFile-90ea40b8980514add9e0c97b3f6e638f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-91a62c05ec3f54319b28529c369f4f55
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-91a62c05ec3f54319b28529c369f4f55
+    projectPath: Temp/UnityTempFile-91a62c05ec3f54319b28529c369f4f55
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-94a89d3d11ef74e01a877d2c0fdb4b15
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-94a89d3d11ef74e01a877d2c0fdb4b15
+    projectPath: Temp/UnityTempFile-94a89d3d11ef74e01a877d2c0fdb4b15
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-9546cca3c08a448c5b5ca79904b9ec4a
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-9546cca3c08a448c5b5ca79904b9ec4a
+    projectPath: Temp/UnityTempFile-9546cca3c08a448c5b5ca79904b9ec4a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-97eeed1d883ad47269fd3665dbd27fcd
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-97eeed1d883ad47269fd3665dbd27fcd
+    projectPath: Temp/UnityTempFile-97eeed1d883ad47269fd3665dbd27fcd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-98f9cd9afcfaa48e498732d7ace69f76
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-98f9cd9afcfaa48e498732d7ace69f76
+    projectPath: Temp/UnityTempFile-98f9cd9afcfaa48e498732d7ace69f76
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-9aabcd432df3e40529058f8e78c138ac
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-9aabcd432df3e40529058f8e78c138ac
+    projectPath: Temp/UnityTempFile-9aabcd432df3e40529058f8e78c138ac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-9c2ab99b4766a4f9190ab5757bfb9151
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-9c2ab99b4766a4f9190ab5757bfb9151
+    projectPath: Temp/UnityTempFile-9c2ab99b4766a4f9190ab5757bfb9151
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-9eac6792c7bf2442cb08c1174060c746
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-9eac6792c7bf2442cb08c1174060c746
+    projectPath: Temp/UnityTempFile-9eac6792c7bf2442cb08c1174060c746
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-a392ca54358ae4286a4f9f83e48bc804
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-a392ca54358ae4286a4f9f83e48bc804
+    projectPath: Temp/UnityTempFile-a392ca54358ae4286a4f9f83e48bc804
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-a6c63bcd933e046baa14269c2321f384
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-a6c63bcd933e046baa14269c2321f384
+    projectPath: Temp/UnityTempFile-a6c63bcd933e046baa14269c2321f384
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-a8cea856b6035491f91c2edf233a2ee0
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-a8cea856b6035491f91c2edf233a2ee0
+    projectPath: Temp/UnityTempFile-a8cea856b6035491f91c2edf233a2ee0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-ab7258468fe2640f98c234595926f801
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ab7258468fe2640f98c234595926f801
+    projectPath: Temp/UnityTempFile-ab7258468fe2640f98c234595926f801
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-ac93077adbfad443cb7ff02a06877d28
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ac93077adbfad443cb7ff02a06877d28
+    projectPath: Temp/UnityTempFile-ac93077adbfad443cb7ff02a06877d28
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-ad303e96f7f9a4146aa5d07975ee8f03
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ad303e96f7f9a4146aa5d07975ee8f03
+    projectPath: Temp/UnityTempFile-ad303e96f7f9a4146aa5d07975ee8f03
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-adee7f7c85a2643a386daa5f35206164
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-adee7f7c85a2643a386daa5f35206164
+    projectPath: Temp/UnityTempFile-adee7f7c85a2643a386daa5f35206164
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-af3eb7334b0a34b8681a128eb880c1a4
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-af3eb7334b0a34b8681a128eb880c1a4
+    projectPath: Temp/UnityTempFile-af3eb7334b0a34b8681a128eb880c1a4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-af6a0b12dceef4777a07b00ea6a66bdb
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-af6a0b12dceef4777a07b00ea6a66bdb
+    projectPath: Temp/UnityTempFile-af6a0b12dceef4777a07b00ea6a66bdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b03cf2b44e9d845958af289050d27efd
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b03cf2b44e9d845958af289050d27efd
+    projectPath: Temp/UnityTempFile-b03cf2b44e9d845958af289050d27efd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b06faee607a3140d48d8582d049718a3
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b06faee607a3140d48d8582d049718a3
+    projectPath: Temp/UnityTempFile-b06faee607a3140d48d8582d049718a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b10ba28cc3d9c47e99a0757dc637c69e
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b10ba28cc3d9c47e99a0757dc637c69e
+    projectPath: Temp/UnityTempFile-b10ba28cc3d9c47e99a0757dc637c69e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b3349a096cffd43e1a032183fbbc0569
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b3349a096cffd43e1a032183fbbc0569
+    projectPath: Temp/UnityTempFile-b3349a096cffd43e1a032183fbbc0569
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b4c1fab6a9f2a495c8a9cec0b70866bf
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b4c1fab6a9f2a495c8a9cec0b70866bf
+    projectPath: Temp/UnityTempFile-b4c1fab6a9f2a495c8a9cec0b70866bf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b59795ed4e70744d3b6293600b97544b
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b59795ed4e70744d3b6293600b97544b
+    projectPath: Temp/UnityTempFile-b59795ed4e70744d3b6293600b97544b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b5d664fa8e20644938a96ad830da469f
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b5d664fa8e20644938a96ad830da469f
+    projectPath: Temp/UnityTempFile-b5d664fa8e20644938a96ad830da469f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b849093bbd5d44f06818e4c9bdd721e4
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b849093bbd5d44f06818e4c9bdd721e4
+    projectPath: Temp/UnityTempFile-b849093bbd5d44f06818e4c9bdd721e4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-b95b194dab7d94d0ca3c6ffaf2db8e81
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-b95b194dab7d94d0ca3c6ffaf2db8e81
+    projectPath: Temp/UnityTempFile-b95b194dab7d94d0ca3c6ffaf2db8e81
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-bc6a73acfd7f74b0285acf0cbd4114d3
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-bc6a73acfd7f74b0285acf0cbd4114d3
+    projectPath: Temp/UnityTempFile-bc6a73acfd7f74b0285acf0cbd4114d3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-bce3446b508664028a851e99ae952f0a
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-bce3446b508664028a851e99ae952f0a
+    projectPath: Temp/UnityTempFile-bce3446b508664028a851e99ae952f0a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-bde5201cfdfab499b843c2f4c54a3cf8
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-bde5201cfdfab499b843c2f4c54a3cf8
+    projectPath: Temp/UnityTempFile-bde5201cfdfab499b843c2f4c54a3cf8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-c0bc184c5ecc8432fb6365262cb0c47a
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c0bc184c5ecc8432fb6365262cb0c47a
+    projectPath: Temp/UnityTempFile-c0bc184c5ecc8432fb6365262cb0c47a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-c11c3da13757642cd92b9924b2e15fc4
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c11c3da13757642cd92b9924b2e15fc4
+    projectPath: Temp/UnityTempFile-c11c3da13757642cd92b9924b2e15fc4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-c400e9d7e910344b692232933f6ef2fa
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c400e9d7e910344b692232933f6ef2fa
+    projectPath: Temp/UnityTempFile-c400e9d7e910344b692232933f6ef2fa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-c9480efdd722746e797da5372713d7e6
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-c9480efdd722746e797da5372713d7e6
+    projectPath: Temp/UnityTempFile-c9480efdd722746e797da5372713d7e6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-cede2df2c70ca4671a70f87b5965a780
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-cede2df2c70ca4671a70f87b5965a780
+    projectPath: Temp/UnityTempFile-cede2df2c70ca4671a70f87b5965a780
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-d1080c0eddc244601b65d5653fa8c8a1
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-d1080c0eddc244601b65d5653fa8c8a1
+    projectPath: Temp/UnityTempFile-d1080c0eddc244601b65d5653fa8c8a1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-d2ea2bbedb91d42e08e748485c8dbad8
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-d2ea2bbedb91d42e08e748485c8dbad8
+    projectPath: Temp/UnityTempFile-d2ea2bbedb91d42e08e748485c8dbad8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-d321dbb13c7d54c00a5fee97a109ac90
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-d321dbb13c7d54c00a5fee97a109ac90
+    projectPath: Temp/UnityTempFile-d321dbb13c7d54c00a5fee97a109ac90
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-daf07ec0134154cbca103d39777a3827
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-daf07ec0134154cbca103d39777a3827
+    projectPath: Temp/UnityTempFile-daf07ec0134154cbca103d39777a3827
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-db1cffbdaaa694bd4b2fe5d01f9fbb6d
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-db1cffbdaaa694bd4b2fe5d01f9fbb6d
+    projectPath: Temp/UnityTempFile-db1cffbdaaa694bd4b2fe5d01f9fbb6d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-dc73e92acec7245fabcdbb51539e32f6
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-dc73e92acec7245fabcdbb51539e32f6
+    projectPath: Temp/UnityTempFile-dc73e92acec7245fabcdbb51539e32f6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-e11cf3117ccb84450a855503c5cac45e
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-e11cf3117ccb84450a855503c5cac45e
+    projectPath: Temp/UnityTempFile-e11cf3117ccb84450a855503c5cac45e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-e2ada7e49329f48a59eb56e203648af4
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-e2ada7e49329f48a59eb56e203648af4
+    projectPath: Temp/UnityTempFile-e2ada7e49329f48a59eb56e203648af4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-e75ac8e7f003a4524af78318c271e7eb
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-e75ac8e7f003a4524af78318c271e7eb
+    projectPath: Temp/UnityTempFile-e75ac8e7f003a4524af78318c271e7eb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-e83de116e1811475eb1c925243efcf8a
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-e83de116e1811475eb1c925243efcf8a
+    projectPath: Temp/UnityTempFile-e83de116e1811475eb1c925243efcf8a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-ea0ba0b3240cf4b17aa2b9fc6c52e274
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ea0ba0b3240cf4b17aa2b9fc6c52e274
+    projectPath: Temp/UnityTempFile-ea0ba0b3240cf4b17aa2b9fc6c52e274
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-eb87ca20610d64af89fef985109d1dfa
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-eb87ca20610d64af89fef985109d1dfa
+    projectPath: Temp/UnityTempFile-eb87ca20610d64af89fef985109d1dfa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-ed4681ad584fc40b482a689c0d5c9fb2
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-ed4681ad584fc40b482a689c0d5c9fb2
+    projectPath: Temp/UnityTempFile-ed4681ad584fc40b482a689c0d5c9fb2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-f0debaf24520f4e4e86e6dfff4797047
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-f0debaf24520f4e4e86e6dfff4797047
+    projectPath: Temp/UnityTempFile-f0debaf24520f4e4e86e6dfff4797047
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-f35292a713c7a405c8163e7a5b6d9d6f
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-f35292a713c7a405c8163e7a5b6d9d6f
+    projectPath: Temp/UnityTempFile-f35292a713c7a405c8163e7a5b6d9d6f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-f39f3ad60b9da42ab81ef91423d2a3e4
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-f39f3ad60b9da42ab81ef91423d2a3e4
+    projectPath: Temp/UnityTempFile-f39f3ad60b9da42ab81ef91423d2a3e4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-f5129e2a01c3f4875b3df94763de7022
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-f5129e2a01c3f4875b3df94763de7022
+    projectPath: Temp/UnityTempFile-f5129e2a01c3f4875b3df94763de7022
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-f74e2222c944b4556b94109d6f076618
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-f74e2222c944b4556b94109d6f076618
+    projectPath: Temp/UnityTempFile-f74e2222c944b4556b94109d6f076618
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-fac5cc675058c4525b8b46c6a07af000
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-fac5cc675058c4525b8b46c6a07af000
+    projectPath: Temp/UnityTempFile-fac5cc675058c4525b8b46c6a07af000
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-fb90de9b681ad4bb88d14ef287be7732
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-fb90de9b681ad4bb88d14ef287be7732
+    projectPath: Temp/UnityTempFile-fb90de9b681ad4bb88d14ef287be7732
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-fc2e5db8b4b0a458b9560c3dfc227dd5
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-fc2e5db8b4b0a458b9560c3dfc227dd5
+    projectPath: Temp/UnityTempFile-fc2e5db8b4b0a458b9560c3dfc227dd5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-fc2e760c12b6c4c829afd2a10b93665b
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-fc2e760c12b6c4c829afd2a10b93665b
+    projectPath: Temp/UnityTempFile-fc2e760c12b6c4c829afd2a10b93665b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-fc507ef597d1d4dd3bda44ee3711e2ac
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-fc507ef597d1d4dd3bda44ee3711e2ac
+    projectPath: Temp/UnityTempFile-fc507ef597d1d4dd3bda44ee3711e2ac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-fe8a09163c2ca46f3991a840ba55fe40
+    fullPath: /Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Temp/UnityTempFile-fe8a09163c2ca46f3991a840ba55fe40
+    projectPath: Temp/UnityTempFile-fe8a09163c2ca46f3991a840ba55fe40
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
