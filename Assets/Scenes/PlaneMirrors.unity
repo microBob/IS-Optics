@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 24400713}
   - component: {fileID: 24400712}
   - component: {fileID: 24400716}
+  - component: {fileID: 24400717}
   m_Layer: 0
   m_Name: Mirror Object
   m_TagString: Untagged
@@ -213,13 +214,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24400711}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3fecc80318364426b43feb954cf6248, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lightSource: {fileID: 1177066820}
   rays: 2
+--- !u!114 &24400717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24400711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48e92b6671949435bb56f334b5aa66fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightSource: {fileID: 1177066820}
+  animate: 1
+  animSpeed: 2
 --- !u!1 &357076028
 GameObject:
   m_ObjectHideFlags: 0

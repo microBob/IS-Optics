@@ -25,6 +25,7 @@
           </e>
           <e p="PlaneMirror" t="Include">
             <e p="PlaneMirrorPointLight.cs" t="Include" />
+            <e p="PlaneMirrorPointLightStraight.cs" t="Include" />
           </e>
           <e p="PointLight.cs" t="Include" />
           <e p="Primitive Labs" t="Include">
