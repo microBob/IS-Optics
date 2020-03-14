@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\ParticleDemo\Rect.cs" />
     <Compile Include="Assets\Scripts\PlaneMirror\PlaneMirrorPointLight.cs" />
     <Compile Include="Assets\Scripts\PointLight.cs" />
+    <Compile Include="Assets\Scripts\Primitive Labs\MathLabs.cs" />
     <Compile Include="Assets\Scripts\Primitive Labs\PrimitiveLabs.cs" />
     <Compile Include="Assets\Scripts\Raycast Labs\RaycastLabs.cs" />
     <None Include="Assets\Scripts\LabsAssembly.asmdef" />
@@ -296,6 +297,21 @@
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="GitHub.Logging">
+      <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Api.45">
+      <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+    </Reference>
     <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
       <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
     </Reference>
@@ -313,21 +329,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Api.45">
-      <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity.45">
-      <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-      <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.UnityShim">
-      <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Logging">
-      <HintPath>/Users/kenneth/OneDrive - Eastside Preparatory School/Optics/OpticsLabs/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.19f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
