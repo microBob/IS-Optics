@@ -2,42 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c9dcb34-c645-4c25-8257-5dca8332fb72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mesh/Reference Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mesh/Reference Cube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlaneMirrors.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlaneMirrors.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RaycastLabs.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RaycastLabs.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorPointLight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorUsingPointLight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorPointLight.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorUsingPointLight.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorPointLightStraight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorUsingPointLightStraight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorPointLightStraight.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorUsingPointLightStraight.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabsAssembly.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LabsAssembly.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorFromPointLight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorFromPointLight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorUsingPointLight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorUsingPointLight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorUsingPointLightStraight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneMirror/PlaneMirrorUsingPointLightStraight.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/fd8176-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/fd8176-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/2dcdb6-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/2dcdb6-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000003000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000003000000000000000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/06/06cd13514da2dd843a484b5073e03949" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/06/06cd13514da2dd843a484b5073e03949" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/06/06cd13514da2dd843a484b5073e03949.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/06/06cd13514da2dd843a484b5073e03949.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/3e/3ef00db9cf8334140b733bcf01ebf942" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3e/3ef00db9cf8334140b733bcf01ebf942" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/48/48e92b6671949435bb56f334b5aa66fb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/48/48e92b6671949435bb56f334b5aa66fb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/48/48e92b6671949435bb56f334b5aa66fb.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/48/48e92b6671949435bb56f334b5aa66fb.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/53/5392e076b74aa634f9973ce87879da4e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/53/5392e076b74aa634f9973ce87879da4e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/e3/e3fecc80318364426b43feb954cf6248" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e3/e3fecc80318364426b43feb954cf6248" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/e3/e3fecc80318364426b43feb954cf6248.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e3/e3fecc80318364426b43feb954cf6248.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/96/96b3254587360444eacf252110e13e81" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/96/96b3254587360444eacf252110e13e81" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +125,7 @@
       <workItem from="1583428682671" duration="9247000" />
       <workItem from="1584116042485" duration="5548000" />
       <workItem from="1584152083308" duration="4682000" />
-      <workItem from="1584203471733" duration="10199000" />
+      <workItem from="1584203471733" duration="11390000" />
     </task>
     <servers />
   </component>

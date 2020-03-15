@@ -20,6 +20,12 @@ namespace PlaneMirror
         // Start is called before the first frame update
         void Start()
         {
+            if (_reflectionIndex == mirrorHandler.GetMirrors().Count)
+            {
+                // _reflected = true;
+                enabled = false;
+                return;
+            }
 
             _targetMirror = mirrorHandler.GetMirrors()[_reflectionIndex];
             _targetMirrorTrans = _targetMirror.transform;
@@ -31,6 +37,8 @@ namespace PlaneMirror
             {
                 _emissionDir = _myTrans.forward;
             }
+
+            print("Working on reflection " + _reflectionIndex);
         }
 
         private void Update()
@@ -38,6 +46,8 @@ namespace PlaneMirror
             if (!_reflected && Physics.Raycast(_myTrans.position, _emissionDir,
                 out RaycastHit hit, Mathf.Infinity, mirrorHandler.GetMirrorMask(_reflectionIndex)))
             {
+                print("Hit Mirror " + hit.collider.gameObject.name);
+
                 Vector3 mirrorNorm = hit.normal;
 
                 Debug.DrawRay(_myTrans.position, _emissionDir * hit.distance, Color.cyan, Mathf.Infinity);
@@ -52,7 +62,8 @@ namespace PlaneMirror
 
                 Vector3 virtualImagePos = hit.point - exitDir * hit.distance;
 
-                GameObject virtualImage = Instantiate(Resources.Load<GameObject>("Objects/PlaneMirrorPointLight"), virtualImagePos, Quaternion.identity);
+                GameObject virtualImage = Instantiate(Resources.Load<GameObject>("Objects/PlaneMirrorPointLight"),
+                    virtualImagePos, Quaternion.identity);
                 PlaneMirrorFromPointLight virtualImageHandler =
                     virtualImage.GetComponent<PlaneMirrorFromPointLight>();
                 virtualImageHandler.NewInstanceConstructor(_reflectionIndex + 1, exitDir, mirrorHandler);

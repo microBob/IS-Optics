@@ -2,7 +2,7 @@
 
 namespace PlaneMirror
 {
-    public class PlaneMirrorPointLightStraight : MonoBehaviour
+    public class PlaneMirrorUsingPointLightStraight : MonoBehaviour
     {
         public PointLight lightSource;
 

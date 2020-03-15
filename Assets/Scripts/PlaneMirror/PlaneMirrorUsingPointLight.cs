@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace PlaneMirror
 {
-    public class PlaneMirrorPointLight : MonoBehaviour
+    public class PlaneMirrorUsingPointLight : MonoBehaviour
     {
         public PointLight lightSource;
         public int rays = 2;
