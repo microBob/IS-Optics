@@ -22,6 +22,7 @@ namespace PlaneMirror
         {
             if (_reflectionIndex == mirrorHandler.GetMirrors().Count)
             {
+                print("Completed all mirrors");
                 // _reflected = true;
                 enabled = false;
                 return;
@@ -36,6 +37,7 @@ namespace PlaneMirror
             if (_reflectionIndex == 0)
             {
                 _emissionDir = _myTrans.forward;
+                // _emissionDir = (mirrorHandler.GetMirrors()[3].transform.position - _myTrans.position).normalized;
             }
 
             print("Working on reflection " + _reflectionIndex);
