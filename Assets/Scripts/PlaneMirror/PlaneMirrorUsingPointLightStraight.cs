@@ -8,7 +8,7 @@ namespace PlaneMirror
 
         public bool animate = true;
         public int animSpeed = 3;
-        private int animDir = 1;
+        private int _animDir = 1;
 
         private GameObject _virtualImage;
 
@@ -62,13 +62,13 @@ namespace PlaneMirror
 
             if (animate)
             {
-                _lightTrans.Translate(0, Time.deltaTime * animSpeed * animDir, 0);
+                _lightTrans.Translate(0, Time.deltaTime * animSpeed * _animDir, 0);
                 if (_lightTrans.position.y > 5)
                 {
-                    animDir = -1;
+                    _animDir = -1;
                 } else if (_lightTrans.position.y < -5)
                 {
-                    animDir = 1;
+                    _animDir = 1;
                 }
             }
         }

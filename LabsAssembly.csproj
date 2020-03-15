@@ -60,11 +60,14 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\ParticleDemo\R2SelfRender.cs" />
     <Compile Include="Assets\Scripts\ParticleDemo\Rect.cs" />
-    <Compile Include="Assets\Scripts\PlaneMirror\PlaneMirrorPointLight.cs" />
-    <Compile Include="Assets\Scripts\PlaneMirror\PlaneMirrorPointLightStraight.cs" />
+    <Compile Include="Assets\Scripts\PlaneMirror\PlaneMirrorFromPointLight.cs" />
+    <Compile Include="Assets\Scripts\PlaneMirror\PlaneMirrorHandler.cs" />
+    <Compile Include="Assets\Scripts\PlaneMirror\PlaneMirrorUsingPointLight.cs" />
+    <Compile Include="Assets\Scripts\PlaneMirror\PlaneMirrorUsingPointLightStraight.cs" />
     <Compile Include="Assets\Scripts\PointLight.cs" />
     <Compile Include="Assets\Scripts\Primitive Labs\MathLabs.cs" />
     <Compile Include="Assets\Scripts\Primitive Labs\PrimitiveLabs.cs" />
+    <Compile Include="Assets\Scripts\Raycast Labs\LayerMaskLabs.cs" />
     <Compile Include="Assets\Scripts\Raycast Labs\RaycastLabs.cs" />
     <None Include="Assets\Scripts\LabsAssembly.asmdef" />
     <Reference Include="UnityEngine.AIModule">

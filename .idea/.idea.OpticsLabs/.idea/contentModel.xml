@@ -24,8 +24,10 @@
             <e p="Rect.cs" t="Include" />
           </e>
           <e p="PlaneMirror" t="Include">
-            <e p="PlaneMirrorPointLight.cs" t="Include" />
-            <e p="PlaneMirrorPointLightStraight.cs" t="Include" />
+            <e p="PlaneMirrorFromPointLight.cs" t="Include" />
+            <e p="PlaneMirrorHandler.cs" t="Include" />
+            <e p="PlaneMirrorUsingPointLight.cs" t="Include" />
+            <e p="PlaneMirrorUsingPointLightStraight.cs" t="Include" />
           </e>
           <e p="PointLight.cs" t="Include" />
           <e p="Primitive Labs" t="Include">
@@ -33,6 +35,7 @@
             <e p="PrimitiveLabs.cs" t="Include" />
           </e>
           <e p="Raycast Labs" t="Include">
+            <e p="LayerMaskLabs.cs" t="Include" />
             <e p="RaycastLabs.cs" t="Include" />
           </e>
         </e>
