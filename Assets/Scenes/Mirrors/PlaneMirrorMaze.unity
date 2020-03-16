@@ -611,6 +611,11 @@ PrefabInstance:
       propertyPath: MirrorHandler
       value: 
       objectReference: {fileID: 2118953333}
+    - target: {fileID: 7868845249185665067, guid: 42c396ee951694fa68c01d86e97688b1,
+        type: 3}
+      propertyPath: mirrorMaze
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42c396ee951694fa68c01d86e97688b1, type: 3}
 --- !u!1 &2118953332

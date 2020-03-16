@@ -6,6 +6,8 @@ namespace Mirrors
     {
         public MirrorHandler mirrorHandler;
 
+        public bool mirrorMaze = false;
+
         private Transform _myTrans;
 
         private int _reflectionIndex = 0;
@@ -34,8 +36,14 @@ namespace Mirrors
             // Initial emission
             if (_reflectionIndex == 0)
             {
-                _emissionDir = _myTrans.forward;
-                // _emissionDir = (mirrorHandler.GetMirrors()[3].transform.position - _myTrans.position).normalized;
+                if (mirrorMaze)
+                {
+                    _emissionDir = (mirrorHandler.GetMirrors()[3].transform.position - _myTrans.position).normalized;
+                }
+                else
+                {
+                    _emissionDir = _myTrans.forward;
+                }
             }
 
             print("Working on reflection " + _reflectionIndex);
