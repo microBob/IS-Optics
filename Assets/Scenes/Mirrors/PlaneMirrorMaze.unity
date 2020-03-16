@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731203, g: 0.3807408, b: 0.3587277, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -604,6 +604,11 @@ PrefabInstance:
     - target: {fileID: 7868845249185665067, guid: 42c396ee951694fa68c01d86e97688b1,
         type: 3}
       propertyPath: mirrorHandler
+      value: 
+      objectReference: {fileID: 2118953333}
+    - target: {fileID: 7868845249185665067, guid: 42c396ee951694fa68c01d86e97688b1,
+        type: 3}
+      propertyPath: MirrorHandler
       value: 
       objectReference: {fileID: 2118953333}
     m_RemovedComponents: []
