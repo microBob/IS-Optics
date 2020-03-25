@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/PlaneMirrors.unity
+- path: Assets/Scenes/Refractions/ThinLenses.unity
   isLoaded: 1
   isActive: 1

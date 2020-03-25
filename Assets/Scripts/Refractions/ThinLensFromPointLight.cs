@@ -1,0 +1,83 @@
+﻿using System.Globalization;
+using UnityEditor;
+using UnityEngine;
+
+namespace Refractions
+{
+    public class ThinLensFromPointLight : MonoBehaviour
+    {
+        public GameObject lens;
+        public Vector3 emitDir = Vector3.forward;
+        public float locIor = 1f;
+
+        private Vector3 _myPos;
+        private float _distToLens;
+        private Vector3 _lensContactPoint;
+        private float _vertDistFromCenterOfLens;
+
+        private LensDef _lensDef;
+
+        private bool _render;
+
+        // Start is called before the first frame update
+        void Start()
+        {
+            _myPos = transform.position;
+
+            _vertDistFromCenterOfLens = _myPos.y - lens.transform.position.y;
+
+
+            if (Physics.Raycast(_myPos, emitDir, out RaycastHit hit, Mathf.Infinity))
+            {
+                _distToLens = hit.distance;
+                _lensContactPoint = hit.point;
+
+                print("Distance to lens: " + _distToLens + "; contact point: " + _lensContactPoint);
+
+                Debug.DrawRay(_myPos, emitDir * _distToLens, Color.cyan, Mathf.Infinity);
+
+                lens = hit.collider.gameObject.transform.parent.gameObject;
+                _lensDef = lens.GetComponent<LensDef>();
+
+                _render = true;
+            }
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (_render)
+            {
+                // Find focal length
+                float numerator = locIor * _lensDef.radius1 * _lensDef.radius2;
+                float denominator = (locIor - _lensDef.ior) * (_lensDef.radius1 - _lensDef.radius2);
+                float focalLen = numerator / denominator;
+                print("Focal Len: " + focalLen);
+
+                // Find image distance
+                numerator = _distToLens * focalLen;
+                denominator = _distToLens - focalLen;
+                float imageDist = numerator / denominator;
+                print("Image Distance: " + imageDist);
+                Debug.DrawRay(_lensContactPoint, Vector3.forward * imageDist, Color.green, Mathf.Infinity);
+
+                // Find image height
+                numerator = _vertDistFromCenterOfLens * imageDist;
+                float imageHeight = -1f * numerator / _distToLens;
+                print("Image Height: " + imageHeight);
+
+                // Draw this
+                Vector3 imageLoc = lens.transform.position;
+                imageLoc += Vector3.forward * imageDist;
+                imageLoc += Vector3.up * imageHeight;
+                Debug.DrawLine(_lensContactPoint, imageLoc, Color.magenta, Mathf.Infinity);
+
+                GameObject image = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                image.transform.position = imageLoc;
+                image.transform.localScale = transform.localScale;
+
+                _render = false;
+            }
+        }
+    }
+}

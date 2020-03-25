@@ -41,8 +41,7 @@ namespace Mirrors
 
             if (Physics.Raycast(_myTrans.position, _emissionDir, out RaycastHit hit, Mathf.Infinity))
             {
-                if (Vector3.Distance(_myTrans.position, hit.point) >
-                    Vector3.Distance(_myTrans.position, _targetMirrorTrans.position))
+                if (hit.point.z > _targetMirrorTrans.position.z)
                 {
                     _targetMirrorIsConvex = false;
                 }

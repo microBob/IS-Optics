@@ -39,6 +39,10 @@
             <e p="LayerMaskLabs.cs" t="Include" />
             <e p="RaycastLabs.cs" t="Include" />
           </e>
+          <e p="Refractions" t="Include">
+            <e p="LensDef.cs" t="Include" />
+            <e p="ThinLensFromPointLight.cs" t="Include" />
+          </e>
         </e>
         <e p="Tests" t="Include">
           <e p="BaseTestSuite.cs" t="Include" />

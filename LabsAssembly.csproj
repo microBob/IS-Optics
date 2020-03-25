@@ -70,6 +70,8 @@
     <Compile Include="Assets\Scripts\Primitive Labs\PrimitiveLabs.cs" />
     <Compile Include="Assets\Scripts\Raycast Labs\LayerMaskLabs.cs" />
     <Compile Include="Assets\Scripts\Raycast Labs\RaycastLabs.cs" />
+    <Compile Include="Assets\Scripts\Refractions\LensDef.cs" />
+    <Compile Include="Assets\Scripts\Refractions\ThinLensFromPointLight.cs" />
     <None Include="Assets\Scripts\LabsAssembly.asmdef" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
