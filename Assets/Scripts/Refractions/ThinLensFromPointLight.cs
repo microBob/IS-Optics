@@ -25,6 +25,7 @@ namespace Refractions
         {
             image = GameObject.CreatePrimitive(PrimitiveType.Sphere);
             image.SetActive(false);
+            Destroy(image.GetComponent<SphereCollider>());
             image.transform.localScale = transform.localScale;
         }
 
@@ -33,8 +34,8 @@ namespace Refractions
         {
             _myPos = transform.position;
             _vertDistFromCenterOfLens = _myPos.y - lens.transform.position.y;
-            
-            if (Physics.Raycast(_myPos, emitDir, out RaycastHit hit, Mathf.Infinity))
+
+            if (Physics.Raycast(_myPos, emitDir, out RaycastHit hit, Mathf.Infinity, LayerMask.GetMask("First")))
             {
                 _distToLens = hit.distance;
                 _lensContactPoint = hit.point;
