@@ -26,6 +26,7 @@
             <e p="PlaneMirrorUsingPointLightStraight.cs" t="Include" />
             <e p="SphericalMirrorFromPointLight.cs" t="Include" />
           </e>
+          <e p="MotionAnimator.cs" t="Include" />
           <e p="ParticleDemo" t="Include">
             <e p="R2SelfRender.cs" t="Include" />
             <e p="Rect.cs" t="Include" />

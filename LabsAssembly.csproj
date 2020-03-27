@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\Mirrors\PlaneMirrorUsingPointLight.cs" />
     <Compile Include="Assets\Scripts\Mirrors\PlaneMirrorUsingPointLightStraight.cs" />
     <Compile Include="Assets\Scripts\Mirrors\SphericalMirrorFromPointLight.cs" />
+    <Compile Include="Assets\Scripts\MotionAnimator.cs" />
     <Compile Include="Assets\Scripts\ParticleDemo\R2SelfRender.cs" />
     <Compile Include="Assets\Scripts\ParticleDemo\Rect.cs" />
     <Compile Include="Assets\Scripts\PointLight.cs" />

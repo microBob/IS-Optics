@@ -17,16 +17,23 @@ namespace Refractions
 
         private LensDef _lensDef;
 
-        private bool _render;
+        private GameObject image;
+
 
         // Start is called before the first frame update
         void Start()
         {
+            image = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            image.SetActive(false);
+            image.transform.localScale = transform.localScale;
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
             _myPos = transform.position;
-
             _vertDistFromCenterOfLens = _myPos.y - lens.transform.position.y;
-
-
+            
             if (Physics.Raycast(_myPos, emitDir, out RaycastHit hit, Mathf.Infinity))
             {
                 _distToLens = hit.distance;
@@ -34,50 +41,54 @@ namespace Refractions
 
                 print("Distance to lens: " + _distToLens + "; contact point: " + _lensContactPoint);
 
-                Debug.DrawRay(_myPos, emitDir * _distToLens, Color.cyan, Mathf.Infinity);
+                // Debug.DrawRay(_myPos, emitDir * _distToLens, Color.cyan, Mathf.Infinity);
 
                 lens = hit.collider.gameObject.transform.parent.gameObject;
                 _lensDef = lens.GetComponent<LensDef>();
 
-                _render = true;
+                if (!image.activeSelf)
+                {
+                    image.SetActive(true);
+                }
+
+                Render();
+            }
+            else
+            {
+                if (image.activeSelf)
+                {
+                    image.SetActive(false);
+                }
             }
         }
 
-        // Update is called once per frame
-        void Update()
+        private void Render()
         {
-            if (_render)
-            {
-                // Find focal length
-                float numerator = locIor * _lensDef.radius1 * _lensDef.radius2;
-                float denominator = (locIor - _lensDef.ior) * (_lensDef.radius1 - _lensDef.radius2);
-                float focalLen = numerator / denominator;
-                print("Focal Len: " + focalLen);
+            // Find focal length
+            float numerator = locIor * _lensDef.radius1 * _lensDef.radius2;
+            float denominator = (locIor - _lensDef.ior) * (_lensDef.radius1 - _lensDef.radius2);
+            float focalLen = numerator / denominator;
+            print("Focal Len: " + focalLen);
 
-                // Find image distance
-                numerator = _distToLens * focalLen;
-                denominator = _distToLens - focalLen;
-                float imageDist = numerator / denominator;
-                print("Image Distance: " + imageDist);
-                Debug.DrawRay(_lensContactPoint, Vector3.forward * imageDist, Color.green, Mathf.Infinity);
+            // Find image distance
+            numerator = _distToLens * focalLen;
+            denominator = _distToLens - focalLen;
+            float imageDist = numerator / denominator;
+            print("Image Distance: " + imageDist);
+            // Debug.DrawRay(_lensContactPoint, Vector3.forward * imageDist, Color.green, Mathf.Infinity);
 
-                // Find image height
-                numerator = _vertDistFromCenterOfLens * imageDist;
-                float imageHeight = -1f * numerator / _distToLens;
-                print("Image Height: " + imageHeight);
+            // Find image height
+            numerator = _vertDistFromCenterOfLens * imageDist;
+            float imageHeight = -1f * numerator / _distToLens;
+            print("Image Height: " + imageHeight);
 
-                // Draw this
-                Vector3 imageLoc = lens.transform.position;
-                imageLoc += Vector3.forward * imageDist;
-                imageLoc += Vector3.up * imageHeight;
-                Debug.DrawLine(_lensContactPoint, imageLoc, Color.magenta, Mathf.Infinity);
+            // Draw this
+            Vector3 imageLoc = lens.transform.position;
+            imageLoc += Vector3.forward * imageDist;
+            imageLoc += Vector3.up * imageHeight;
+            // Debug.DrawLine(_lensContactPoint, imageLoc, Color.magenta, Mathf.Infinity);
 
-                GameObject image = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                image.transform.position = imageLoc;
-                image.transform.localScale = transform.localScale;
-
-                _render = false;
-            }
+            image.transform.position = imageLoc;
         }
     }
 }
