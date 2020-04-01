@@ -12,8 +12,6 @@ namespace Mirrors
         private int _reflectionIndex = 0;
         private Vector3 _emissionDir;
         private GameObject _targetMirror;
-        private Transform _targetMirrorTrans;
-        private bool _targetMirrorIsConvex = true;
 
         private bool _reflected = false;
 
@@ -29,7 +27,6 @@ namespace Mirrors
             }
 
             _targetMirror = mirrorHandler.GetMirrors()[_reflectionIndex];
-            _targetMirrorTrans = _targetMirror.transform;
 
             _myTrans = transform;
 
@@ -39,27 +36,18 @@ namespace Mirrors
                 _emissionDir = _myTrans.forward;
             }
 
-            if (Physics.Raycast(_myTrans.position, _emissionDir, out RaycastHit hit, Mathf.Infinity))
-            {
-                if (hit.point.z > _targetMirrorTrans.position.z)
-                {
-                    _targetMirrorIsConvex = false;
-                }
-            }
-
             print("Working on reflection " + _reflectionIndex);
         }
 
         private void Update()
         {
             // PlaneMirrorBehaviour();
-            FindFocalData();
+            Render();
         }
 
-        private void FindFocalData()
+        private void Render()
         {
             // SECTION: initial cast to find focal point direction
-            int convexDir = _targetMirrorIsConvex ? -1 : 1;
             if (!_reflected && Physics.Raycast(_myTrans.position, _emissionDir, out RaycastHit focalPointSeekHit,
                 Mathf.Infinity,
                 mirrorHandler.GetMirrorMask(_reflectionIndex)))
@@ -75,47 +63,28 @@ namespace Mirrors
 
                 Debug.DrawRay(focalPointSeekHit.point, focalPointSeekExitDir, Color.green, Mathf.Infinity);
 
-                // SECTION: second cast to find focal point
-                if (Physics.Raycast(focalPointSeekHit.point, convexDir * focalPointSeekExitDir, out RaycastHit focalPointHit,
+                int convexDir = 1;
+                print("Convex Dir: " + convexDir);
+                RaycastHit focalPointHit;
+                // SECTION: second cast to find focal point (assuming convex, switch to concave if true)
+                if (Physics.Raycast(focalPointSeekHit.point, convexDir * focalPointSeekExitDir,
+                    out focalPointHit,
                     Mathf.Infinity,
                     LayerMask.GetMask(
                         "Second")))
                 {
-                    print("Hit Axis at " + focalPointHit.point);
-                    Debug.DrawRay(focalPointSeekHit.point, focalPointSeekExitDir * (convexDir * focalPointHit.distance),
-                        Color.yellow, Mathf.Infinity);
-
-                    GameObject focalPoint = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                    focalPoint.GetComponent<Renderer>().material.color = Color.yellow;
-                    focalPoint.transform.position = focalPointHit.point;
-                    focalPoint.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
-
-                    // SECTION: third cast to find image point direction
-                    Vector3 imageSeekEmissionDir = (focalPointHit.point - _myTrans.position).normalized;
-                    if (Physics.Raycast(_myTrans.position, imageSeekEmissionDir,
-                        out RaycastHit imageSeekHit, Mathf.Infinity, mirrorHandler.GetMirrorMask(_reflectionIndex)))
+                    FindImage(focalPointHit, focalPointSeekHit, focalPointSeekExitDir, convexDir);
+                }
+                else
+                {
+                    convexDir = -1;
+                    if (Physics.Raycast(focalPointSeekHit.point, convexDir * focalPointSeekExitDir,
+                        out focalPointHit,
+                        Mathf.Infinity,
+                        LayerMask.GetMask(
+                            "Second")))
                     {
-                        print("Hit the mirror at " + imageSeekHit.point);
-                        Vector3 imageSeekNorm = imageSeekHit.normal;
-
-                        Debug.DrawRay(_myTrans.position, imageSeekEmissionDir * imageSeekHit.distance, Color.cyan,
-                            Mathf.Infinity);
-                        Debug.DrawRay(imageSeekHit.point, imageSeekNorm, Color.red, Mathf.Infinity);
-
-                        Vector3 imageSeekExitDir = Quaternion.AngleAxis(180, imageSeekNorm) * -imageSeekEmissionDir;
-
-                        Debug.DrawRay(imageSeekHit.point, imageSeekExitDir, Color.green, Mathf.Infinity);
-
-                        // SECTION: check intersection find image point
-                        if (LineLineIntersection(out Vector3 imagePoint, imageSeekHit.point, convexDir * imageSeekExitDir,
-                            focalPointSeekHit.point, convexDir * focalPointSeekExitDir))
-                        {
-                            Debug.DrawLine(imageSeekHit.point, imagePoint, Color.yellow, Mathf.Infinity);
-                            print("Image located at " + imagePoint);
-                            GameObject image = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                            image.transform.position = imagePoint;
-                            image.transform.localScale = _myTrans.localScale;
-                        }
+                        FindImage(focalPointHit, focalPointSeekHit, focalPointSeekExitDir, convexDir);
                     }
                 }
 
@@ -123,34 +92,47 @@ namespace Mirrors
             }
         }
 
-        private void PlaneMirrorBehaviour()
+        private void FindImage(RaycastHit focalPointHit, RaycastHit focalPointSeekHit, Vector3 focalPointSeekExitDir,
+            int convexDir)
         {
-            if (!_reflected && Physics.Raycast(_myTrans.position, _emissionDir,
-                out RaycastHit hit, Mathf.Infinity, mirrorHandler.GetMirrorMask(_reflectionIndex)))
+            print("Hit Axis at " + focalPointHit.point);
+            Debug.DrawRay(focalPointSeekHit.point, focalPointSeekExitDir * (convexDir * focalPointHit.distance),
+                Color.yellow, Mathf.Infinity);
+
+            GameObject focalPoint = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            focalPoint.GetComponent<Renderer>().material.color = Color.yellow;
+            focalPoint.transform.position = focalPointHit.point;
+            focalPoint.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+
+            // SECTION: third cast to find image point direction
+            Vector3 imageSeekEmissionDir = (focalPointHit.point - _myTrans.position).normalized;
+            if (Physics.Raycast(_myTrans.position, imageSeekEmissionDir,
+                out RaycastHit imageSeekHit, Mathf.Infinity, mirrorHandler.GetMirrorMask(_reflectionIndex)))
             {
-                print("Hit Mirror " + hit.collider.gameObject.name);
+                print("Hit the mirror at " + imageSeekHit.point);
+                Vector3 imageSeekNorm = imageSeekHit.normal;
 
-                Vector3 mirrorNorm = hit.normal;
+                Debug.DrawRay(_myTrans.position, imageSeekEmissionDir * imageSeekHit.distance, Color.cyan,
+                    Mathf.Infinity);
+                Debug.DrawRay(imageSeekHit.point, imageSeekNorm, Color.red, Mathf.Infinity);
 
-                Debug.DrawRay(_myTrans.position, _emissionDir * hit.distance, Color.cyan, Mathf.Infinity);
-                Debug.DrawRay(hit.point, mirrorNorm, Color.red, Mathf.Infinity);
+                Vector3 imageSeekExitDir = Quaternion.AngleAxis(180, imageSeekNorm) * -imageSeekEmissionDir;
 
-                // float incidentAngle = Vector3.Angle(mirrorNorm, -_emissionDir);
+                Debug.DrawRay(imageSeekHit.point, imageSeekExitDir, Color.green, Mathf.Infinity);
 
-                Vector3 exitDir = Quaternion.AngleAxis(180, mirrorNorm) * -_emissionDir;
-
-                Debug.DrawRay(hit.point, exitDir, Color.green, Mathf.Infinity);
-                Debug.DrawRay(hit.point, -exitDir * hit.distance, Color.yellow, Mathf.Infinity);
-
-                Vector3 virtualImagePos = hit.point - exitDir * hit.distance;
-
-                GameObject virtualImage = Instantiate(Resources.Load<GameObject>("Objects/PlaneMirrorPointLight"),
-                    virtualImagePos, Quaternion.identity);
-                PlaneMirrorFromPointLight virtualImageHandler =
-                    virtualImage.GetComponent<PlaneMirrorFromPointLight>();
-                virtualImageHandler.NewInstanceConstructor(_reflectionIndex + 1, exitDir, mirrorHandler);
-
-                _reflected = true;
+                // SECTION: check intersection find image point
+                if (ClosestPointsOnTwoLines(out Vector3 imagePoint, out Vector3 focalSeekPoint,
+                    imageSeekHit.point,
+                    convexDir * imageSeekExitDir,
+                    focalPointSeekHit.point, convexDir * focalPointSeekExitDir))
+                {
+                    print("Image seek point: " + imagePoint + " Focal point seek: " + focalSeekPoint);
+                    Debug.DrawLine(imageSeekHit.point, imagePoint, Color.yellow, Mathf.Infinity);
+                    print("Image located at " + imagePoint);
+                    GameObject image = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                    image.transform.position = imagePoint;
+                    image.transform.localScale = _myTrans.localScale;
+                }
             }
         }
 
@@ -180,11 +162,43 @@ namespace Mirrors
                 intersection = linePoint1 + (lineVec1 * s);
                 return true;
             }
-            else
+
+            intersection = Vector3.zero;
+            return false;
+        }
+
+        //Two non-parallel lines which may or may not touch each other have a point on each line which are closest
+        //to each other. This function finds those two points. If the lines are not parallel, the function 
+        //outputs true, otherwise false.
+        public static bool ClosestPointsOnTwoLines(out Vector3 closestPointLine1, out Vector3 closestPointLine2,
+            Vector3 linePoint1, Vector3 lineVec1, Vector3 linePoint2, Vector3 lineVec2)
+        {
+            closestPointLine1 = Vector3.zero;
+            closestPointLine2 = Vector3.zero;
+
+            float a = Vector3.Dot(lineVec1, lineVec1);
+            float b = Vector3.Dot(lineVec1, lineVec2);
+            float e = Vector3.Dot(lineVec2, lineVec2);
+
+            float d = a * e - b * b;
+
+            //lines are not parallel
+            if (d != 0.0f)
             {
-                intersection = Vector3.zero;
-                return false;
+                Vector3 r = linePoint1 - linePoint2;
+                float c = Vector3.Dot(lineVec1, r);
+                float f = Vector3.Dot(lineVec2, r);
+
+                float s = (b * f - c * e) / d;
+                float t = (a * f - c * b) / d;
+
+                closestPointLine1 = linePoint1 + lineVec1 * s;
+                closestPointLine2 = linePoint2 + lineVec2 * t;
+
+                return true;
             }
+
+            return false;
         }
     }
 }
