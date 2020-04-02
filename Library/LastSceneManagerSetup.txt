@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Mirrors/SphericalMirrors.unity
+- path: Assets/Scenes/Mirrors/PlaneMirrorMaze.unity
   isLoaded: 1
   isActive: 1

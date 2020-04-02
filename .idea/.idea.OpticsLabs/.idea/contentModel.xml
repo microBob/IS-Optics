@@ -19,6 +19,7 @@
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="LabsAssembly.asmdef" t="Include" />
+          <e p="Math3d.cs" t="Include" />
           <e p="Mirrors" t="Include">
             <e p="MirrorHandler.cs" t="Include" />
             <e p="PlaneMirrorFromPointLight.cs" t="Include" />

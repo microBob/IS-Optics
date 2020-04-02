@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Math3d.cs" />
     <Compile Include="Assets\Scripts\Mirrors\MirrorHandler.cs" />
     <Compile Include="Assets\Scripts\Mirrors\PlaneMirrorFromPointLight.cs" />
     <Compile Include="Assets\Scripts\Mirrors\PlaneMirrorUsingPointLight.cs" />

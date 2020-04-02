@@ -310,6 +310,7 @@
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
 "Assets/Scripts/CameraController.cs"
+"Assets/Scripts/Math3d.cs"
 "Assets/Scripts/Mirrors/MirrorHandler.cs"
 "Assets/Scripts/Mirrors/PlaneMirrorFromPointLight.cs"
 "Assets/Scripts/Mirrors/PlaneMirrorUsingPointLight.cs"
