@@ -8,13 +8,13 @@ ModelImporter:
     2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Z Function
+    4300000: ThinConcaveLens
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: No Name
-    second: {fileID: 2100000, guid: a2a378c1054e86c49b01abc6516f5f7e, type: 2}
+    second: {fileID: 2100000, guid: 2629869f4d4d148c2848254c9d57341b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

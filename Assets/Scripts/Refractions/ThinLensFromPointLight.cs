@@ -15,7 +15,7 @@ namespace Refractions
         private Vector3 _lensContactPoint;
         private float _vertDistFromCenterOfLens;
 
-        private LensDef _lensDef;
+        private ThinLensDef _thinLensDef;
 
         private GameObject image;
 
@@ -45,7 +45,7 @@ namespace Refractions
                 // Debug.DrawRay(_myPos, emitDir * _distToLens, Color.cyan, Mathf.Infinity);
 
                 lens = hit.collider.gameObject.transform.parent.gameObject;
-                _lensDef = lens.GetComponent<LensDef>();
+                _thinLensDef = lens.GetComponent<ThinLensDef>();
 
                 if (!image.activeSelf)
                 {
@@ -66,8 +66,8 @@ namespace Refractions
         private void Render()
         {
             // Find focal length
-            float numerator = locIor * _lensDef.radius1 * _lensDef.radius2;
-            float denominator = (locIor - _lensDef.ior) * (_lensDef.radius1 - _lensDef.radius2);
+            float numerator = locIor * _thinLensDef.radius1 * _thinLensDef.radius2;
+            float denominator = (locIor - _thinLensDef.ior) * (_thinLensDef.radius1 - _thinLensDef.radius2);
             float focalLen = numerator / denominator;
             print("Focal Len: " + focalLen);
 

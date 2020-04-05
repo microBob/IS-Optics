@@ -18,13 +18,16 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
+          <e p="IncorporatedParticleImage.cs" t="Include" />
           <e p="LabsAssembly.asmdef" t="Include" />
           <e p="Math3d.cs" t="Include" />
           <e p="Mirrors" t="Include">
             <e p="MirrorHandler.cs" t="Include" />
+            <e p="PlaneMirrorDef.cs" t="Include" />
             <e p="PlaneMirrorFromPointLight.cs" t="Include" />
             <e p="PlaneMirrorUsingPointLight.cs" t="Include" />
             <e p="PlaneMirrorUsingPointLightStraight.cs" t="Include" />
+            <e p="SphericalMirrorDef.cs" t="Include" />
             <e p="SphericalMirrorFromPointLight.cs" t="Include" />
           </e>
           <e p="MotionAnimator.cs" t="Include" />
@@ -43,7 +46,7 @@
             <e p="SeekClosestPointOnCollider.cs" t="Include" />
           </e>
           <e p="Refractions" t="Include">
-            <e p="LensDef.cs" t="Include" />
+            <e p="ThinLensDef.cs" t="Include" />
             <e p="ThinLensFromPointLight.cs" t="Include" />
           </e>
         </e>

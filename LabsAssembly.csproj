@@ -58,11 +58,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\IncorporatedParticleImage.cs" />
     <Compile Include="Assets\Scripts\Math3d.cs" />
     <Compile Include="Assets\Scripts\Mirrors\MirrorHandler.cs" />
+    <Compile Include="Assets\Scripts\Mirrors\PlaneMirrorDef.cs" />
     <Compile Include="Assets\Scripts\Mirrors\PlaneMirrorFromPointLight.cs" />
     <Compile Include="Assets\Scripts\Mirrors\PlaneMirrorUsingPointLight.cs" />
     <Compile Include="Assets\Scripts\Mirrors\PlaneMirrorUsingPointLightStraight.cs" />
+    <Compile Include="Assets\Scripts\Mirrors\SphericalMirrorDef.cs" />
     <Compile Include="Assets\Scripts\Mirrors\SphericalMirrorFromPointLight.cs" />
     <Compile Include="Assets\Scripts\MotionAnimator.cs" />
     <Compile Include="Assets\Scripts\ParticleDemo\R2SelfRender.cs" />
@@ -73,7 +76,7 @@
     <Compile Include="Assets\Scripts\Raycast Labs\LayerMaskLabs.cs" />
     <Compile Include="Assets\Scripts\Raycast Labs\RaycastLabs.cs" />
     <Compile Include="Assets\Scripts\Raycast Labs\SeekClosestPointOnCollider.cs" />
-    <Compile Include="Assets\Scripts\Refractions\LensDef.cs" />
+    <Compile Include="Assets\Scripts\Refractions\ThinLensDef.cs" />
     <Compile Include="Assets\Scripts\Refractions\ThinLensFromPointLight.cs" />
     <None Include="Assets\Scripts\LabsAssembly.asmdef" />
     <Reference Include="UnityEngine.AIModule">
