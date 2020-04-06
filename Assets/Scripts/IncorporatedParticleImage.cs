@@ -43,9 +43,9 @@ public class IncorporatedParticleImage : MonoBehaviour
     // Storage for render point seeking data and objects in scene
     private List<GameObject> _objectsInScene;
     private readonly List<Vector3> _objectPointsToRender = new List<Vector3>();
+    private readonly List<RaycastHit> _interactionRaycastHits = new List<RaycastHit>();
     private GameObject _curTargetObject;
     private Vector3 _curInteractionPoint;
-    private RaycastHit _verifyPointSeek;
     private LayerMask _sceneObjectLayerMask;
     private int _objectPointsIndex;
 
@@ -97,14 +97,14 @@ public class IncorporatedParticleImage : MonoBehaviour
 
                 // Raycast to see if this exact point is accessible from the object
                 bool dontRemoveFlag = Physics.Raycast(_myPos, (_curInteractionPoint - _myPos).normalized,
-                    out _verifyPointSeek,
+                    out RaycastHit verifyPointSeek,
                     Mathf.Infinity, _sceneObjectLayerMask);
 
                 if (dontRemoveFlag)
                 {
                     // yes, this point on another object is accessible
                     print(_myName + ": Found point " + _curInteractionPoint + " accessible");
-                    Debug.DrawRay(_myPos, (_curInteractionPoint - _myPos).normalized * _verifyPointSeek.distance,
+                    Debug.DrawRay(_myPos, (_curInteractionPoint - _myPos).normalized * verifyPointSeek.distance,
                         Color.blue);
                     switch (imageType)
                     {
@@ -112,12 +112,13 @@ public class IncorporatedParticleImage : MonoBehaviour
                             print(_myName + ": is an original object");
                             // check that the new point is the target object
                             if (dontRemoveFlag =
-                                _verifyPointSeek.collider.gameObject.Equals(_curTargetObject))
+                                verifyPointSeek.collider.gameObject.Equals(_curTargetObject))
                             {
                                 // Update points list to the exact point to render with
                                 print(_myName + ": Verified render point, moving to point index " +
                                       (_objectPointsIndex + 1));
-                                _objectPointsToRender[_objectPointsIndex] = _verifyPointSeek.point;
+                                _objectPointsToRender[_objectPointsIndex] = verifyPointSeek.point;
+                                _interactionRaycastHits.Add(verifyPointSeek);
                                 _objectPointsIndex++;
                             }
 
@@ -134,30 +135,31 @@ public class IncorporatedParticleImage : MonoBehaviour
                             }
 
                             // check that the new point's hit (will go through) the source mirror
-                            if (dontRemoveFlag = _verifyPointSeek.collider.gameObject.Equals(sourceSceneObject))
+                            if (dontRemoveFlag = verifyPointSeek.collider.gameObject.Equals(sourceSceneObject))
                             {
                                 print(_myName + ": point " + _curInteractionPoint + " goes through source mirror");
                                 // Raycast a second time from source mirror surface (same target)
-                                Vector3 newSeekDir = (_curInteractionPoint - _verifyPointSeek.point).normalized;
-                                Vector3 newPushedVerifyPointseek = _verifyPointSeek.point + newSeekDir * 0.01f;
-                                if (dontRemoveFlag = Physics.Raycast(newPushedVerifyPointseek,
-                                    newSeekDir, out _verifyPointSeek,
+                                Vector3 newSeekDir = (_curInteractionPoint - verifyPointSeek.point).normalized;
+                                Vector3 pushedSeekOrigin = verifyPointSeek.point + newSeekDir * 0.01f;
+                                if (dontRemoveFlag = Physics.Raycast(pushedSeekOrigin,
+                                    newSeekDir, out RaycastHit postSourceMirrorPointSeek,
                                     Mathf.Infinity, _sceneObjectLayerMask))
                                 {
-                                    Debug.DrawLine(newPushedVerifyPointseek, _verifyPointSeek.point, Color.red,
+                                    Debug.DrawLine(pushedSeekOrigin, postSourceMirrorPointSeek.point, Color.red,
                                         Mathf.Infinity);
-                                    print(_myName + ": second raycast from " + newPushedVerifyPointseek + " to " +
-                                          _verifyPointSeek.point);
+                                    print(_myName + ": second raycast from " + pushedSeekOrigin + " to " +
+                                          postSourceMirrorPointSeek.point);
                                     // Progress forward if the second cast made it to the target (no obstacles)
                                     // 1) ray from source passes through source mirror
                                     // 2) leaving source mirror goes directly to point
                                     if (dontRemoveFlag =
-                                        _verifyPointSeek.collider.gameObject.Equals(
+                                        postSourceMirrorPointSeek.collider.gameObject.Equals(
                                             _curTargetObject))
                                     {
                                         print(_myName + ": point " + _curInteractionPoint +
                                               " found actual hit point on target as virutal image");
-                                        _objectPointsToRender[_objectPointsIndex] = _verifyPointSeek.point;
+                                        _objectPointsToRender[_objectPointsIndex] = postSourceMirrorPointSeek.point;
+                                        _interactionRaycastHits.Add(postSourceMirrorPointSeek);
                                         _objectPointsIndex++;
                                     }
                                     else
@@ -165,13 +167,13 @@ public class IncorporatedParticleImage : MonoBehaviour
                                         print(_myName + ": point " + _curInteractionPoint +
                                               " hit point after source mirror isn't target object. was expecting " +
                                               _curTargetObject.name + " got " +
-                                              _verifyPointSeek.collider.gameObject.name);
+                                              postSourceMirrorPointSeek.collider.gameObject.name);
                                     }
                                 }
                                 else
                                 {
                                     print(_myName + ": point " + _curInteractionPoint +
-                                          "nable to hit after passing source mirror");
+                                          "unable to hit after passing source mirror");
                                 }
                             }
 
@@ -234,19 +236,23 @@ public class IncorporatedParticleImage : MonoBehaviour
 
                 break;
             case Status.PlaneMirrorRendering:
+                RaycastHit curInteractionRaycastHit = _interactionRaycastHits[_objectPointsIndex];
+                
                 print(_myName + ": rendering a plane mirror from " + _myPos + " to " + _curInteractionPoint +
-                      " on mirror " + _verifyPointSeek.collider.gameObject.name);
+                      " on mirror " + curInteractionRaycastHit.collider.gameObject.name);
 
-                Vector3 mirrorNorm = _verifyPointSeek.normal;
+                Vector3 mirrorNorm = curInteractionRaycastHit.normal;
 
                 Vector3 exitDir = Quaternion.AngleAxis(180, mirrorNorm) * -(_curInteractionPoint - _myPos).normalized;
-                
+                float imageDistance = Vector3.Distance(_myPos, _curInteractionPoint);
+
                 Debug.DrawLine(_myPos, _curInteractionPoint, Color.cyan, Mathf.Infinity);
                 Debug.DrawRay(_curInteractionPoint, mirrorNorm, Color.red, Mathf.Infinity);
                 Debug.DrawRay(_curInteractionPoint, exitDir, Color.green, Mathf.Infinity);
-                Debug.DrawRay(_curInteractionPoint, -exitDir * _verifyPointSeek.distance, Color.yellow, Mathf.Infinity);
+                Debug.DrawRay(_curInteractionPoint, -exitDir * imageDistance, Color.yellow,
+                    Mathf.Infinity);
 
-                Vector3 outputImagePos = _curInteractionPoint - exitDir * _verifyPointSeek.distance;
+                Vector3 outputImagePos = _curInteractionPoint - exitDir * imageDistance;
 
 
                 // PlaneMirrorRender(_myPos, _curInteractionPoint,
@@ -262,6 +268,8 @@ public class IncorporatedParticleImage : MonoBehaviour
 
                 GameObject image = Instantiate(Resources.Load<GameObject>("Objects/ParticleImagePoint"), outputImagePos,
                     Quaternion.identity);
+
+                // Give this new virtual image a unique name to be identified by
                 image.name = _myName + " (Virtual image) " + _generatedImageId;
                 _generatedImageId++;
 
@@ -283,47 +291,12 @@ public class IncorporatedParticleImage : MonoBehaviour
             case Status.ThinLensRendering:
                 break;
             case Status.Complete:
+                _objectPointsToRender.Clear();
+                _interactionRaycastHits.Clear();
                 break;
             default:
                 print("Paused with status: " + _status);
                 break;
         }
-    }
-
-
-    private void PlaneMirrorRender(Vector3 sourceOrigin, Vector3 strikePoint, RaycastHit hitData, out Vector3 imagePos,
-        bool withRays = true)
-    {
-        // Vector3 raySource = sourceOrigin;
-        // Vector3 rayDir = strikePoint;
-        //
-        // RaycastHit hit;
-        // do
-        // {
-        //     if (Physics.Raycast(raySource, rayDir, out hit, Mathf.Infinity, layerMask))
-        //     {
-        //         raySource = hit.point;
-        //     }
-        //     else
-        //     {
-        //         break;
-        //     }
-        // } while (hit.collider.gameObject != targetingObject);
-
-        print(_myName + ": rendering with hitData Mirror " + hitData.collider.gameObject.name);
-
-        Vector3 mirrorNorm = hitData.normal;
-
-        Vector3 exitDir = Quaternion.AngleAxis(180, mirrorNorm) * -(strikePoint - sourceOrigin).normalized;
-
-        if (withRays)
-        {
-            Debug.DrawLine(sourceOrigin, strikePoint, Color.cyan, Mathf.Infinity);
-            Debug.DrawRay(hitData.point, mirrorNorm, Color.red, Mathf.Infinity);
-            Debug.DrawRay(hitData.point, exitDir, Color.green, Mathf.Infinity);
-            Debug.DrawRay(hitData.point, -exitDir * hitData.distance, Color.yellow, Mathf.Infinity);
-        }
-
-        imagePos = hitData.point - exitDir * hitData.distance;
     }
 }
