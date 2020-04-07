@@ -44,6 +44,7 @@
             <e p="LayerMaskLabs.cs" t="Include" />
             <e p="RaycastLabs.cs" t="Include" />
             <e p="SeekClosestPointOnCollider.cs" t="Include" />
+            <e p="VirtualImageProblem.cs" t="Include" />
           </e>
           <e p="Refractions" t="Include">
             <e p="ThinLensDef.cs" t="Include" />

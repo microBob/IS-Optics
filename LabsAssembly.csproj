@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Raycast Labs\LayerMaskLabs.cs" />
     <Compile Include="Assets\Scripts\Raycast Labs\RaycastLabs.cs" />
     <Compile Include="Assets\Scripts\Raycast Labs\SeekClosestPointOnCollider.cs" />
+    <Compile Include="Assets\Scripts\Raycast Labs\VirtualImageProblem.cs" />
     <Compile Include="Assets\Scripts\Refractions\ThinLensDef.cs" />
     <Compile Include="Assets\Scripts\Refractions\ThinLensFromPointLight.cs" />
     <None Include="Assets\Scripts\LabsAssembly.asmdef" />
