@@ -328,5 +328,6 @@
 "Assets/Scripts/Raycast Labs/LayerMaskLabs.cs"
 "Assets/Scripts/Raycast Labs/RaycastLabs.cs"
 "Assets/Scripts/Raycast Labs/SeekClosestPointOnCollider.cs"
+"Assets/Scripts/Raycast Labs/VirtualImageProblem.cs"
 "Assets/Scripts/Refractions/ThinLensDef.cs"
 "Assets/Scripts/Refractions/ThinLensFromPointLight.cs"
