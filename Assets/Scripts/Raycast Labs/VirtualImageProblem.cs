@@ -29,6 +29,8 @@ namespace Raycast_Labs
         private Vector3 _direction;
         private Vector3 _seekOrigin;
 
+        private Vector3 _goodPoint;
+
         // Start is called before the first frame update
         void Start()
         {
@@ -130,11 +132,38 @@ namespace Raycast_Labs
 
                 MeshCollider meshCollider = seekObject.AddComponent<MeshCollider>();
                 meshCollider.convex = true;
-                
-                _status = Status.CompletedSuccess;
+                // meshCollider.sharedMesh = seekMesh;
+
+                _status = Status.SeekingTarget;
+
+                // SECTION: create particle system and check for points
+                GameObject psObject = Instantiate(Resources.Load<GameObject>("Simulations/ViewableSurfaceSeekPS"));
+
+                if (psObject != null)
+                {
+                    psObject.transform.position = sourceMirror.transform.position;
+                    psObject.transform.rotation = Quaternion.LookRotation(sourceMirror.transform.forward);
+                    Vector3 sourceMirrorTransformLocalScale = sourceMirror.transform.localScale;
+                    psObject.transform.localScale = new Vector3(sourceMirrorTransformLocalScale.x / 100,
+                        sourceMirrorTransformLocalScale.y / 100, sourceMirrorTransformLocalScale.z / 300);
+
+                    VirtualImageProblemParticleSystemHandler particleSystemHandler =
+                        psObject.GetComponent<VirtualImageProblemParticleSystemHandler>();
+
+                    particleSystemHandler.targetObject = targetObejct;
+                    particleSystemHandler.sourceLight = gameObject;
+                    particleSystemHandler.validVolume = meshCollider;
+                }
+
+
+                // VirtualImageProblemColliderHandler colliderHandler =
+                //     seekObject.AddComponent<VirtualImageProblemColliderHandler>();
+                // colliderHandler.sourceObject = gameObject;
+                // colliderHandler.targetObject = targetObejct;
             }
         }
 
+        //SECTION: private functions
         private void VertListToString(Vector3[] list)
         {
             foreach (Vector3 vert in list)
@@ -153,6 +182,26 @@ namespace Raycast_Labs
             }
 
             print("\n");
+        }
+
+        //SECTION: public
+        public void SetStatusComplete(bool success = true)
+        {
+            if (success)
+            {
+                _status = Status.CompletedSuccess;
+            }
+            else
+            {
+                _status = Status.CompletedFailed;
+            }
+        }
+
+        public void SetGoodPoint(Vector3 point)
+        {
+            _goodPoint = point;
+            Debug.DrawLine(_myPos, _goodPoint, Color.magenta, Mathf.Infinity);
+            print("Good Point: " + _goodPoint);
         }
     }
 }
