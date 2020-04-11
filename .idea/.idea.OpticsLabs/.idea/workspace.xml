@@ -2,32 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c9dcb34-c645-4c25-8257-5dca8332fb72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/IncorporatedParticleOptics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IncorporatedParticleOptics.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/IncorporatedParticleImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/IncorporatedParticleImage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/SeekParticleSystemHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/SeekParticleSystemHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ParticleLabs/VirtualImageParticleSystemHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ParticleLabs/VirtualImageParticleSystemHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Raycast Labs/VirtualImageProblem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Raycast Labs/VirtualImageProblem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabsAssembly.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LabsAssembly.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/fd8176-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/fd8176-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/2dcdb6-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/2dcdb6-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/gfu/cache/repoinfo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/repoinfo.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/6f/6fae0657e3f2d429d913a286bbc43df2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/6f/6fae0657e3f2d429d913a286bbc43df2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/99/993435577c4d847e4935364f79c3a156" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/99/993435577c4d847e4935364f79c3a156" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/d1/d1598ae9cb5f5467788578c1cabd6df3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d1/d1598ae9cb5f5467788578c1cabd6df3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/eb/eb83b7bf7a0904956aa1b33d078b2e27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/eb/eb83b7bf7a0904956aa1b33d078b2e27.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/LabsAssembly.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/LabsAssembly.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +103,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/VirtualImageParticleSystemHandler copy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleLabs/VirtualImageParticleSystemHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Raycast Labs/VirtualImageProblem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/IncorporatedParticleImage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/SeekParticleSystemHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/IncorporatedParticleImage.cs" />
       </list>
     </option>
   </component>
@@ -192,7 +189,7 @@
       <workItem from="1586491494771" duration="553000" />
       <workItem from="1586499572607" duration="2262000" />
       <workItem from="1586544529509" duration="997000" />
-      <workItem from="1586546220719" duration="10012000" />
+      <workItem from="1586546220719" duration="13241000" />
     </task>
     <servers />
   </component>

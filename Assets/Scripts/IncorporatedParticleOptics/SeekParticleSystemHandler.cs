@@ -46,13 +46,16 @@ namespace IncorporatedParticleOptics
                     continue;
                 }
 
-                if (validVolume != null)
+                if (sourceImageObject != null)
                 {
                     if (other.Equals(sourceImageObject))
                     {
                         break;
                     }
+                }
 
+                if (validVolume != null)
+                {
                     if (!IsPointWithinCollider(validVolume, curPoint))
                     {
                         continue;

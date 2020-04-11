@@ -86,253 +86,137 @@ namespace IncorporatedParticleOptics
             {
                 case Status.SeekingPoints: // Look for points to render to
                     // Change how this is done depending on the image type
-                    switch (imageType)
+                    if (imageType == ImageType.OriginalObject || imageType == ImageType.MirrorRealImage)
                     {
-                        case ImageType.OriginalObject:
-                            // Generate coresponding particle system
-                            _seekParticleSystem =
-                                Instantiate(Resources.Load<GameObject>("Simulations/OriginalObjectSurfaceSeekPS"));
+                        // Generate corresponding particle system
+                        _seekParticleSystem =
+                            Instantiate(Resources.Load<GameObject>("Simulations/OriginalObjectSurfaceSeekPS"));
 
-                            if (_seekParticleSystem != null)
-                            {
-                                // Set transforms to match this object
-                                _seekParticleSystem.transform.position = _myPos;
-                                _seekParticleSystem.transform.localScale = transform.localScale;
+                        if (_seekParticleSystem != null)
+                        {
+                            // Set transforms to match this object
+                            _seekParticleSystem.transform.position = _myPos;
+                            _seekParticleSystem.transform.localScale = transform.localScale;
 
-                                // set it's source to this object
-                                SeekParticleSystemHandler seekHandler =
-                                    _seekParticleSystem.GetComponent<SeekParticleSystemHandler>();
-                                seekHandler.sourceLight = gameObject;
-                            }
-
-                            break;
-                        case ImageType.MirrorVirtualImage:
-                            // Get border verts
-                            Mesh sourceMirrorMesh = sourceSceneObject.GetComponent<MeshFilter>().mesh;
-                            Vector3[] verts = sourceMirrorMesh.vertices;
-
-                            print("Full list of Verts (" + verts.Length + "):\n");
-                            VertListToString(verts);
-
-                            // SECTION: only unique
-                            verts = verts.ToList().Distinct().ToArray();
-
-                            print("Only unique verts (" + verts.Length + "):\n");
-                            VertListToString(verts);
-
-                            // SECTION: convert to world space
-                            for (int i = 0; i < verts.Length; i++)
-                            {
-                                verts[i] = sourceSceneObject.transform.TransformPoint(verts[i]);
-                            }
-
-                            print("Transformed unique verts (" + verts.Length + "):\n");
-                            VertListToString(verts);
-
-                            // create seek mesh verts, set 0 -> myPos
-                            Vector3[] newVerts = new Vector3[verts.Length + 1];
-
-                            newVerts[0] = _myPos;
-
-                            for (int i = 1; i < newVerts.Length; i++)
-                            {
-                                newVerts[i] = _myPos + (verts[i - 1] - _myPos).normalized * 15;
-                            }
-
-                            print("New mesh verts:");
-                            VertListToString(newVerts);
-
-                            // assign triangles from newVerts
-                            int[] tris = new int[(newVerts.Length - 1) * 3];
-                            for (int i = 0; i < newVerts.Length - 1; i++)
-                            {
-                                tris[i * 3] = i + 1;
-
-                                if (i + 2 == newVerts.Length)
-                                {
-                                    tris[i * 3 + 1] = 1;
-                                }
-                                else
-                                {
-                                    tris[i * 3 + 1] = i + 2;
-                                }
-
-                                tris[i * 3 + 2] = 0;
-                            }
-
-                            print("Tris list:");
-                            IntListToString(tris);
-
-                            // create gameobject from verts and tris
-                            GameObject seekObject = new GameObject(gameObject.name + "VirtualImageSeekCast");
-                            Mesh seekMesh = new Mesh();
-
-                            seekMesh.vertices = newVerts;
-                            seekMesh.triangles = tris;
-                            seekMesh.RecalculateNormals();
-                            seekMesh.RecalculateBounds();
-
-                            MeshFilter meshFilter = seekObject.AddComponent<MeshFilter>();
-                            meshFilter.mesh = seekMesh;
-
-                            MeshCollider meshCollider = seekObject.AddComponent<MeshCollider>();
-                            meshCollider.convex = true;
-
-                            // create particle system and check for points
-                            _seekParticleSystem =
-                                Instantiate(Resources.Load<GameObject>("Simulations/ViewableSurfaceSeekPS"));
-
-                            if (_seekParticleSystem != null)
-                            {
-                                Vector3 sourceSceneObjectPos = sourceSceneObject.transform.position;
-                                _seekParticleSystem.transform.position = sourceSceneObjectPos;
-
-                                Vector3 sourceSceneObjectForward = sourceSceneObject.transform.forward;
-                                Vector3 dirToSourceObject =
-                                    (sourceSceneObjectPos - _myPos).normalized;
-                                float dot = Vector3.Dot(dirToSourceObject, sourceSceneObjectForward);
-                                dot = dot > 0 ? 1 : -1;
-                                _seekParticleSystem.transform.rotation =
-                                    Quaternion.LookRotation(sourceSceneObjectForward * dot);
-
-                                Vector3 sourceMirrorTransformLocalScale = sourceSceneObject.transform.localScale;
-                                _seekParticleSystem.transform.localScale = new Vector3(
-                                    sourceMirrorTransformLocalScale.x / 100,
-                                    sourceMirrorTransformLocalScale.y / 100,
-                                    sourceMirrorTransformLocalScale.z / 300);
-
-                                SeekParticleSystemHandler particleSystemHandler =
-                                    _seekParticleSystem.GetComponent<SeekParticleSystemHandler>();
-
-                                particleSystemHandler.sourceLight = gameObject;
-                                particleSystemHandler.sourceImageObject = sourceSceneObject;
-                                particleSystemHandler.validVolume = meshCollider;
-                            }
-
-                            break;
-                        default:
-                            print(_myName + ": has unknown imageType: " + imageType);
-                            break;
+                            // set it's source to this object
+                            SeekParticleSystemHandler seekHandler =
+                                _seekParticleSystem.GetComponent<SeekParticleSystemHandler>();
+                            seekHandler.sourceLight = gameObject;
+                        }
                     }
+                    else if (imageType == ImageType.MirrorVirtualImage)
+                    {
+                        // Get border verts
+                        Mesh sourceMirrorMesh = sourceSceneObject.GetComponent<MeshFilter>().mesh;
+                        Vector3[] verts = sourceMirrorMesh.vertices;
 
+                        // print("Full list of Verts (" + verts.Length + "):\n");
+                        // VertListToString(verts);
+
+                        // SECTION: only unique
+                        verts = verts.ToList().Distinct().ToArray();
+
+                        // print("Only unique verts (" + verts.Length + "):\n");
+                        // VertListToString(verts);
+
+                        // SECTION: convert to world space
+                        for (int i = 0; i < verts.Length; i++)
+                        {
+                            verts[i] = sourceSceneObject.transform.TransformPoint(verts[i]);
+                        }
+
+                        // print("Transformed unique verts (" + verts.Length + "):\n");
+                        // VertListToString(verts);
+
+                        // create seek mesh verts, set 0 -> myPos
+                        Vector3[] newVerts = new Vector3[verts.Length + 1];
+
+                        newVerts[0] = _myPos;
+
+                        for (int i = 1; i < newVerts.Length; i++)
+                        {
+                            newVerts[i] = _myPos + (verts[i - 1] - _myPos).normalized * 15;
+                        }
+
+                        // print("New mesh verts:");
+                        // VertListToString(newVerts);
+
+                        // assign triangles from newVerts
+                        int[] tris = new int[(newVerts.Length - 1) * 3];
+                        for (int i = 0; i < newVerts.Length - 1; i++)
+                        {
+                            tris[i * 3] = i + 1;
+
+                            if (i + 2 == newVerts.Length)
+                            {
+                                tris[i * 3 + 1] = 1;
+                            }
+                            else
+                            {
+                                tris[i * 3 + 1] = i + 2;
+                            }
+
+                            tris[i * 3 + 2] = 0;
+                        }
+
+                        // print("Tris list:");
+                        // IntListToString(tris);
+
+                        // create gameobject from verts and tris
+                        GameObject seekObject = new GameObject(gameObject.name + "VirtualImageSeekCast");
+                        Mesh seekMesh = new Mesh();
+
+                        seekMesh.vertices = newVerts;
+                        seekMesh.triangles = tris;
+                        seekMesh.RecalculateNormals();
+                        seekMesh.RecalculateBounds();
+
+                        MeshFilter meshFilter = seekObject.AddComponent<MeshFilter>();
+                        meshFilter.mesh = seekMesh;
+
+                        MeshCollider meshCollider = seekObject.AddComponent<MeshCollider>();
+                        meshCollider.convex = true;
+
+                        // create particle system and check for points
+                        _seekParticleSystem =
+                            Instantiate(Resources.Load<GameObject>("Simulations/ViewableSurfaceSeekPS"));
+
+                        if (_seekParticleSystem != null)
+                        {
+                            Vector3 sourceSceneObjectPos = sourceSceneObject.transform.position;
+                            _seekParticleSystem.transform.position = sourceSceneObjectPos;
+
+                            Vector3 sourceSceneObjectForward = sourceSceneObject.transform.forward;
+                            Vector3 dirToSourceObject =
+                                (sourceSceneObjectPos - _myPos).normalized;
+                            float dot = Vector3.Dot(dirToSourceObject, sourceSceneObjectForward);
+                            dot = dot > 0 ? 1 : -1;
+                            _seekParticleSystem.transform.rotation =
+                                Quaternion.LookRotation(sourceSceneObjectForward * dot);
+
+                            Vector3 sourceMirrorTransformLocalScale = sourceSceneObject.transform.localScale;
+                            _seekParticleSystem.transform.localScale = new Vector3(
+                                sourceMirrorTransformLocalScale.x / 100,
+                                sourceMirrorTransformLocalScale.y / 100,
+                                sourceMirrorTransformLocalScale.z / 300);
+
+                            SeekParticleSystemHandler particleSystemHandler =
+                                _seekParticleSystem.GetComponent<SeekParticleSystemHandler>();
+
+                            particleSystemHandler.sourceLight = gameObject;
+                            particleSystemHandler.sourceImageObject = sourceSceneObject;
+                            particleSystemHandler.validVolume = meshCollider;
+                        }
+                    }
+                    else
+                    {
+                        print(_myName + ": has unknown imageType: " + imageType);
+                    }
 
                     _status = Status.WaitingForPointSeek;
                     _objectPointsIndex = 0;
 
                     break;
-                // case Status.WaitingForPointSeek: // check that these points are physically valid
-                //     // Get the appropriate data for the current object indexed
-                //     _curInteractionPoint = _objectPointsToRender[_objectPointsIndex];
-                //     _curTargetObject = _objectsInScene[_objectPointsIndex];
-                //     print(_myName + ": Verifying point: " + _curInteractionPoint);
-                //
-                //     // SECTION: rewrite for virtual images
-                //
-                //     // Raycast to see if this exact point is accessible from the object
-                //     bool dontRemoveFlag = Physics.Raycast(_myPos, (_curInteractionPoint - _myPos).normalized,
-                //         out RaycastHit verifyPointSeek,
-                //         Mathf.Infinity, _sceneObjectLayerMask);
-                //
-                //     if (dontRemoveFlag)
-                //     {
-                //         // yes, this point on another object is accessible
-                //         print(_myName + ": Found point " + _curInteractionPoint + " accessible");
-                //         Debug.DrawRay(_myPos, (_curInteractionPoint - _myPos).normalized * verifyPointSeek.distance,
-                //             Color.blue);
-                //         switch (imageType)
-                //         {
-                //             case ImageType.OriginalObject:
-                //                 print(_myName + ": is an original object");
-                //                 // check that the new point is the target object
-                //                 if (dontRemoveFlag =
-                //                     verifyPointSeek.collider.gameObject.Equals(_curTargetObject))
-                //                 {
-                //                     // Update points list to the exact point to render with
-                //                     print(_myName + ": Verified render point, moving to point index " +
-                //                           (_objectPointsIndex + 1));
-                //                     _objectPointsToRender[_objectPointsIndex] = verifyPointSeek.point;
-                //                     _interactionRaycastHits.Add(verifyPointSeek);
-                //                     _objectPointsIndex++;
-                //                 }
-                //
-                //                 break;
-                //             case ImageType.MirrorVirtualImage:
-                //                 print(_myName + ": is a virtual image");
-                //
-                //
-                //                 // Exit early if target object is source mirror
-                //                 if (sourceSceneObject.Equals(_curTargetObject))
-                //                 {
-                //                     print(_myName + ": point " + _curInteractionPoint +
-                //                           " is source mirror, moving to next");
-                //                     dontRemoveFlag = false;
-                //                     break;
-                //                 }
-                //
-                //                 // check that the new point's hit (will go through) the source mirror
-                //                 if (dontRemoveFlag = verifyPointSeek.collider.gameObject.Equals(sourceSceneObject))
-                //                 {
-                //                     print(_myName + ": point " + _curInteractionPoint + " goes through source mirror");
-                //                     // Raycast a second time from source mirror surface (same target)
-                //                     Vector3 newSeekDir = (_curInteractionPoint - verifyPointSeek.point).normalized;
-                //                     Vector3 pushedSeekOrigin = verifyPointSeek.point + newSeekDir * 0.01f;
-                //                     if (dontRemoveFlag = Physics.Raycast(pushedSeekOrigin,
-                //                         newSeekDir, out RaycastHit postSourceMirrorPointSeek,
-                //                         Mathf.Infinity, _sceneObjectLayerMask))
-                //                     {
-                //                         Debug.DrawLine(pushedSeekOrigin, postSourceMirrorPointSeek.point, Color.red,
-                //                             Mathf.Infinity);
-                //                         print(_myName + ": second raycast from " + pushedSeekOrigin + " to " +
-                //                               postSourceMirrorPointSeek.point);
-                //                         // Progress forward if the second cast made it to the target (no obstacles)
-                //                         // 1) ray from source passes through source mirror
-                //                         // 2) leaving source mirror goes directly to point
-                //                         if (dontRemoveFlag =
-                //                             postSourceMirrorPointSeek.collider.gameObject.Equals(
-                //                                 _curTargetObject))
-                //                         {
-                //                             print(_myName + ": point " + _curInteractionPoint +
-                //                                   " found actual hit point on target as virutal image");
-                //                             _objectPointsToRender[_objectPointsIndex] = postSourceMirrorPointSeek.point;
-                //                             _interactionRaycastHits.Add(postSourceMirrorPointSeek);
-                //                             _objectPointsIndex++;
-                //                         }
-                //                         else
-                //                         {
-                //                             print(_myName + ": point " + _curInteractionPoint +
-                //                                   " hit point after source mirror isn't target object. was expecting " +
-                //                                   _curTargetObject.name + " got " +
-                //                                   postSourceMirrorPointSeek.collider.gameObject.name);
-                //                         }
-                //                     }
-                //                     else
-                //                     {
-                //                         print(_myName + ": point " + _curInteractionPoint +
-                //                               "unable to hit after passing source mirror");
-                //                     }
-                //                 }
-                //
-                //                 break;
-                //         }
-                //     }
-                //
-                //     // Remove this point and object from the list (it's not interacting with this particle)
-                //     if (!dontRemoveFlag)
-                //     {
-                //         print(_myName + ": removing point " + _curInteractionPoint);
-                //         _objectPointsToRender.RemoveAt(_objectPointsIndex);
-                //         _objectsInScene.RemoveAt(_objectPointsIndex);
-                //     }
-                //
-                //     // Once all points are handled, move on to rendering
-                //     if (_objectPointsIndex.Equals(_objectPointsToRender.Count))
-                //     {
-                //         _objectPointsIndex = 0;
-                //         _status = Status.PreRendering;
-                //         print(_myName + ": all points have been verified, moving to pre-rendering");
-                //     }
-                //
-                //     break;
                 case Status.PreRendering: // collect data and render with appropriate method
                     // Destroy seek particle system (it's done with its work)
                     Destroy(_seekParticleSystem);
@@ -374,7 +258,6 @@ namespace IncorporatedParticleOptics
                     break;
                 case Status.PlaneMirrorRendering:
                     ObjectSeekHits curSeekHit = _objectSeekHits[_objectPointsIndex];
-                    print("Count of interaction points: "+_curInteractionPoints.Count);
                     Vector3 curInteractionVector3 = _curInteractionPoints[0];
 
                     print(_myName + ": rendering a plane mirror from " + _myPos + " to " + _curInteractionPoints +
@@ -393,16 +276,6 @@ namespace IncorporatedParticleOptics
                         Mathf.Infinity);
 
                     Vector3 outputImagePos = curInteractionVector3 - exitDir * imageDistance;
-
-
-                    // PlaneMirrorRender(_myPos, _curInteractionPoint,
-                    //     _verifyPointSeek, out Vector3 outputImagePos);
-
-                    // GameObject image = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                    // image.transform.position = outputImagePos;
-                    // image.transform.localScale = transform.localScale;
-                    //
-                    // _status = Status.Idle;
 
                     print(_myName + ": Found image location at " + outputImagePos);
 
@@ -429,6 +302,75 @@ namespace IncorporatedParticleOptics
 
                     break;
                 case Status.SphericalMirrorRendering:
+                    ObjectSeekHits curSeekHits = _objectSeekHits[_objectPointsIndex];
+
+                    print(_myName + ": rendering a spherical mirror from " + _myPos + " to " +
+                          _curInteractionPoints[0] +
+                          " on mirror " + curSeekHits.ObjName);
+
+                    Vector3[] lineOuts = new Vector3[2];
+                    for (int i = 0; i < 2; i++)
+                    {
+                        mirrorNorm = curSeekHits.HitNormals[i];
+                        lineOuts[i] = Quaternion.AngleAxis(180, mirrorNorm) *
+                                      -(_curInteractionPoints[i] - _myPos).normalized;
+
+                        // Draw rays to visualize
+                        Debug.DrawLine(_myPos, _curInteractionPoints[i], Color.cyan, Mathf.Infinity);
+                        Debug.DrawRay(_curInteractionPoints[i], mirrorNorm, Color.red, Mathf.Infinity);
+                        Debug.DrawRay(_curInteractionPoints[i], lineOuts[i], Color.green, Mathf.Infinity);
+                    }
+
+                    // Check for intersection
+                    if (Math3d.ClosestPointsOnTwoLines(out Vector3 cp1, out Vector3 cp2, _curInteractionPoints[0],
+                        lineOuts[0], _curInteractionPoints[1], lineOuts[1]))
+                    {
+                        if (Vector3.Distance(cp1, cp2) < 0.1f)
+                        {
+                            Vector3 avgVec3 = (cp1 + cp2) / 2;
+                            print(_myName + ": Found image location at " + avgVec3);
+
+
+                            image = Instantiate(Resources.Load<GameObject>("Objects/ParticleImagePoint"),
+                                avgVec3,
+                                Quaternion.identity);
+
+                            // Give this new virtual image a unique name to be identified by
+                            image.name = _myName + " (Virtual image) " + _generatedImageId;
+                            _generatedImageId++;
+
+                            incorporatedParticleImage =
+                                image.GetComponent<IncorporatedParticleImage>();
+
+                            // Calculate if this is a virtual image (opposite side of mirror) or real (same side)
+                            Vector3 targetPos = _curTargetObject.transform.position;
+                            int sourceDot = Vector3.Dot(_myPos, targetPos) > 0 ? 1 : -1;
+                            int imageDot = Vector3.Dot(avgVec3, targetPos) > 0 ? 1 : -1;
+
+                            if (sourceDot != imageDot)
+                            {
+                                incorporatedParticleImage.imageType = ImageType.MirrorVirtualImage;
+                            }
+                            else
+                            {
+                                incorporatedParticleImage.imageType = ImageType.MirrorRealImage;
+                            }
+
+                            incorporatedParticleImage.sourceSceneObject = _curTargetObject;
+
+                            print(_myName + ": created virtual image of " + _curTargetObject.name + " with name " +
+                                  image.name);
+                        }
+                        else
+                        {
+                            print("Lines to not interset well. Distance: " + Vector3.Distance(cp1, cp2));
+                        }
+                    }
+                    else
+                    {
+                        print("failed to find intersection point");
+                    }
+
                     break;
                 case Status.ThinLensRendering:
                     break;
@@ -477,7 +419,7 @@ namespace IncorporatedParticleOptics
 
         public void AddHitObjectNameAndNormal(string objName, List<Vector3> norms)
         {
-            _objectSeekHits.Add(new ObjectSeekHits(objName,norms));
+            _objectSeekHits.Add(new ObjectSeekHits(objName, norms));
         }
 
         public void SetStatus(Status status)
