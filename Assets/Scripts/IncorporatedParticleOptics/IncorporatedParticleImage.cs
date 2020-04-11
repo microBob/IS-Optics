@@ -37,12 +37,12 @@ namespace IncorporatedParticleOptics
     public struct ObjectSeekHits
     {
         public readonly string ObjName;
-        public Vector3 HitNormal;
+        public List<Vector3> HitNormals;
 
-        public ObjectSeekHits(string objName, Vector3 norm)
+        public ObjectSeekHits(string objName, List<Vector3> norms)
         {
             ObjName = objName;
-            HitNormal = norm;
+            HitNormals = norms;
         }
     }
 
@@ -58,10 +58,10 @@ namespace IncorporatedParticleOptics
 
         // Storage for render point seeking data and objects in scene
         private readonly List<GameObject> _objectsInScene = new List<GameObject>();
-        private readonly List<Vector3> _objectPointsToRender = new List<Vector3>();
+        private readonly List<List<Vector3>> _objectPointsToRender = new List<List<Vector3>>();
         private readonly List<ObjectSeekHits> _objectSeekHits = new List<ObjectSeekHits>();
         private GameObject _curTargetObject;
-        private Vector3 _curInteractionPoint;
+        private List<Vector3> _curInteractionPoints;
         private GameObject _seekParticleSystem;
         private LayerMask _sceneObjectLayerMask;
         private int _objectPointsIndex;
@@ -107,7 +107,7 @@ namespace IncorporatedParticleOptics
 
                             break;
                         case ImageType.MirrorVirtualImage:
-                            // SECTION: get border verts
+                            // Get border verts
                             Mesh sourceMirrorMesh = sourceSceneObject.GetComponent<MeshFilter>().mesh;
                             Vector3[] verts = sourceMirrorMesh.vertices;
 
@@ -129,13 +129,7 @@ namespace IncorporatedParticleOptics
                             print("Transformed unique verts (" + verts.Length + "):\n");
                             VertListToString(verts);
 
-                            // SECTION: Debug with rays
-                            // foreach (Vector3 vert in verts)
-                            // {
-                            //     Debug.DrawRay(_myPos, (vert - _myPos).normalized * 15, Color.cyan, Mathf.Infinity);
-                            // }
-
-                            // SECTION: create seek mesh verts, set 0 -> myPos
+                            // create seek mesh verts, set 0 -> myPos
                             Vector3[] newVerts = new Vector3[verts.Length + 1];
 
                             newVerts[0] = _myPos;
@@ -148,13 +142,7 @@ namespace IncorporatedParticleOptics
                             print("New mesh verts:");
                             VertListToString(newVerts);
 
-                            // SECTION: Debug new verts with lines
-                            // foreach (Vector3 vert in newVerts)
-                            // {
-                            //     Debug.DrawLine(_myPos, vert, Color.magenta, Mathf.Infinity);
-                            // }
-
-                            // SECTION: assign triangles from newVerts
+                            // assign triangles from newVerts
                             int[] tris = new int[(newVerts.Length - 1) * 3];
                             for (int i = 0; i < newVerts.Length - 1; i++)
                             {
@@ -175,7 +163,7 @@ namespace IncorporatedParticleOptics
                             print("Tris list:");
                             IntListToString(tris);
 
-                            // SECTION: create gameobject from verts and tris
+                            // create gameobject from verts and tris
                             GameObject seekObject = new GameObject(gameObject.name + "VirtualImageSeekCast");
                             Mesh seekMesh = new Mesh();
 
@@ -184,16 +172,13 @@ namespace IncorporatedParticleOptics
                             seekMesh.RecalculateNormals();
                             seekMesh.RecalculateBounds();
 
-                            // seekObject.AddComponent<MeshRenderer>();
-
                             MeshFilter meshFilter = seekObject.AddComponent<MeshFilter>();
                             meshFilter.mesh = seekMesh;
 
                             MeshCollider meshCollider = seekObject.AddComponent<MeshCollider>();
                             meshCollider.convex = true;
-                            // meshCollider.sharedMesh = seekMesh;
 
-                            // SECTION: create particle system and check for points
+                            // create particle system and check for points
                             _seekParticleSystem =
                                 Instantiate(Resources.Load<GameObject>("Simulations/ViewableSurfaceSeekPS"));
 
@@ -361,23 +346,23 @@ namespace IncorporatedParticleOptics
 
                     // Get the appropriate data for the current object indexed
                     _curTargetObject = _objectsInScene[_objectPointsIndex];
-                    _curInteractionPoint = _objectPointsToRender[_objectPointsIndex];
-                    print(_myName + ": Rendering point: " + _curInteractionPoint);
+                    _curInteractionPoints = _objectPointsToRender[_objectPointsIndex];
+                    print(_myName + ": Rendering point: " + _curInteractionPoints);
 
                     // Check the type of object, and render
                     if (_curTargetObject.GetComponent<PlaneMirrorDef>() != null)
                     {
-                        print(_myName + ": point " + _curInteractionPoint + " is a plane mirror! Rendering...");
+                        print(_myName + ": point " + _curInteractionPoints + " is a plane mirror! Rendering...");
                         _status = Status.PlaneMirrorRendering;
                     }
                     else if (_curTargetObject.GetComponent<SphericalMirrorDef>() != null)
                     {
-                        print(_myName + ": point " + _curInteractionPoint + " is a spherical mirror! Rendering...");
+                        print(_myName + ": point " + _curInteractionPoints + " is a spherical mirror! Rendering...");
                         _status = Status.SphericalMirrorRendering;
                     }
                     else if (_curTargetObject.GetComponent<ThinLensDef>() != null)
                     {
-                        print(_myName + ": point " + _curInteractionPoint + " is a thin lens! Rendering...");
+                        print(_myName + ": point " + _curInteractionPoints + " is a thin lens! Rendering...");
                         _status = Status.ThinLensRendering;
                     }
                     else // WTF?
@@ -389,23 +374,25 @@ namespace IncorporatedParticleOptics
                     break;
                 case Status.PlaneMirrorRendering:
                     ObjectSeekHits curSeekHit = _objectSeekHits[_objectPointsIndex];
+                    print("Count of interaction points: "+_curInteractionPoints.Count);
+                    Vector3 curInteractionVector3 = _curInteractionPoints[0];
 
-                    print(_myName + ": rendering a plane mirror from " + _myPos + " to " + _curInteractionPoint +
+                    print(_myName + ": rendering a plane mirror from " + _myPos + " to " + _curInteractionPoints +
                           " on mirror " + curSeekHit.ObjName);
 
-                    Vector3 mirrorNorm = curSeekHit.HitNormal;
+                    Vector3 mirrorNorm = curSeekHit.HitNormals[0];
 
                     Vector3 exitDir = Quaternion.AngleAxis(180, mirrorNorm) *
-                                      -(_curInteractionPoint - _myPos).normalized;
-                    float imageDistance = Vector3.Distance(_myPos, _curInteractionPoint);
+                                      -(curInteractionVector3 - _myPos).normalized;
+                    float imageDistance = Vector3.Distance(_myPos, curInteractionVector3);
 
-                    Debug.DrawLine(_myPos, _curInteractionPoint, Color.cyan, Mathf.Infinity);
-                    Debug.DrawRay(_curInteractionPoint, mirrorNorm, Color.red, Mathf.Infinity);
-                    Debug.DrawRay(_curInteractionPoint, exitDir, Color.green, Mathf.Infinity);
-                    Debug.DrawRay(_curInteractionPoint, -exitDir * imageDistance, Color.yellow,
+                    Debug.DrawLine(_myPos, curInteractionVector3, Color.cyan, Mathf.Infinity);
+                    Debug.DrawRay(curInteractionVector3, mirrorNorm, Color.red, Mathf.Infinity);
+                    Debug.DrawRay(curInteractionVector3, exitDir, Color.green, Mathf.Infinity);
+                    Debug.DrawRay(curInteractionVector3, -exitDir * imageDistance, Color.yellow,
                         Mathf.Infinity);
 
-                    Vector3 outputImagePos = _curInteractionPoint - exitDir * imageDistance;
+                    Vector3 outputImagePos = curInteractionVector3 - exitDir * imageDistance;
 
 
                     // PlaneMirrorRender(_myPos, _curInteractionPoint,
@@ -482,15 +469,15 @@ namespace IncorporatedParticleOptics
             return _objectsInScene;
         }
 
-        public void AddObjectsInSceneAndRenderPoints(GameObject sceneObject, Vector3 point)
+        public void AddObjectsInSceneAndRenderPoints(GameObject sceneObject, List<Vector3> points)
         {
             _objectsInScene.Add(sceneObject);
-            _objectPointsToRender.Add(point);
+            _objectPointsToRender.Add(points);
         }
 
-        public void AddHitObjectNameAndNormal(string objName, Vector3 norm)
+        public void AddHitObjectNameAndNormal(string objName, List<Vector3> norms)
         {
-            _objectSeekHits.Add(new ObjectSeekHits(objName,norm));
+            _objectSeekHits.Add(new ObjectSeekHits(objName,norms));
         }
 
         public void SetStatus(Status status)

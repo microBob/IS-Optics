@@ -158,12 +158,12 @@ namespace Raycast_Labs
                     psObject.transform.localScale = new Vector3(sourceMirrorTransformLocalScale.x / 100,
                         sourceMirrorTransformLocalScale.y / 100, sourceMirrorTransformLocalScale.z / 300);
 
-                    VirtualImageParticleSystemHandler particleSystemHandler =
-                        psObject.GetComponent<VirtualImageParticleSystemHandler>();
+                    // VirtualImageParticleSystemHandler particleSystemHandler =
+                    //     psObject.GetComponent<VirtualImageParticleSystemHandler>();
 
                     // particleSystemHandler.targetObject = targetObejct;
-                    particleSystemHandler.sourceLight = gameObject;
-                    particleSystemHandler.validVolume = meshCollider;
+                    // particleSystemHandler.sourceLight = gameObject;
+                    // particleSystemHandler.validVolume = meshCollider;
                 }
 
 

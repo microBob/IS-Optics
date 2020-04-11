@@ -39,7 +39,6 @@
             <e p="Rect.cs" t="Include" />
           </e>
           <e p="ParticleLabs" t="Include">
-            <e p="VirtualImageParticleSystemHandler.cs" t="Include" />
             <e p="WithinColliderTest.cs" t="Include" />
           </e>
           <e p="PointLight.cs" t="Include" />

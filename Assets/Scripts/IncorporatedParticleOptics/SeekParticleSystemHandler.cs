@@ -29,6 +29,9 @@ namespace IncorporatedParticleOptics
             myParticleSystem.GetCollisionEvents(other, collisionEvents);
             print("There are " + collisionEvents.Count + " hits with target");
 
+            List<Vector3> pointsToSend = new List<Vector3>();
+            List<Vector3> normsToSend = new List<Vector3>();
+
             foreach (ParticleCollisionEvent particleCollisionEvent in collisionEvents)
             {
                 // Gather Data
@@ -42,7 +45,7 @@ namespace IncorporatedParticleOptics
                 {
                     continue;
                 }
-                
+
                 if (validVolume != null)
                 {
                     if (other.Equals(sourceImageObject))
@@ -55,13 +58,30 @@ namespace IncorporatedParticleOptics
                         continue;
                     }
                 }
-                
+
 
                 print("Found valid point: " + curPoint);
 
-                _sourceHandler.AddObjectsInSceneAndRenderPoints(other, curPoint);
-                _sourceHandler.AddHitObjectNameAndNormal(other.name, pointNormal);
-                break;
+                pointsToSend.Add(curPoint);
+                normsToSend.Add(pointNormal);
+
+                // PlaneMirrors only need one points and norm
+                if (other.GetComponent<PlaneMirrorDef>() != null)
+                {
+                    break;
+                }
+
+                // Spherical mirrors need two before exiting
+                if (other.GetComponent<SphericalMirrorDef>() != null && pointsToSend.Count.Equals(2))
+                {
+                    break;
+                }
+            }
+
+            if (pointsToSend.Count > 0)
+            {
+                _sourceHandler.AddObjectsInSceneAndRenderPoints(other, pointsToSend);
+                _sourceHandler.AddHitObjectNameAndNormal(other.name, normsToSend);
             }
 
             // _sourceHandler.SetStatusComplete(false);
