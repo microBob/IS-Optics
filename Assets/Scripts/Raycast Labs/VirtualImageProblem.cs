@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using IncorporatedParticleOptics;
+using ParticleLabs;
 using UnityEngine;
 
 namespace Raycast_Labs
@@ -141,16 +143,25 @@ namespace Raycast_Labs
 
                 if (psObject != null)
                 {
-                    psObject.transform.position = sourceMirror.transform.position;
-                    psObject.transform.rotation = Quaternion.LookRotation(sourceMirror.transform.forward);
+                    Vector3 sourceSceneObjectPos = sourceMirror.transform.position;
+                    psObject.transform.position = sourceSceneObjectPos;
+
+                    Vector3 sourceSceneObjectForward = sourceMirror.transform.forward;
+                    Vector3 dirToSourceObject =
+                        (sourceSceneObjectPos - _myPos).normalized;
+                    float dot = Vector3.Dot(dirToSourceObject, sourceSceneObjectForward);
+                    dot = dot > 0 ? 1 : -1;
+                    psObject.transform.rotation =
+                        Quaternion.LookRotation(sourceSceneObjectForward * dot);
+                    
                     Vector3 sourceMirrorTransformLocalScale = sourceMirror.transform.localScale;
                     psObject.transform.localScale = new Vector3(sourceMirrorTransformLocalScale.x / 100,
                         sourceMirrorTransformLocalScale.y / 100, sourceMirrorTransformLocalScale.z / 300);
 
-                    VirtualImageProblemParticleSystemHandler particleSystemHandler =
-                        psObject.GetComponent<VirtualImageProblemParticleSystemHandler>();
+                    VirtualImageParticleSystemHandler particleSystemHandler =
+                        psObject.GetComponent<VirtualImageParticleSystemHandler>();
 
-                    particleSystemHandler.targetObject = targetObejct;
+                    // particleSystemHandler.targetObject = targetObejct;
                     particleSystemHandler.sourceLight = gameObject;
                     particleSystemHandler.validVolume = meshCollider;
                 }

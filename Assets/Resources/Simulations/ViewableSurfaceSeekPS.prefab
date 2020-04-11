@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3654146774510633149}
   - component: {fileID: 3654146774510633146}
   - component: {fileID: 3654146774510633147}
-  - component: {fileID: 114811529378740214}
+  - component: {fileID: 1975184591930798309}
   m_Layer: 0
   m_Name: ViewableSurfaceSeekPS
   m_TagString: Untagged
@@ -41,7 +41,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3654146774510633144}
   serializedVersion: 6
-  lengthInSec: 10
+  lengthInSec: 0.5
   simulationSpeed: 100
   stopAction: 0
   cullingMode: 0
@@ -116,7 +116,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4757,7 +4757,7 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &114811529378740214
+--- !u!114 &1975184591930798309
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4766,10 +4766,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3654146774510633144}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb83b7bf7a0904956aa1b33d078b2e27, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fae0657e3f2d429d913a286bbc43df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObject: {fileID: 0}
   sourceLight: {fileID: 0}
   validVolume: {fileID: 0}
   myParticleSystem: {fileID: 3654146774510633146}

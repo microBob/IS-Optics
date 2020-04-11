@@ -18,7 +18,10 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
-          <e p="IncorporatedParticleImage.cs" t="Include" />
+          <e p="IncorporatedParticleOptics" t="Include">
+            <e p="IncorporatedParticleImage.cs" t="Include" />
+            <e p="SeekParticleSystemHandler.cs" t="Include" />
+          </e>
           <e p="LabsAssembly.asmdef" t="Include" />
           <e p="Math3d.cs" t="Include" />
           <e p="Mirrors" t="Include">
@@ -36,6 +39,7 @@
             <e p="Rect.cs" t="Include" />
           </e>
           <e p="ParticleLabs" t="Include">
+            <e p="VirtualImageParticleSystemHandler.cs" t="Include" />
             <e p="WithinColliderTest.cs" t="Include" />
           </e>
           <e p="PointLight.cs" t="Include" />
@@ -49,7 +53,6 @@
             <e p="SeekClosestPointOnCollider.cs" t="Include" />
             <e p="VirtualImageProblem.cs" t="Include" />
             <e p="VirtualImageProblemColliderHandler.cs" t="Include" />
-            <e p="VirtualImageProblemParticleSystemHandler.cs" t="Include" />
           </e>
           <e p="Refractions" t="Include">
             <e p="ThinLensDef.cs" t="Include" />

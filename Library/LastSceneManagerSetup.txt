@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/RaycastLabs.unity
+- path: Assets/Scenes/TestLabs/ParticleLabs.unity
   isLoaded: 1
   isActive: 1
