@@ -55,6 +55,7 @@ namespace IncorporatedParticleOptics
         //SECTION: Private variables
         // State of particle
         private Status _status = Status.SeekingPoints;
+        private bool _postComplete;
 
         // Storage for render point seeking data and objects in scene
         private readonly List<GameObject> _objectsInScene = new List<GameObject>();
@@ -85,6 +86,7 @@ namespace IncorporatedParticleOptics
             switch (_status)
             {
                 case Status.SeekingPoints: // Look for points to render to
+                    _postComplete = false;
                     // Change how this is done depending on the image type
                     if (imageType == ImageType.OriginalObject || imageType == ImageType.MirrorRealImage)
                     {
@@ -320,6 +322,8 @@ namespace IncorporatedParticleOptics
 
                     break;
                 case Status.SphericalMirrorRendering:
+                    curSeekHit = _objectSeekHits[_objectPointsIndex];
+                    print(_myName + ": rendering a spherical mirror from " + _myPos + " to " + curSeekHit.ObjName);
                     // Get target spherical mirror def
                     SphericalMirrorDef targetHandler = _curTargetObject.GetComponent<SphericalMirrorDef>();
 
@@ -399,8 +403,17 @@ namespace IncorporatedParticleOptics
                 case Status.ThinLensRendering:
                     break;
                 case Status.Complete:
-                    _objectPointsToRender.Clear();
-                    _objectSeekHits.Clear();
+                    if (!_postComplete)
+                    {
+                        print(_myName+": Status is COMPLETE. Cleaning up.");
+                        
+                        _objectsInScene.Clear();
+                        _objectPointsToRender.Clear();
+                        _objectSeekHits.Clear();
+                        Destroy(_seekParticleSystem);
+                        _postComplete = true;
+                    }
+
                     break;
                 default:
                     print("Paused with status: " + _status);

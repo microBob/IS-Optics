@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2480741837837505859}
   - component: {fileID: 2480741837838505859}
   - component: {fileID: 5329328100536598462}
+  - component: {fileID: 7261062191746795355}
   m_Layer: 9
   m_Name: SphericalMirror05
   m_TagString: SceneObject
@@ -91,3 +92,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   curveCoefficient: 0.25
+--- !u!64 &7261062191746795355
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480741837840763203}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 734d31d4016f34045bfff1879cfad7ac, type: 3}
