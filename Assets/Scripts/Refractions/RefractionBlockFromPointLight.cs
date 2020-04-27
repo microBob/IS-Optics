@@ -44,17 +44,17 @@ namespace Refractions
         // ID services
         private Vector3 _myPos;
 
-        private RefractionCalculationStatus _myRefractionCalculationStatus = RefractionCalculationStatus.TestSeek;
+        private RefractionCalculationStatus _myRefractionCalculationStatus = RefractionCalculationStatus.SeekingSurface;
 
         // Start is called before the first frame update
         void Start()
         {
-            _myPos = transform.position;
         }
 
         // Update is called once per frame
         void Update()
         {
+            _myPos = transform.position;
             switch (_myRefractionCalculationStatus)
             {
                 case RefractionCalculationStatus.SeekingSurface:
@@ -73,7 +73,7 @@ namespace Refractions
                             _seekParticleSystem.AddComponent<RefractionSeekParticleSystemHandler>();
                         seekHandler.sourceLight = gameObject;
                         seekHandler.myParticleSystem = _seekParticleSystem.GetComponent<ParticleSystem>();
-                        // seekHandler.numOfSamples = 5;
+                        seekHandler.numOfSamples = 2;
 
                         _myRefractionCalculationStatus = RefractionCalculationStatus.WaitingForSeekData;
                     }
@@ -97,29 +97,46 @@ namespace Refractions
 
                         print("Drawing hit point at " + curLoc + " with normal " + curNorm + " on GameObject " +
                               renderPoint.HitObjName);
-                        Debug.DrawLine(_myPos, curLoc, Color.cyan, Mathf.Infinity);
-                        Debug.DrawLine(curLoc, curNorm + curLoc, Color.red, Mathf.Infinity);
+                        float rayDur = Mathf.Infinity;
+
+                        Debug.DrawLine(_myPos, curLoc, Color.cyan, rayDur);
+                        Debug.DrawLine(curLoc, curNorm + curLoc, Color.red, rayDur);
 
                         // Apply Snell's Law on incident
                         float incidentAngle =
                             Vector3.Angle((_myPos - curLoc).normalized, curNorm.normalized);
                         float targetIor = renderPoint.HitObj.GetComponent<RefractionBlockDef>().ior;
-                        float exitAngle = -Mathf.Asin(localIor * Mathf.Sin(Mathf.Deg2Rad * incidentAngle) / targetIor);
+                        float exitAngle = Mathf.Asin(localIor * Mathf.Sin(Mathf.Deg2Rad * incidentAngle) / targetIor) *
+                                          Mathf.Rad2Deg;
+                        // print("Incident angle: " + incidentAngle + "; Exit Angle: " + exitAngle);
 
-                        Transform exitDir = new GameObject().transform;
+                        GameObject rotGo = new GameObject();
+                        Transform exitDir = rotGo.transform;
                         exitDir.position = curLoc;
+
                         exitDir.forward = -curNorm;
-                        Debug.DrawRay(curLoc, exitDir.forward, Color.yellow, Mathf.Infinity);
+                        Debug.DrawRay(curLoc, exitDir.forward, Color.yellow, rayDur);
 
-                        exitDir.Rotate(Vector3.Cross(curNorm, (curLoc - _myPos).normalized),
-                            Mathf.Rad2Deg * exitAngle);
-                        // exitDir.Rotate(Vector3.up, 180,Space.World);
+                        exitDir.forward = (curLoc - _myPos).normalized;
 
-                        Debug.DrawLine(curLoc, exitDir.forward.normalized, Color.green, Mathf.Infinity);
+                        Debug.DrawRay(curLoc, exitDir.forward, Color.blue, rayDur);
 
-                        print("Incident angle: " + incidentAngle + "; Exit Angle: " + Mathf.Rad2Deg * exitAngle);
+                        Vector3 cross = Vector3.Cross(curNorm, (curLoc - _myPos).normalized).normalized;
+                        // print("Cross: " + cross);
+                        Debug.DrawRay(curLoc, cross, Color.magenta, rayDur);
+
+                        float angleDiff = incidentAngle - exitAngle;
+                        // print("Angle Diff: " + angleDiff);
+                        print(exitDir.localRotation.eulerAngles);
+                        exitDir.Rotate(cross, angleDiff, Space.World);
+                        print(exitDir.localRotation.eulerAngles);
+
+                        Debug.DrawRay(curLoc, exitDir.forward, Color.green, rayDur);
+
+                        Destroy(rotGo);
                     }
 
+                    // _renderPoints.Clear();
                     _myRefractionCalculationStatus = RefractionCalculationStatus.Complete;
 
                     break;

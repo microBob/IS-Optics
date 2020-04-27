@@ -31,7 +31,7 @@ namespace Refractions
                 // Gather Data
                 Vector3 curPoint = particleCollisionEvent.intersection;
                 Vector3 pointNormal = particleCollisionEvent.normal;
-                
+
                 // SECTION: validity tests
                 if (curPoint.Equals(Vector3.zero))
                 {
@@ -54,7 +54,6 @@ namespace Refractions
         {
             print("Spawned Refraction Particle System");
             _sourceHandler = sourceLight.GetComponent<RefractionBlockFromPointLight>();
-            
         }
 
         // Update is called once per frame
@@ -69,7 +68,7 @@ namespace Refractions
 
             if (!myParticleSystem.IsAlive())
             {
-                if (_sourceHandler.GetRenderPoints().Count > 0)
+                if (_sourceHandler.GetRenderPoints().Count >= numOfSamples)
                 {
                     _sourceHandler.SetStatus(RefractionCalculationStatus.Drawing);
                 }
@@ -79,10 +78,8 @@ namespace Refractions
                     if (_roundsOfWaiting == 10)
                     {
                         _sourceHandler.SetStatus(RefractionCalculationStatus.Complete);
-
                     }
                 }
-
             }
         }
     }
