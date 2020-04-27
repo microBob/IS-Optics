@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 3654146774510633149}
   - component: {fileID: 3654146774510633146}
   - component: {fileID: 3654146774510633147}
-  - component: {fileID: 1975184591930798309}
   m_Layer: 0
-  m_Name: ViewableSurfaceSeekPS
+  m_Name: SemiSphericalSurfaceSeekPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3654146774510633144}
   m_LocalRotation: {x: 0.0000000948304, y: -0.7071068, z: 0.00000009483041, w: 0.7071067}
-  m_LocalPosition: {x: -2.48, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -976,7 +975,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 200
+        scalar: 1000
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -4757,18 +4756,3 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &1975184591930798309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3654146774510633144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fae0657e3f2d429d913a286bbc43df2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sourceLight: {fileID: 0}
-  validVolume: {fileID: 0}
-  myParticleSystem: {fileID: 3654146774510633146}

@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Mirrors;
-using Raycast_Labs;
 using UnityEngine;
 
 namespace IncorporatedParticleOptics
@@ -13,6 +11,8 @@ namespace IncorporatedParticleOptics
         public GameObject sourceLight;
 
         private IncorporatedParticleImage _sourceHandler;
+
+        // private RefractionBlockFromPointLight _sourceHandler;
         // private VirtualImageProblem _sourceHandlerTest;
 
         public Collider validVolume;
@@ -79,6 +79,7 @@ namespace IncorporatedParticleOptics
 
                 _sourceHandler.AddObjectsInSceneAndRenderPoints(other, curPoint);
                 _sourceHandler.AddHitObjectNameAndNormal(other.name, pointNormal);
+                // _sourceHandler.AddHitData(other, curPoint, pointNormal);
                 break;
             }
 
@@ -91,6 +92,7 @@ namespace IncorporatedParticleOptics
         {
             print("Spawned Particle system");
             _sourceHandler = sourceLight.GetComponent<IncorporatedParticleImage>();
+            // _sourceHandler = sourceLight.GetComponent<RefractionBlockFromPointLight>();
             // _sourceHandlerTest = sourceLight.GetComponent<VirtualImageProblem>();
         }
 

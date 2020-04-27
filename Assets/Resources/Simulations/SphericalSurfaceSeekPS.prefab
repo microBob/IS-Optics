@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 386220817850833573}
   - component: {fileID: 386220817850833572}
   - component: {fileID: 386220817850833571}
-  - component: {fileID: 5806056659656069042}
   m_Layer: 0
-  m_Name: OriginalObjectSurfaceSeekPS
+  m_Name: SphericalSurfaceSeekPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -601,7 +600,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 2000
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -976,7 +975,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 500
+        scalar: 2000
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -4757,18 +4756,3 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &5806056659656069042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 386220817850833570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fae0657e3f2d429d913a286bbc43df2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sourceLight: {fileID: 0}
-  validVolume: {fileID: 0}
-  myParticleSystem: {fileID: 386220817850833572}

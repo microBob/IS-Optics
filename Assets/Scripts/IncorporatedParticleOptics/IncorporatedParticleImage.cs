@@ -51,6 +51,7 @@ namespace IncorporatedParticleOptics
         //SECTION: Public variables (set stuff in editor)
         public ImageType imageType = ImageType.OriginalObject;
         public GameObject sourceSceneObject; // What object created it (if any)
+        public float localIor = 1f;
 
         //SECTION: Private variables
         // State of particle
@@ -63,8 +64,10 @@ namespace IncorporatedParticleOptics
         private readonly List<ObjectSeekHits> _objectSeekHits = new List<ObjectSeekHits>();
         private GameObject _curTargetObject;
         private Vector3 _curInteractionPoint;
+
         private GameObject _seekParticleSystem;
-        private LayerMask _sceneObjectLayerMask;
+
+        // private LayerMask _sceneObjectLayerMask;
         private int _objectPointsIndex;
 
         // ID services
@@ -77,7 +80,7 @@ namespace IncorporatedParticleOptics
         {
             _myPos = transform.position;
             _myName = gameObject.name;
-            _sceneObjectLayerMask = LayerMask.GetMask("SceneObject");
+            // _sceneObjectLayerMask = LayerMask.GetMask("SceneObject");
         }
 
         // Update is called once per frame
@@ -90,9 +93,9 @@ namespace IncorporatedParticleOptics
                     // Change how this is done depending on the image type
                     if (imageType == ImageType.OriginalObject || imageType == ImageType.MirrorRealImage)
                     {
-                        // Generate coresponding particle system
+                        // Generate corresponding particle system
                         _seekParticleSystem =
-                            Instantiate(Resources.Load<GameObject>("Simulations/OriginalObjectSurfaceSeekPS"));
+                            Instantiate(Resources.Load<GameObject>("Simulations/SphericalSurfaceSeekPS"));
 
                         if (_seekParticleSystem != null)
                         {
@@ -102,7 +105,9 @@ namespace IncorporatedParticleOptics
 
                             // set it's source to this object
                             SeekParticleSystemHandler seekHandler =
-                                _seekParticleSystem.GetComponent<SeekParticleSystemHandler>();
+                                _seekParticleSystem.AddComponent<SeekParticleSystemHandler>();
+                            seekHandler.myParticleSystem =
+                                _seekParticleSystem.GetComponent<ParticleSystem>();
                             seekHandler.sourceLight = gameObject;
                             if (imageType == ImageType.MirrorRealImage)
                             {
@@ -200,12 +205,11 @@ namespace IncorporatedParticleOptics
 
                         // SECTION: create particle system and check for points
                         _seekParticleSystem =
-                            Instantiate(Resources.Load<GameObject>("Simulations/ViewableSurfaceSeekPS"));
+                            Instantiate(Resources.Load<GameObject>("Simulations/SemiSphericalSurfaceSeekPS"));
 
                         if (_seekParticleSystem != null)
                         {
                             Vector3 sourceSceneObjectPos = sourceSceneObject.transform.position;
-                            _seekParticleSystem.transform.position = sourceSceneObjectPos;
 
                             Vector3 sourceSceneObjectForward = sourceSceneObject.transform.forward;
                             Vector3 dirToSourceObject =
@@ -215,6 +219,9 @@ namespace IncorporatedParticleOptics
                             _seekParticleSystem.transform.rotation =
                                 Quaternion.LookRotation(sourceSceneObjectForward * dot);
 
+                            _seekParticleSystem.transform.position =
+                                sourceSceneObjectPos + sourceSceneObjectForward * (dot * 0.05f);
+
                             Vector3 sourceMirrorTransformLocalScale = sourceSceneObject.transform.localScale;
                             _seekParticleSystem.transform.localScale = new Vector3(
                                 sourceMirrorTransformLocalScale.x / 100,
@@ -222,8 +229,10 @@ namespace IncorporatedParticleOptics
                                 sourceMirrorTransformLocalScale.z / 300);
 
                             SeekParticleSystemHandler particleSystemHandler =
-                                _seekParticleSystem.GetComponent<SeekParticleSystemHandler>();
-
+                                _seekParticleSystem.AddComponent<SeekParticleSystemHandler>();
+                            
+                            particleSystemHandler.myParticleSystem =
+                                _seekParticleSystem.GetComponent<ParticleSystem>();
                             particleSystemHandler.sourceLight = gameObject;
                             particleSystemHandler.sourceImageObject = sourceSceneObject;
                             particleSystemHandler.validVolume = meshCollider;
@@ -325,13 +334,13 @@ namespace IncorporatedParticleOptics
                     curSeekHit = _objectSeekHits[_objectPointsIndex];
                     print(_myName + ": rendering a spherical mirror from " + _myPos + " to " + curSeekHit.ObjName);
                     // Get target spherical mirror def
-                    SphericalMirrorDef targetHandler = _curTargetObject.GetComponent<SphericalMirrorDef>();
+                    SphericalMirrorDef sphericalMirrorDef = _curTargetObject.GetComponent<SphericalMirrorDef>();
 
                     // Get direction to mirror origin
-                    Vector3 rayToOrigin = (targetHandler.GetPos() - _myPos).normalized;
+                    Vector3 rayToOrigin = (sphericalMirrorDef.GetPos() - _myPos).normalized;
 
                     // Get direction to mirror center of curvature
-                    Vector3 rayToCenterOfCurvature = (targetHandler.GetCenter() - _myPos).normalized;
+                    Vector3 rayToCenterOfCurvature = (sphericalMirrorDef.GetCenter() - _myPos).normalized;
 
                     //// Calculate reflection vector
                     // Get which side object is on
@@ -345,7 +354,7 @@ namespace IncorporatedParticleOptics
                     exitDir = Quaternion.AngleAxis(180, hitNormal) * -rayToOrigin;
 
                     // Calculate intersection point between
-                    if (Math3d.ClosestPointsOnTwoLines(out Vector3 cp1, out Vector3 cp2, targetHandler.GetPos(),
+                    if (Math3d.ClosestPointsOnTwoLines(out Vector3 cp1, out Vector3 cp2, sphericalMirrorDef.GetPos(),
                         exitDir.normalized, _myPos, rayToCenterOfCurvature))
                     {
                         float distanceBetween = Vector3.Distance(cp1, cp2);
@@ -368,15 +377,10 @@ namespace IncorporatedParticleOptics
 
                             // Detect if it is a virtual or real image
                             float imagePointDot = Vector3.Dot(targetForward,
-                                (targetHandler.GetCenter() - avgPoint).normalized);
-                            if (imagePointDot > 0)
-                            {
-                                incorporatedParticleImage.imageType = ImageType.MirrorRealImage;
-                            }
-                            else
-                            {
-                                incorporatedParticleImage.imageType = ImageType.MirrorVirtualImage;
-                            }
+                                (sphericalMirrorDef.GetCenter() - avgPoint).normalized);
+                            incorporatedParticleImage.imageType = imagePointDot > 0
+                                ? ImageType.MirrorRealImage
+                                : ImageType.MirrorVirtualImage;
 
                             incorporatedParticleImage.sourceSceneObject = _curTargetObject;
 
@@ -401,12 +405,77 @@ namespace IncorporatedParticleOptics
 
                     break;
                 case Status.ThinLensRendering:
+                    curSeekHit = _objectSeekHits[_objectPointsIndex];
+                    print(_myName + ": rendering a thin lens from " + _myPos + " to " + curSeekHit.ObjName);
+
+                    // Get target spherical mirror def
+                    ThinLensDef thinLensDef = _curTargetObject.GetComponent<ThinLensDef>();
+
+                    // Find focal length
+                    float numerator = localIor * thinLensDef.radius1 * thinLensDef.radius2;
+                    float denominator = (localIor - thinLensDef.ior) * (thinLensDef.radius1 - thinLensDef.radius2);
+                    float focalLen = numerator / denominator;
+                    print("Focal Len: " + focalLen);
+
+                    // Find image distance
+                    var targetObjectPos = _curTargetObject.transform.position;
+                    float lateralDistToLens = Vector2.Distance(new Vector2(_myPos.x, _myPos.z),
+                        new Vector2(targetObjectPos.x, targetObjectPos.z));
+
+                    numerator = focalLen * lateralDistToLens;
+                    denominator = focalLen - lateralDistToLens;
+                    float imageDist = -1f * numerator / denominator;
+                    print("Image Distance: " + imageDist);
+                    // Debug.DrawRay(_lensContactPoint, Vector3.forward * imageDist, Color.green, Mathf.Infinity);
+
+                    // Find image height
+                    float vertDistFromCenterOfLens = _myPos.y - targetObjectPos.y;
+                    numerator = vertDistFromCenterOfLens * imageDist;
+                    float imageHeight = -1f * numerator / lateralDistToLens;
+                    print("Image Height: " + imageHeight);
+
+                    // Draw this
+                    Vector3 imageLoc = targetObjectPos;
+                    imageLoc += Vector3.forward * imageDist;
+                    imageLoc += Vector3.up * imageHeight;
+
+
+                    // Create Image
+                    // Generate new image from point
+                    image = Instantiate(Resources.Load<GameObject>("Objects/ParticleImagePoint"),
+                        imageLoc,
+                        Quaternion.identity);
+
+                    // Give this new virtual image a unique name to be identified by
+                    image.name = _myName + " (Virtual image) " + _generatedImageId;
+                    _generatedImageId++;
+
+                    incorporatedParticleImage = image.GetComponent<IncorporatedParticleImage>();
+
+                    // Check if virtual or real
+                    int myDot = Vector3.Dot(_myPos, targetObjectPos) > 0 ? 1 : -1;
+                    int imageDot = Vector3.Dot(imageLoc, targetObjectPos) > 0 ? 1 : -1;
+
+                    incorporatedParticleImage.imageType =
+                        myDot != imageDot ? ImageType.ThinLensVirtualImage : ImageType.ThinLensRealImage;
+
+                    // incorporatedParticleImage.sourceSceneObject = _curT argetObject;
+
+                    print(_myName + ": created virtual image of " + _curTargetObject.name + " with name " +
+                          image.name);
+
+                    // Return to prerendering for the next point
+                    _objectPointsIndex++;
+                    _status = Status.PreRendering;
+                    print(_myName + ": moving to work on point index " + _objectPointsIndex +
+                          ". going back to prerendering");
+
                     break;
                 case Status.Complete:
                     if (!_postComplete)
                     {
-                        print(_myName+": Status is COMPLETE. Cleaning up.");
-                        
+                        print(_myName + ": Status is COMPLETE. Cleaning up.");
+
                         _objectsInScene.Clear();
                         _objectPointsToRender.Clear();
                         _objectSeekHits.Clear();
