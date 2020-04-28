@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-04-27T23:15:52.964-07:00
-  initializedAtString: 2020-04-27T23:15:52.964-07:00
+  lastUpdatedAtString: 2020-04-28T16:46:27.693-07:00
+  initializedAtString: 2020-04-28T15:28:57.441-07:00
   entries:
   - path: .idea\.idea.OpticsLabs\.idea\contentModel.xml
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\.idea\.idea.OpticsLabs\.idea\contentModel.xml
@@ -34,15 +34,129 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\Refractions\Young.unity
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Refractions\Young.unity
-    projectPath: Assets\Scenes\Refractions\Young.unity
+  - path: Assets\Materials.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Materials.meta
+    projectPath: Assets\Materials.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Materials\FlatEditable.mat
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Materials\FlatEditable.mat
+    projectPath: Assets\Materials\FlatEditable.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Materials\FlatEditable.mat.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Materials\FlatEditable.mat.meta
+    projectPath: Assets\Materials\FlatEditable.mat.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Materials\SimpleSeeThrough.mat
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Materials\SimpleSeeThrough.mat
+    projectPath: Assets\Materials\SimpleSeeThrough.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Materials\SimpleSeeThrough.mat.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Materials\SimpleSeeThrough.mat.meta
+    projectPath: Assets\Materials\SimpleSeeThrough.mat.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Resources\Materials.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Materials.meta
+    projectPath: Assets\Resources\Materials.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scenes\Refractions\Young.unity.meta
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Refractions\Young.unity.meta
-    projectPath: Assets\Scenes\Refractions\Young.unity.meta
+  - path: Assets\Resources\Materials\FlatEditable.mat
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Materials\FlatEditable.mat
+    projectPath: Assets\Resources\Materials\FlatEditable.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Materials\FlatEditable.mat.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Materials\FlatEditable.mat.meta
+    projectPath: Assets\Resources\Materials\FlatEditable.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Materials\NegativeWave.mat
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Materials\NegativeWave.mat
+    projectPath: Assets\Resources\Materials\NegativeWave.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Materials\NegativeWave.mat.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Materials\NegativeWave.mat.meta
+    projectPath: Assets\Resources\Materials\NegativeWave.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Materials\PositiveWave.mat
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Materials\PositiveWave.mat
+    projectPath: Assets\Resources\Materials\PositiveWave.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Materials\PositiveWave.mat.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Materials\PositiveWave.mat.meta
+    projectPath: Assets\Resources\Materials\PositiveWave.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Materials\SimpleSeeThrough.mat
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Materials\SimpleSeeThrough.mat
+    projectPath: Assets\Resources\Materials\SimpleSeeThrough.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\Materials\SimpleSeeThrough.mat.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Materials\SimpleSeeThrough.mat.meta
+    projectPath: Assets\Resources\Materials\SimpleSeeThrough.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Refractions\Waves.unity
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Refractions\Waves.unity
+    projectPath: Assets\Scenes\Refractions\Waves.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Refractions\Waves.unity.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Refractions\Waves.unity.meta
+    projectPath: Assets\Scenes\Refractions\Waves.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Diffraction.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction.meta
+    projectPath: Assets\Scripts\Diffraction.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Diffraction\WaveGenerator.cs
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\WaveGenerator.cs
+    projectPath: Assets\Scripts\Diffraction\WaveGenerator.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Diffraction\WaveGenerator.cs.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\WaveGenerator.cs.meta
+    projectPath: Assets\Scripts\Diffraction\WaveGenerator.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Diffraction\YoungSource.cs
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\YoungSource.cs
+    projectPath: Assets\Scripts\Diffraction\YoungSource.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Diffraction\YoungSource.cs.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\YoungSource.cs.meta
+    projectPath: Assets\Scripts\Diffraction\YoungSource.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50,26 +164,26 @@ MonoBehaviour:
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Refractions\WaveGenerator.cs
     projectPath: Assets\Scripts\Refractions\WaveGenerator.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Scripts\Refractions\WaveGenerator.cs.meta
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Refractions\WaveGenerator.cs.meta
     projectPath: Assets\Scripts\Refractions\WaveGenerator.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Scripts\Refractions\YoungSource.cs
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Refractions\YoungSource.cs
     projectPath: Assets\Scripts\Refractions\YoungSource.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Assets\Scripts\Refractions\YoungSource.cs.meta
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Refractions\YoungSource.cs.meta
     projectPath: Assets\Scripts\Refractions\YoungSource.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: LabsAssembly.csproj
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\LabsAssembly.csproj
     projectPath: LabsAssembly.csproj
@@ -124,15 +238,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\LastSceneManagerSetup.txt
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\LastSceneManagerSetup.txt
     projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\26\2629869f4d4d148c2848254c9d57341b
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\26\2629869f4d4d148c2848254c9d57341b
+    projectPath: Library\metadata\26\2629869f4d4d148c2848254c9d57341b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\26\2629869f4d4d148c2848254c9d57341b.info
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\26\2629869f4d4d148c2848254c9d57341b.info
+    projectPath: Library\metadata\26\2629869f4d4d148c2848254c9d57341b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a2\a2a378c1054e86c49b01abc6516f5f7e
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\a2\a2a378c1054e86c49b01abc6516f5f7e
+    projectPath: Library\metadata\a2\a2a378c1054e86c49b01abc6516f5f7e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\a6\a6b7e5071802c4fd49deac763339fd5c
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\a6\a6b7e5071802c4fd49deac763339fd5c
+    projectPath: Library\metadata\a6\a6b7e5071802c4fd49deac763339fd5c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -169,12 +301,6 @@ MonoBehaviour:
   - path: Library\StateCache\Hierarchy\fd8176-mainStage.json
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\StateCache\Hierarchy\fd8176-mainStage.json
     projectPath: Library\StateCache\Hierarchy\fd8176-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\2dcdb6-mainStage.json
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\StateCache\SceneView\2dcdb6-mainStage.json
-    projectPath: Library\StateCache\SceneView\2dcdb6-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
