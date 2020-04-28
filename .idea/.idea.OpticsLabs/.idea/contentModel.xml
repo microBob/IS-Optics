@@ -60,6 +60,8 @@
             <e p="RefractionSeekParticleSystemHandler.cs" t="Include" />
             <e p="ThinLensDef.cs" t="Include" />
             <e p="ThinLensFromPointLight.cs" t="Include" />
+            <e p="WaveGenerator.cs" t="Include" />
+            <e p="YoungSource.cs" t="Include" />
           </e>
         </e>
         <e p="Tests" t="Include">

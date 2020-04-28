@@ -86,6 +86,8 @@
     <Compile Include="Assets\Scripts\Refractions\RefractionSeekParticleSystemHandler.cs" />
     <Compile Include="Assets\Scripts\Refractions\ThinLensDef.cs" />
     <Compile Include="Assets\Scripts\Refractions\ThinLensFromPointLight.cs" />
+    <Compile Include="Assets\Scripts\Refractions\WaveGenerator.cs" />
+    <Compile Include="Assets\Scripts\Refractions\YoungSource.cs" />
     <None Include="Assets\Scripts\LabsAssembly.asmdef" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

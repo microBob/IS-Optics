@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Refractions/Huygens'Principle.unity
+- path: Assets/Scenes/Refractions/Young.unity
   isLoaded: 1
   isActive: 1

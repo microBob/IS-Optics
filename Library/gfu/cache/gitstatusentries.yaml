@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-04-27T10:02:44.331-07:00
-  initializedAtString: 2020-04-27T08:56:25.884-07:00
+  lastUpdatedAtString: 2020-04-27T23:15:52.964-07:00
+  initializedAtString: 2020-04-27T23:15:52.964-07:00
   entries:
+  - path: .idea\.idea.OpticsLabs\.idea\contentModel.xml
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\.idea\.idea.OpticsLabs\.idea\contentModel.xml
+    projectPath: .idea\.idea.OpticsLabs\.idea\contentModel.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: .idea\.idea.OpticsLabs\.idea\indexLayout.xml
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\.idea\.idea.OpticsLabs\.idea\indexLayout.xml
     projectPath: .idea\.idea.OpticsLabs\.idea\indexLayout.xml
@@ -28,33 +34,45 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Resources\Simulations\OriginalObjectSurfaceSeekPS.prefab.meta
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Simulations\OriginalObjectSurfaceSeekPS.prefab.meta
-    projectPath: Assets\Resources\Simulations\OriginalObjectSurfaceSeekPS.prefab.meta
+  - path: Assets\Scenes\Refractions\Young.unity
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Refractions\Young.unity
+    projectPath: Assets\Scenes\Refractions\Young.unity
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Resources\Simulations\ViewableSurfaceSeekPS.prefab.meta
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Simulations\ViewableSurfaceSeekPS.prefab.meta
-    projectPath: Assets\Resources\Simulations\ViewableSurfaceSeekPS.prefab.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\Refractions\Young.unity.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Refractions\Young.unity.meta
+    projectPath: Assets\Scenes\Refractions\Young.unity.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Refractions\Huygens'Principle.unity
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Refractions\Huygens'Principle.unity
-    projectPath: Assets\Scenes\Refractions\Huygens'Principle.unity
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Refractions\WaveGenerator.cs
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Refractions\WaveGenerator.cs
+    projectPath: Assets\Scripts\Refractions\WaveGenerator.cs
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Refractions\RefractionBlockFromPointLight.cs
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Refractions\RefractionBlockFromPointLight.cs
-    projectPath: Assets\Scripts\Refractions\RefractionBlockFromPointLight.cs
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Refractions\WaveGenerator.cs.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Refractions\WaveGenerator.cs.meta
+    projectPath: Assets\Scripts\Refractions\WaveGenerator.cs.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Refractions\RefractionSeekParticleSystemHandler.cs
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Refractions\RefractionSeekParticleSystemHandler.cs
-    projectPath: Assets\Scripts\Refractions\RefractionSeekParticleSystemHandler.cs
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Refractions\YoungSource.cs
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Refractions\YoungSource.cs
+    projectPath: Assets\Scripts\Refractions\YoungSource.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Refractions\YoungSource.cs.meta
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Refractions\YoungSource.cs.meta
+    projectPath: Assets\Scripts\Refractions\YoungSource.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: LabsAssembly.csproj
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\LabsAssembly.csproj
+    projectPath: LabsAssembly.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -64,9 +82,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\expandedItems
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -88,87 +124,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\25\257ea5c303b404a2795d712e35aa5a4d
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\25\257ea5c303b404a2795d712e35aa5a4d
-    projectPath: Library\metadata\25\257ea5c303b404a2795d712e35aa5a4d
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\2f\2ffb3b119ed9b1148900dbab313babee
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\2f\2ffb3b119ed9b1148900dbab313babee
-    projectPath: Library\metadata\2f\2ffb3b119ed9b1148900dbab313babee
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\33\33d9c784612b54a379256d0984c242ef
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\33\33d9c784612b54a379256d0984c242ef
-    projectPath: Library\metadata\33\33d9c784612b54a379256d0984c242ef
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\33\33d9c784612b54a379256d0984c242ef.info
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\33\33d9c784612b54a379256d0984c242ef.info
-    projectPath: Library\metadata\33\33d9c784612b54a379256d0984c242ef.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\47\471f82e0d4f1ede4b834b5fb8c84832e
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\47\471f82e0d4f1ede4b834b5fb8c84832e
-    projectPath: Library\metadata\47\471f82e0d4f1ede4b834b5fb8c84832e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4f\4fc6f0f67a4e10e4bbae16169ee9b064.info
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\4f\4fc6f0f67a4e10e4bbae16169ee9b064.info
-    projectPath: Library\metadata\4f\4fc6f0f67a4e10e4bbae16169ee9b064.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\73\734d31d4016f34045bfff1879cfad7ac
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\73\734d31d4016f34045bfff1879cfad7ac
-    projectPath: Library\metadata\73\734d31d4016f34045bfff1879cfad7ac
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\73\734d31d4016f34045bfff1879cfad7ac.info
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\73\734d31d4016f34045bfff1879cfad7ac.info
-    projectPath: Library\metadata\73\734d31d4016f34045bfff1879cfad7ac.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\84\847c5b108fb5a4961bc4867d400f8445
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\84\847c5b108fb5a4961bc4867d400f8445
-    projectPath: Library\metadata\84\847c5b108fb5a4961bc4867d400f8445
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\84\847c5b108fb5a4961bc4867d400f8445.info
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\84\847c5b108fb5a4961bc4867d400f8445.info
-    projectPath: Library\metadata\84\847c5b108fb5a4961bc4867d400f8445.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\97\972226bfc14a5034995c65ce989dd118
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\97\972226bfc14a5034995c65ce989dd118
-    projectPath: Library\metadata\97\972226bfc14a5034995c65ce989dd118
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\97\972226bfc14a5034995c65ce989dd118.info
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\97\972226bfc14a5034995c65ce989dd118.info
-    projectPath: Library\metadata\97\972226bfc14a5034995c65ce989dd118.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\eb\eb83b7bf7a0904956aa1b33d078b2e27
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\metadata\eb\eb83b7bf7a0904956aa1b33d078b2e27
-    projectPath: Library\metadata\eb\eb83b7bf7a0904956aa1b33d078b2e27
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PackageCache\com.unity.collab-proxy@1.2.16\Documentation~\collab-proxy.md
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\PackageCache\com.unity.collab-proxy@1.2.16\Documentation~\collab-proxy.md
-    projectPath: Library\PackageCache\com.unity.collab-proxy@1.2.16\Documentation~\collab-proxy.md
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -211,12 +175,6 @@ MonoBehaviour:
   - path: Library\StateCache\SceneView\2dcdb6-mainStage.json
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\StateCache\SceneView\2dcdb6-mainStage.json
     projectPath: Library\StateCache\SceneView\2dcdb6-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

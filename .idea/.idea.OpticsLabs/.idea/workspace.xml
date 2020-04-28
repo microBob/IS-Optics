@@ -11,13 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c9dcb34-c645-4c25-8257-5dca8332fb72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Simulations/OriginalObjectSurfaceSeekPS.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Simulations/OriginalObjectSurfaceSeekPS.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Simulations/ViewableSurfaceSeekPS.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Simulations/ViewableSurfaceSeekPS.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Refractions/Huygens'Principle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Refractions/Huygens'Principle.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Refractions/RefractionBlockFromPointLight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Refractions/RefractionBlockFromPointLight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Refractions/RefractionSeekParticleSystemHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Refractions/RefractionSeekParticleSystemHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabsAssembly.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LabsAssembly.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" afterDir="false" />
@@ -25,25 +25,13 @@
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/fd8176-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/fd8176-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/2dcdb6-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/2dcdb6-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/repoinfo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/repoinfo.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/25/257ea5c303b404a2795d712e35aa5a4d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/25/257ea5c303b404a2795d712e35aa5a4d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/2f/2ffb3b119ed9b1148900dbab313babee" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2f/2ffb3b119ed9b1148900dbab313babee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/33/33d9c784612b54a379256d0984c242ef" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/33/33d9c784612b54a379256d0984c242ef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/33/33d9c784612b54a379256d0984c242ef.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/33/33d9c784612b54a379256d0984c242ef.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/47/471f82e0d4f1ede4b834b5fb8c84832e" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/47/471f82e0d4f1ede4b834b5fb8c84832e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/4f/4fc6f0f67a4e10e4bbae16169ee9b064.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4f/4fc6f0f67a4e10e4bbae16169ee9b064.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/73/734d31d4016f34045bfff1879cfad7ac" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/73/734d31d4016f34045bfff1879cfad7ac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/73/734d31d4016f34045bfff1879cfad7ac.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/73/734d31d4016f34045bfff1879cfad7ac.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/84/847c5b108fb5a4961bc4867d400f8445" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/84/847c5b108fb5a4961bc4867d400f8445" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/84/847c5b108fb5a4961bc4867d400f8445.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/84/847c5b108fb5a4961bc4867d400f8445.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/97/972226bfc14a5034995c65ce989dd118" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/97/972226bfc14a5034995c65ce989dd118" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/97/972226bfc14a5034995c65ce989dd118.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/97/972226bfc14a5034995c65ce989dd118.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/eb/eb83b7bf7a0904956aa1b33d078b2e27" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/eb/eb83b7bf7a0904956aa1b33d078b2e27" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/LabsAssembly.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/LabsAssembly.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mirrors/PlaneMirrorUsingPointLight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mirrors/SphericalMirrorDef.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Refractions/YoungSource.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Refractions/RefractionBlockDef.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mirrors/MirrorHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mirrors/SphericalMirrorFromPointLight.cs" root0="FORCE_HIGHLIGHTING" />
@@ -79,6 +68,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast Labs/VirtualImageProblemColliderHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast Labs/VirtualImageProblem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Primitive Labs/MathLabs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Refractions/WaveGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Primitive Labs/PrimitiveLabs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/IncorporatedParticleImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/SeekParticleSystemHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -131,6 +121,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IncorporatedParticleOptics/IncorporatedParticleImage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Refractions/RefractionSeekParticleSystemHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Refractions/RefractionBlockFromPointLight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Refractions/WaveGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Refractions/YoungSources.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Refractions/YoungSource.cs" />
       </list>
     </option>
   </component>
@@ -229,7 +222,8 @@
       <workItem from="1587932655806" duration="2402000" />
       <workItem from="1587952021888" duration="4289000" />
       <workItem from="1587961301469" duration="2533000" />
-      <workItem from="1588002976899" duration="3766000" />
+      <workItem from="1588002976899" duration="7649000" />
+      <workItem from="1588049448181" duration="4729000" />
     </task>
     <servers />
   </component>
