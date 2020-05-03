@@ -18,6 +18,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
+          <e p="CollisionLabs" t="Include">
+            <e p="CollisionLabs.cs" t="Include" />
+          </e>
           <e p="Diffraction" t="Include">
             <e p="WaveGenerator.cs" t="Include" />
             <e p="YoungSource.cs" t="Include" />

@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\CollisionLabs\CollisionLabs.cs" />
     <Compile Include="Assets\Scripts\Diffraction\WaveGenerator.cs" />
     <Compile Include="Assets\Scripts\Diffraction\YoungSource.cs" />
     <Compile Include="Assets\Scripts\IncorporatedParticleOptics\IncorporatedParticleImage.cs" />

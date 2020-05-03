@@ -9,7 +9,7 @@ namespace Diffraction
         public GameObject targetScreen;
 
         public float wavelength = 500;
-        public float amplitude = 2;
+        public float initIntensity = 1;
 
         public Vector3 emmitDir = Vector3.right;
 
@@ -44,10 +44,18 @@ namespace Diffraction
             _D = Vector3.Distance(_midPoint, targetScreen.transform.position);
             for (int m = 0; m < _m; m++)
             {
-                float y = (m * wavelength * _D) / _d;
+                float y = m * wavelength * _D / _d;
                 Vector3 constructivePoint = targetScreen.transform.position + y * targetScreen.transform.up;
+
+                // Calculating intensity
+                float phaseDiff = _d * y / Vector3.Distance(_myPos, constructivePoint) / wavelength * (Mathf.PI * 2);
+                float intensity = 4f * initIntensity * Mathf.Pow(Mathf.Cos(phaseDiff / 2f), 2);
+
+                // Drawing point
+                print("With Intensity: " + intensity);
                 print("Drawing constructive point at " + constructivePoint);
-                Debug.DrawLine(_midPoint, constructivePoint, Color.cyan, Mathf.Infinity);
+                // Debug.DrawLine(_midPoint, constructivePoint, Color.cyan, Mathf.Infinity);
+                Debug.DrawRay(constructivePoint, Vector3.left * intensity, Color.cyan, Mathf.Infinity);
             }
         }
 

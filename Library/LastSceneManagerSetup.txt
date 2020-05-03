@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Refractions/Waves.unity
+- path: Assets/Scenes/TestLabs/CollisionLabs.unity
   isLoaded: 1
   isActive: 1

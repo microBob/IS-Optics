@@ -64,8 +64,8 @@ namespace Diffraction
                 // Change color
                 Color tempColor = _waveHeads[i].GetComponent<Renderer>().material.color;
                 print("Cur: " + curRadius.x + "Max: " + maxRadius);
-                tempColor.a = Remap(SphereSurfaceArea(curRadius.x), 0, SphereSurfaceArea(maxRadius), 1, 0);
-
+                tempColor.a = Remap(SphereSurfaceArea(curRadius.x), 0, SphereSurfaceArea(maxRadius), 1, 0) / 5f;
+                
                 _waveHeads[i].GetComponent<Renderer>().material.color = tempColor;
             }
 
@@ -78,9 +78,9 @@ namespace Diffraction
                 wave.transform.position = _myPos;
                 wave.transform.localScale = Vector3.zero;
                 wave.GetComponent<Renderer>().material = _isPositiveWave ? positiveMaterial : negativeMaterial;
-            
+
                 _waveHeads.Insert(0, wave);
-            
+
                 _isPositiveWave = !_isPositiveWave;
                 _waveSpacing = 0;
             }
