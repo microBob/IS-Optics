@@ -8,7 +8,7 @@ namespace Diffraction
         public LineRenderer lineRenderer;
 
         public float lineWidth = 0.1f;
-        public bool isPositiveWave = true;
+        public bool isPositiveWave;
 
         public Material positiveMaterial;
         public Material negativeMaterial;
@@ -16,12 +16,12 @@ namespace Diffraction
         void Start()
         {
             List<Vector3> vertices = new List<Vector3>();
-            for (int i = 0; i < 361; i++)
+            for (int i = 0; i < 181; i++)
             {
-                vertices.Add(new Vector3(Mathf.Cos(Mathf.Deg2Rad * i),Mathf.Sin(Mathf.Deg2Rad * i)));
+                vertices.Add(new Vector3(Mathf.Cos(Mathf.Deg2Rad * i*2),Mathf.Sin(Mathf.Deg2Rad * i*2)));
             }
 
-            lineRenderer.positionCount = 361;
+            lineRenderer.positionCount = 181;
             lineRenderer.SetPositions(vertices.ToArray());
 
             lineRenderer.material = isPositiveWave ? positiveMaterial : negativeMaterial;

@@ -24,6 +24,18 @@ namespace Diffraction
         }
     }
 
+    public struct WaveFront
+    {
+        public GameObject WaveGameObject;
+        public bool IsPositiveWave;
+
+        public WaveFront(GameObject go, bool ipw)
+        {
+            WaveGameObject = go;
+            IsPositiveWave = ipw;
+        }
+    }
+
     public class Wave2D : MonoBehaviour
     {
         public GameObject otherWaveSource;
@@ -46,7 +58,7 @@ namespace Diffraction
         private Transform _myTransform;
         private Vector3 _myPos;
 
-        private readonly List<GameObject> _waveFronts = new List<GameObject>();
+        private readonly List<WaveFront> _waveFronts = new List<WaveFront>();
 
         private bool _isPositiveWave = true;
 
@@ -87,7 +99,7 @@ namespace Diffraction
             // SECTION: create new wave
             if (_waveSpacing >= wfValue / 2)
             {
-                _waveFronts.Insert(0, CreateNewWave(0.05f));
+                _waveFronts.Insert(0, new WaveFront(CreateNewWave(0.05f), _isPositiveWave));
 
                 _isPositiveWave = !_isPositiveWave;
                 _waveSpacing = 0;
@@ -99,11 +111,11 @@ namespace Diffraction
 
             for (int i = _waveFronts.Count - 1; i >= 0; i--)
             {
-                _waveFronts[i].transform.localScale += new Vector3(radiusIncrease, radiusIncrease);
+                _waveFronts[i].WaveGameObject.transform.localScale += new Vector3(radiusIncrease, radiusIncrease);
 
-                if (_waveFronts[i].transform.localScale.x > maxRadius)
+                if (_waveFronts[i].WaveGameObject.transform.localScale.x > maxRadius)
                 {
-                    Destroy(_waveFronts[i]);
+                    Destroy(_waveFronts[i].WaveGameObject);
                     _waveFronts.RemoveAt(i);
                 }
             }
@@ -111,7 +123,7 @@ namespace Diffraction
             if (!interferenceCalculator)
             {
                 // SECTION: calculate intersections
-                List<GameObject> otherWaveFronts = _otherHandler._waveFronts;
+                List<WaveFront> otherWaveFronts = _otherHandler._waveFronts;
                 float sourceDist = Vector3.Distance(_myPos, otherWaveSource.transform.position);
 
                 if (Mathf.Approximately(sourceDist, 0f))
@@ -122,27 +134,28 @@ namespace Diffraction
                 {
                     _intersectionPoints.Clear();
                     int myWaveIndex = 0;
-                    foreach (var curWaveFront in _waveFronts)
+                    foreach (WaveFront curWaveFront in _waveFronts)
                     {
                         int otherWaveIndex = 0;
-                        WaveFront2D curWaveFrontHandler = curWaveFront.GetComponent<WaveFront2D>();
+                        GameObject curWaveGameObject = curWaveFront.WaveGameObject;
                         List<WaveIntersection> curWaveIntersections = new List<WaveIntersection>();
-                        foreach (GameObject otherWaveFront in otherWaveFronts)
+                        foreach (WaveFront otherWaveFront in otherWaveFronts)
                         {
                             print("Checking myWave " + myWaveIndex + " against otherWave " + otherWaveIndex);
+                            GameObject otherWaveFrontGameObject = otherWaveFront.WaveGameObject;
                             // first, check if these waves will collide
-                            if (curWaveFront.transform.localScale.x + otherWaveFront.transform.localScale.x >=
+                            if (curWaveGameObject.transform.localScale.x + otherWaveFrontGameObject.transform.localScale.x >=
                                 sourceDist)
                             {
                                 print("These waves will collide");
                                 // Get constants
-                                float r1 = curWaveFront.transform.localScale.x;
-                                float r2 = otherWaveFront.transform.localScale.x;
+                                float r1 = curWaveGameObject.transform.localScale.x;
+                                float r2 = otherWaveFrontGameObject.transform.localScale.x;
 
                                 float x1 = _myPos.x;
                                 float y1 = _myPos.y;
 
-                                Vector3 otherPosition = otherWaveFront.transform.position;
+                                Vector3 otherPosition = otherWaveFrontGameObject.transform.position;
                                 float x2 = otherPosition.x;
                                 float y2 = otherPosition.y;
 
@@ -187,13 +200,20 @@ namespace Diffraction
                                       curIntersectionPoints[1]);
 
                                 // Determine the type of interference
-                                WaveFront2D otherWaveFrontHandler = curWaveFront.GetComponent<WaveFront2D>();
                                 InterferenceType interferenceType;
-                                if (curWaveFrontHandler.isPositiveWave && otherWaveFrontHandler.isPositiveWave)
+                                print("Current Wave is " +
+                                      (curWaveFront.IsPositiveWave ? "positive" : "negative"));
+                                print("Other Wave is " +
+                                      (otherWaveFront.IsPositiveWave ? "positive" : "negative"));
+                                
+                                bool curWaveIsPositive = curWaveFront.IsPositiveWave;
+                                bool otherWaveIsPositive = otherWaveFront.IsPositiveWave;
+                                
+                                if (curWaveIsPositive && otherWaveIsPositive)
                                 {
                                     interferenceType = InterferenceType.PositiveConstructive;
                                 }
-                                else if (!curWaveFrontHandler.isPositiveWave && !otherWaveFrontHandler.isPositiveWave)
+                                else if (!curWaveIsPositive && !otherWaveIsPositive)
                                 {
                                     interferenceType = InterferenceType.NegativeConstructive;
                                 }

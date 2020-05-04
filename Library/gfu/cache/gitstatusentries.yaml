@@ -13,66 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-05-04T15:44:28.492-07:00
+  lastUpdatedAtString: 2020-05-04T16:18:54.981-07:00
   initializedAtString: 2020-05-04T15:44:13.413-07:00
   entries:
-  - path: .idea\.idea.OpticsLabs\.idea\contentModel.xml
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\.idea\.idea.OpticsLabs\.idea\contentModel.xml
-    projectPath: .idea\.idea.OpticsLabs\.idea\contentModel.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: .idea\.idea.OpticsLabs\.idea\workspace.xml
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\.idea\.idea.OpticsLabs\.idea\workspace.xml
     projectPath: .idea\.idea.OpticsLabs\.idea\workspace.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Resources\Objects\2DWaveFront.prefab
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Objects\2DWaveFront.prefab
-    projectPath: Assets\Resources\Objects\2DWaveFront.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Resources\Objects\2DWaveFront.prefab.meta
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Resources\Objects\2DWaveFront.prefab.meta
-    projectPath: Assets\Resources\Objects\2DWaveFront.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\Diffraction\ThinFilm.unity
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Diffraction\ThinFilm.unity
-    projectPath: Assets\Scenes\Diffraction\ThinFilm.unity
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\Diffraction\ThinFilm.unity.meta
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Diffraction\ThinFilm.unity.meta
-    projectPath: Assets\Scenes\Diffraction\ThinFilm.unity.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\Diffraction\Waves2D.unity
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Diffraction\Waves2D.unity
-    projectPath: Assets\Scenes\Diffraction\Waves2D.unity
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\Diffraction\Waves2D.unity.meta
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Diffraction\Waves2D.unity.meta
-    projectPath: Assets\Scenes\Diffraction\Waves2D.unity.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\Diffraction\Young.unity
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Diffraction\Young.unity
-    projectPath: Assets\Scenes\Diffraction\Young.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\TestLabs\CollisionLabs.unity
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\TestLabs\CollisionLabs.unity
-    projectPath: Assets\Scenes\TestLabs\CollisionLabs.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -80,66 +26,17 @@ MonoBehaviour:
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\Wave2D.cs
     projectPath: Assets\Scripts\Diffraction\Wave2D.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Diffraction\Wave2D.cs.meta
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\Wave2D.cs.meta
-    projectPath: Assets\Scripts\Diffraction\Wave2D.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Diffraction\Wave3DGenerator.cs.meta
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\Wave3DGenerator.cs.meta
-    projectPath: Assets\Scripts\Diffraction\Wave3DGenerator.cs.meta
-    originalPath: Assets\Scripts\Diffraction\WaveGenerator.cs.meta
-    indexStatus: 6
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scripts\Diffraction\WaveFront2D.cs
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\WaveFront2D.cs
     projectPath: Assets\Scripts\Diffraction\WaveFront2D.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Diffraction\WaveFront2D.cs.meta
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\WaveFront2D.cs.meta
-    projectPath: Assets\Scripts\Diffraction\WaveFront2D.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\Diffraction\WaveGenerator.cs -> Assets\Scripts\Diffraction\Wave3DGenerator.cs
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\WaveGenerator.cs
-      -> Assets\Scripts\Diffraction\Wave3DGenerator.cs
-    projectPath: Assets\Scripts\Diffraction\WaveGenerator.cs -> Assets\Scripts\Diffraction\Wave3DGenerator.cs
-    originalPath: 
-    indexStatus: 6
-    workTreeStatus: 3
-  - path: LabsAssembly.csproj
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\LabsAssembly.csproj
-    projectPath: LabsAssembly.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\assetDatabase3
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\assetDatabase3
     projectPath: Library\assetDatabase3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\CurrentMaximizeLayout.dwlt
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\CurrentMaximizeLayout.dwlt
-    projectPath: Library\CurrentMaximizeLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\expandedItems
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\expandedItems
-    projectPath: Library\expandedItems
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -164,24 +61,6 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -212,18 +91,6 @@ MonoBehaviour:
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\2dcdb6-mainStage.json
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\StateCache\SceneView\2dcdb6-mainStage.json
-    projectPath: Library\StateCache\SceneView\2dcdb6-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\LabsAssembly.csprojAssemblyReference.cache
-    fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\obj\Debug\LabsAssembly.csprojAssemblyReference.cache
-    projectPath: obj\Debug\LabsAssembly.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
