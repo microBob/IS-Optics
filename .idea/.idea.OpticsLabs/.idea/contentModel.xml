@@ -22,7 +22,9 @@
             <e p="CollisionLabs.cs" t="Include" />
           </e>
           <e p="Diffraction" t="Include">
-            <e p="WaveGenerator.cs" t="Include" />
+            <e p="Wave2D.cs" t="Include" />
+            <e p="Wave3DGenerator.cs" t="Include" />
+            <e p="WaveFront2D.cs" t="Include" />
             <e p="YoungSource.cs" t="Include" />
           </e>
           <e p="IncorporatedParticleOptics" t="Include">

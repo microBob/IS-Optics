@@ -13,22 +13,22 @@
     <list default="true" id="3c9dcb34-c645-4c25-8257-5dca8332fb72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Refractions/Huygens'Principle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Refractions/Huygens'Principle.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Refractions/Waves.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Refractions/Waves.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Refractions/Young.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Refractions/Young.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Diffraction/YoungSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Diffraction/YoungSource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Diffraction/Young.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Diffraction/Young.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestLabs/CollisionLabs.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestLabs/CollisionLabs.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave3DGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveGenerator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave3DGenerator.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LabsAssembly.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LabsAssembly.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/2dcdb6-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/2dcdb6-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" afterDir="false" />
@@ -60,13 +60,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Refractions/ThinLensFromPointLight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Refractions/ThinLensDef.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Refractions/RefractionSeekParticleSystemHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Refractions/RefractionBlockFromPointLight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleDemo/R2SelfRender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleDemo/Rect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleLabs/WithinColliderTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveFront2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast Labs/LayerMaskLabs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast Labs/RaycastLabs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave3DGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast Labs/SeekClosestPointOnCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/StateCache/Hierarchy/fd8176-mainStage.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast Labs/VirtualImageProblemColliderHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -131,6 +133,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionLabs/CollisionLabs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/YoungSource.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/CircleGen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave3DGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveFront2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave2D.cs" />
       </list>
     </option>
   </component>
@@ -236,7 +242,10 @@
       <workItem from="1588138326308" duration="730000" />
       <workItem from="1588179414185" duration="1360000" />
       <workItem from="1588188342882" duration="948000" />
-      <workItem from="1588470311540" duration="1054000" />
+      <workItem from="1588470311540" duration="1332000" />
+      <workItem from="1588521985367" duration="8637000" />
+      <workItem from="1588546547167" duration="8906000" />
+      <workItem from="1588613293695" duration="4405000" />
     </task>
     <servers />
   </component>
@@ -369,9 +378,10 @@
       <screen x="0" y="22" width="1680" height="987" />
     </state>
     <state width="498" height="445" key="SwitcherDM/0.22.1680.987@0.22.1680.987" timestamp="1586648899190" />
-    <state x="1819" y="251" key="Vcs.Push.Dialog.v2" timestamp="1586067016257">
-      <screen x="1680" y="-435" width="1080" height="1898" />
+    <state x="165" y="150" key="Vcs.Push.Dialog.v2" timestamp="1588615024950">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="165" y="150" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1588615024950" />
     <state x="1819" y="251" key="Vcs.Push.Dialog.v2/1680.-435.1080.1898/0.22.1680.987@1680.-435.1080.1898" timestamp="1586067016257" />
     <state x="537" y="261" key="cloudConfig.PluginsDialog" timestamp="1587064790076">
       <screen x="0" y="0" width="1536" height="834" />
@@ -385,11 +395,12 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="410" y="144" width="700" height="530" key="recent.locations.popup/0.0.1536.834@0.0.1536.834" timestamp="1587872091111" />
-    <state x="201" y="0" width="672" height="1479" key="search.everywhere.popup" timestamp="1587953916275">
-      <screen x="0" y="0" width="864" height="1506" />
+    <state x="357" y="0" width="1195" height="820" key="search.everywhere.popup" timestamp="1588529008541">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="251" y="0" width="840" height="1857" key="search.everywhere.popup/0.0.1080.1890@0.0.1080.1890" timestamp="1587084712804" />
     <state x="297" y="-1" width="670" height="676" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1582566433511" />
+    <state x="357" y="0" width="1195" height="820" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1588529008541" />
     <state x="446" y="-2" width="1005" height="1021" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582569068705" />
     <state x="201" y="0" width="672" height="1479" key="search.everywhere.popup/0.0.864.1506@0.0.864.1506" timestamp="1587953916275" />
     <state x="390" y="22" width="880" height="969" key="search.everywhere.popup/0.22.1680.987@0.22.1680.987" timestamp="1586652554053" />

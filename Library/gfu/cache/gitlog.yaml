@@ -13,9 +13,207 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-05-02T18:44:55.498-07:00
-  initializedAtString: 2020-05-02T18:32:40.217-07:00
+  lastUpdatedAtString: 2020-05-04T15:44:18.365-07:00
+  initializedAtString: 2020-05-04T15:44:17.821-07:00
   log:
+  - commitID: 4ad45bb5ed260050776ab5a58432f725b7bc3dd7
+    mergeA: 
+    mergeB: 
+    authorName: Kenneth Y
+    authorEmail: kyang@eastsideprep.org
+    commitEmail: kyang@eastsideprep.org
+    commitName: Kenneth Y
+    summary: Double Slit intensity (un-confirmed)
+    description: 
+    timeString: 2020-05-02T19:54:22.000-07:00
+    commitTimeString: 2020-05-02T19:54:22.000-07:00
+    changes:
+    - path: .idea\.idea.OpticsLabs\.idea\contentModel.xml
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\.idea\.idea.OpticsLabs\.idea\contentModel.xml
+      projectPath: .idea\.idea.OpticsLabs\.idea\contentModel.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .idea\.idea.OpticsLabs\.idea\workspace.xml
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\.idea\.idea.OpticsLabs\.idea\workspace.xml
+      projectPath: .idea\.idea.OpticsLabs\.idea\workspace.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Diffraction.meta
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Diffraction.meta
+      projectPath: Assets\Scenes\Diffraction.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Diffraction\Waves.unity
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Diffraction\Waves.unity
+      projectPath: Assets\Scenes\Diffraction\Waves.unity
+      originalPath: Assets\Scenes\Refractions\Waves.unity
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Diffraction\Waves.unity.meta
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Diffraction\Waves.unity.meta
+      projectPath: Assets\Scenes\Diffraction\Waves.unity.meta
+      originalPath: Assets\Scenes\Refractions\Waves.unity.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Diffraction\Young.unity
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Diffraction\Young.unity
+      projectPath: Assets\Scenes\Diffraction\Young.unity
+      originalPath: Assets\Scenes\Refractions\Young.unity
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Diffraction\Young.unity.meta
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Diffraction\Young.unity.meta
+      projectPath: Assets\Scenes\Diffraction\Young.unity.meta
+      originalPath: Assets\Scenes\Refractions\Young.unity.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Refractions\Huygens'Principle.unity
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\Refractions\Huygens'Principle.unity
+      projectPath: Assets\Scenes\Refractions\Huygens'Principle.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\TestLabs\CollisionLabs.unity
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\TestLabs\CollisionLabs.unity
+      projectPath: Assets\Scenes\TestLabs\CollisionLabs.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\TestLabs\CollisionLabs.unity.meta
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scenes\TestLabs\CollisionLabs.unity.meta
+      projectPath: Assets\Scenes\TestLabs\CollisionLabs.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CollisionLabs.meta
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\CollisionLabs.meta
+      projectPath: Assets\Scripts\CollisionLabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CollisionLabs\CollisionLabs.cs
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\CollisionLabs\CollisionLabs.cs
+      projectPath: Assets\Scripts\CollisionLabs\CollisionLabs.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CollisionLabs\CollisionLabs.cs.meta
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\CollisionLabs\CollisionLabs.cs.meta
+      projectPath: Assets\Scripts\CollisionLabs\CollisionLabs.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Diffraction\WaveGenerator.cs
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\WaveGenerator.cs
+      projectPath: Assets\Scripts\Diffraction\WaveGenerator.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Diffraction\YoungSource.cs
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Assets\Scripts\Diffraction\YoungSource.cs
+      projectPath: Assets\Scripts\Diffraction\YoungSource.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: LabsAssembly.csproj
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\LabsAssembly.csproj
+      projectPath: LabsAssembly.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\LabsAssembly.dll
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\ScriptAssemblies\LabsAssembly.dll
+      projectPath: Library\ScriptAssemblies\LabsAssembly.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\LabsAssembly.pdb
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\ScriptAssemblies\LabsAssembly.pdb
+      projectPath: Library\ScriptAssemblies\LabsAssembly.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Tests.dll
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\ScriptAssemblies\Tests.dll
+      projectPath: Library\ScriptAssemblies\Tests.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\LabsAssembly.csprojAssemblyReference.cache
+      fullPath: C:\Users\kyang\OneDrive - Eastside Preparatory School\Optics\OpticsLabs\obj\Debug\LabsAssembly.csprojAssemblyReference.cache
+      projectPath: obj\Debug\LabsAssembly.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 58217abb7f6f553dac9033da4fe2930f83ac1f03
     mergeA: 
     mergeB: 
