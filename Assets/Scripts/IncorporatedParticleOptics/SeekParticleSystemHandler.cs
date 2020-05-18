@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Mirrors;
-using Raycast_Labs;
 using UnityEngine;
 
 namespace IncorporatedParticleOptics
@@ -13,6 +11,8 @@ namespace IncorporatedParticleOptics
         public GameObject sourceLight;
 
         private IncorporatedParticleImage _sourceHandler;
+
+        // private RefractionBlockFromPointLight _sourceHandler;
         // private VirtualImageProblem _sourceHandlerTest;
 
         public Collider validVolume;
@@ -21,6 +21,8 @@ namespace IncorporatedParticleOptics
 
         private bool _once;
 
+        private int _roundsOfWaiting;
+
         private void OnParticleCollision(GameObject other)
         {
             print("Particle system has collision!");
@@ -28,9 +30,6 @@ namespace IncorporatedParticleOptics
             List<ParticleCollisionEvent> collisionEvents = new List<ParticleCollisionEvent>();
             myParticleSystem.GetCollisionEvents(other, collisionEvents);
             print("There are " + collisionEvents.Count + " hits with target");
-
-            List<Vector3> pointsToSend = new List<Vector3>();
-            List<Vector3> normsToSend = new List<Vector3>();
 
             foreach (ParticleCollisionEvent particleCollisionEvent in collisionEvents)
             {
@@ -43,18 +42,34 @@ namespace IncorporatedParticleOptics
                 // returns zero if it can't find a point
                 if (curPoint.Equals(Vector3.zero))
                 {
+                    print("Removed point for being 0,0,0");
                     continue;
                 }
 
-                if (validVolume != null)
+                // break out if this object is the source mirror
+                if (sourceImageObject != null && other.Equals(sourceImageObject))
                 {
-                    if (other.Equals(sourceImageObject))
-                    {
-                        break;
-                    }
+                    print("This is the source mirror (stopping)");
+                    break;
+                }
 
-                    if (!IsPointWithinCollider(validVolume, curPoint))
+                // skip if this point doesn't fit inside the viewable cone
+                if (validVolume != null && !IsPointWithinCollider(validVolume, curPoint))
+                {
+                    print("Point is not in valid volume");
+                    continue;
+                }
+
+                // skip if normal is not aligned with plane mirror
+                if (other.GetComponent<PlaneMirrorDef>() != null)
+                {
+                    Vector3 normDir = (pointNormal - curPoint).normalized;
+                    float dot = Vector3.Dot(other.transform.forward, normDir);
+
+                    // remove point if greater than tolerance of 0.5
+                    if (Mathf.Abs(dot) < 0.5)
                     {
+                        print("Normal with mirror is not aligned with face");
                         continue;
                     }
                 }
@@ -62,26 +77,10 @@ namespace IncorporatedParticleOptics
 
                 print("Found valid point: " + curPoint);
 
-                pointsToSend.Add(curPoint);
-                normsToSend.Add(pointNormal);
-
-                // PlaneMirrors only need one points and norm
-                if (other.GetComponent<PlaneMirrorDef>() != null)
-                {
-                    break;
-                }
-
-                // Spherical mirrors need two before exiting
-                if (other.GetComponent<SphericalMirrorDef>() != null && pointsToSend.Count.Equals(2))
-                {
-                    break;
-                }
-            }
-
-            if (pointsToSend.Count > 0)
-            {
-                _sourceHandler.AddObjectsInSceneAndRenderPoints(other, pointsToSend);
-                _sourceHandler.AddHitObjectNameAndNormal(other.name, normsToSend);
+                _sourceHandler.AddObjectsInSceneAndRenderPoints(other, curPoint);
+                _sourceHandler.AddHitObjectNameAndNormal(other.name, pointNormal);
+                // _sourceHandler.AddHitData(other, curPoint, pointNormal);
+                break;
             }
 
             // _sourceHandler.SetStatusComplete(false);
@@ -93,6 +92,7 @@ namespace IncorporatedParticleOptics
         {
             print("Spawned Particle system");
             _sourceHandler = sourceLight.GetComponent<IncorporatedParticleImage>();
+            // _sourceHandler = sourceLight.GetComponent<RefractionBlockFromPointLight>();
             // _sourceHandlerTest = sourceLight.GetComponent<VirtualImageProblem>();
         }
 
@@ -107,10 +107,21 @@ namespace IncorporatedParticleOptics
                 _once = true;
             }
 
-            if (!myParticleSystem.IsAlive() && _sourceHandler.GetSceneObjects().Count > 0)
+            if (!myParticleSystem.IsAlive())
             {
-                //TODO: detect when all collisions are done
-                _sourceHandler.SetStatus(Status.PreRendering);
+                if (_sourceHandler.GetSceneObjects().Count > 0)
+                {
+                    //TODO: detect when all collisions are done
+                    _sourceHandler.SetStatus(Status.PreRendering);
+                }
+                else
+                {
+                    _roundsOfWaiting++;
+                    if (_roundsOfWaiting == 10)
+                    {
+                        _sourceHandler.SetStatus(Status.Complete);
+                    }
+                }
             }
         }
 

@@ -13,18 +13,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-04-10T17:35:47.991-07:00
-  initializedAtString: 2020-04-10T17:35:47.964-07:00
+  lastUpdatedAtString: 2020-05-17T23:35:38.764-07:00
+  initializedAtString: 2020-05-17T20:58:06.777-07:00
   localBranches:
   - name: master
+    tracking: 
+  - name: SnellRefraction
+    tracking: 
+  - name: SphericalMirrorsUsingPSPoints
+    tracking: 
+  - name: SphericalMirrorsUsingRayPoints
+    tracking: 
+  - name: WavesAndYoung
     tracking: 
   remoteBranches: []
   remotes: []
   localConfigBranches:
     keys:
     - master
+    - SnellRefraction
+    - SphericalMirrorsUsingPSPoints
+    - SphericalMirrorsUsingRayPoints
+    - WavesAndYoung
     values:
     - name: master
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: SnellRefraction
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: SphericalMirrorsUsingPSPoints
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: SphericalMirrorsUsingRayPoints
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: WavesAndYoung
       remote:
         name: 
         url: 

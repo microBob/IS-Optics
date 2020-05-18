@@ -17,16 +17,15 @@ namespace Refractions
 
         private ThinLensDef _thinLensDef;
 
-        private GameObject image;
-
+        private GameObject _image;
 
         // Start is called before the first frame update
         void Start()
         {
-            image = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-            image.SetActive(false);
-            Destroy(image.GetComponent<SphereCollider>());
-            image.transform.localScale = transform.localScale;
+            _image = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            _image.SetActive(false);
+            Destroy(_image.GetComponent<SphereCollider>());
+            _image.transform.localScale = transform.localScale;
         }
 
         // Update is called once per frame
@@ -47,18 +46,18 @@ namespace Refractions
                 lens = hit.collider.gameObject.transform.parent.gameObject;
                 _thinLensDef = lens.GetComponent<ThinLensDef>();
 
-                if (!image.activeSelf)
+                if (!_image.activeSelf)
                 {
-                    image.SetActive(true);
+                    _image.SetActive(true);
                 }
 
                 Render();
             }
             else
             {
-                if (image.activeSelf)
+                if (_image.activeSelf)
                 {
-                    image.SetActive(false);
+                    _image.SetActive(false);
                 }
             }
         }
@@ -89,7 +88,7 @@ namespace Refractions
             imageLoc += Vector3.up * imageHeight;
             // Debug.DrawLine(_lensContactPoint, imageLoc, Color.magenta, Mathf.Infinity);
 
-            image.transform.position = imageLoc;
+            _image.transform.position = imageLoc;
         }
     }
 }
