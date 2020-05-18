@@ -11,6 +11,7 @@ namespace Diffraction
         public float wavelength = 500;
         public float initIntensity = 1;
 
+        public float drawResolution = 0.5f;
         public Vector3 emmitDir = Vector3.right;
 
         // SECTION: private vars
@@ -42,7 +43,7 @@ namespace Diffraction
 
             // Draw ym locations
             _D = Vector3.Distance(_midPoint, targetScreen.transform.position);
-            for (int m = 0; m < _m; m++)
+            for (float m = -_m; m < _m; m += drawResolution)
             {
                 float y = m * wavelength * _D / _d;
                 Vector3 constructivePoint = targetScreen.transform.position + y * targetScreen.transform.up;

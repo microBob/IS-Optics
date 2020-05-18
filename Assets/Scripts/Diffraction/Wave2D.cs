@@ -250,6 +250,7 @@ namespace Diffraction
                         foreach (Vector3 waveIntersectionIntersectionPoint in waveIntersection.IntersectionPoints)
                         {
                             Debug.DrawLine(_myPos, waveIntersectionIntersectionPoint, Color.red, 0.01f);
+                            
                         }
                     }
                 }

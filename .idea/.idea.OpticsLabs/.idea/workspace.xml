@@ -12,18 +12,30 @@
   <component name="ChangeListManager">
     <list default="true" id="3c9dcb34-c645-4c25-8257-5dca8332fb72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Diffraction/Waves2D.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Diffraction/Waves2D.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Diffraction/Young.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Diffraction/Young.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveFront2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveFront2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Diffraction/YoungSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Diffraction/YoungSource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/gfu/cache/repoinfo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/repoinfo.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/11/1163d9e5ff247014782aa072f00ac314" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/11/1163d9e5ff247014782aa072f00ac314" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,10 +133,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Refractions/WaveGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionLabs/CollisionLabs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/YoungSource.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/CircleGen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave3DGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/WaveFront2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/YoungSource.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave2D.cs" />
       </list>
     </option>
@@ -235,7 +247,10 @@
       <workItem from="1588521985367" duration="8637000" />
       <workItem from="1588546547167" duration="8906000" />
       <workItem from="1588613293695" duration="4405000" />
-      <workItem from="1588632269817" duration="1975000" />
+      <workItem from="1588632269817" duration="3984000" />
+      <workItem from="1588705331404" duration="600000" />
+      <workItem from="1588872116190" duration="698000" />
+      <workItem from="1589775171169" duration="671000" />
     </task>
     <servers />
   </component>
