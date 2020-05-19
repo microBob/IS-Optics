@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\ParticleDemo\Rect.cs" />
     <Compile Include="Assets\Scripts\ParticleLabs\WithinColliderTest.cs" />
     <Compile Include="Assets\Scripts\PointLight.cs" />
+    <Compile Include="Assets\Scripts\PresentationCamera.cs" />
     <Compile Include="Assets\Scripts\Primitive Labs\MathLabs.cs" />
     <Compile Include="Assets\Scripts\Primitive Labs\PrimitiveLabs.cs" />
     <Compile Include="Assets\Scripts\Raycast Labs\LayerMaskLabs.cs" />
