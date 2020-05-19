@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-05-17T23:35:38.752-07:00
-  initializedAtString: 2020-05-17T20:58:05.690-07:00
+  lastUpdatedAtString: 2020-05-19T10:36:31.801-07:00
+  initializedAtString: 2020-05-19T10:36:31.593-07:00
   currentGitRemote:
     name: 
     url: 
@@ -24,10 +24,10 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: WavesAndYoung
+    name: master
     tracking: 
   currentConfigBranch:
-    name: WavesAndYoung
+    name: master
     remote:
       name: 
       url: 
