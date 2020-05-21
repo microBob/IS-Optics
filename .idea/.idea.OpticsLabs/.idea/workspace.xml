@@ -11,24 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c9dcb34-c645-4c25-8257-5dca8332fb72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/IncorporatedParticleOptics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IncorporatedParticleOptics.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabsAssembly.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LabsAssembly.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/LabsAssembly.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitlog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/gfu/cache/repoinfo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/repoinfo.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/LabsAssembly.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/LabsAssembly.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PresentationCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PresentationCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +35,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Diffraction/YoungSource.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mirrors/PlaneMirrorDef.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mirrors/PlaneMirrorUsingPointLightStraight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/StateCache/Hierarchy/830ad1-mainStage.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Refractions/ThinLensFromPointLight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Refractions/ThinLensDef.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Refractions/RefractionSeekParticleSystemHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -64,7 +49,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave3DGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast Labs/SeekClosestPointOnCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PresentationCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/StateCache/Hierarchy/fd8176-mainStage.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast Labs/VirtualImageProblemColliderHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast Labs/VirtualImageProblem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Primitive Labs/MathLabs.cs" root0="FORCE_HIGHLIGHTING" />
@@ -247,6 +231,8 @@
       <workItem from="1589775171169" duration="1369000" />
       <workItem from="1589909603629" duration="37000" />
       <workItem from="1589909783317" duration="5725000" />
+      <workItem from="1590027688051" duration="1108000" />
+      <workItem from="1590036783475" duration="1547000" />
     </task>
     <servers />
   </component>
