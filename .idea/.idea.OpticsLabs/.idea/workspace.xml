@@ -11,10 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c9dcb34-c645-4c25-8257-5dca8332fb72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Objects/ParticleImagePoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Objects/ParticleImagePoint.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/IncorporatedParticleOptics.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IncorporatedParticleOptics.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Refractions/ThinLenses.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Refractions/ThinLenses.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PresentationCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PresentationCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +234,10 @@
       <workItem from="1589909603629" duration="37000" />
       <workItem from="1589909783317" duration="5725000" />
       <workItem from="1590027688051" duration="1108000" />
-      <workItem from="1590036783475" duration="1547000" />
+      <workItem from="1590036783475" duration="2320000" />
+      <workItem from="1590077740653" duration="3422000" />
+      <workItem from="1590594280960" duration="512000" />
+      <workItem from="1590594820958" duration="230000" />
     </task>
     <servers />
   </component>
