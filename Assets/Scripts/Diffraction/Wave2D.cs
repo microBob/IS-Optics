@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections;
 using UnityEditor;
 using UnityEngine;
 
@@ -14,7 +16,7 @@ namespace Diffraction
 
     public struct WaveIntersection
     {
-        public List<Vector3> IntersectionPoints;
+        public readonly List<Vector3> IntersectionPoints;
         public InterferenceType InterferenceType;
 
         public WaveIntersection(List<Vector3> ip, InterferenceType it)
@@ -69,6 +71,14 @@ namespace Diffraction
 
         private List<List<WaveIntersection>> _intersectionPoints = new List<List<WaveIntersection>>();
 
+        private GameObject _intersectionDraws;
+
+        private ParticleSystem _drawsParticleSystem;
+
+        private List<WaveIntersection> _pointsToDraw = new List<WaveIntersection>();
+        
+        private NativeArray<ParticleSystem.Particle> _particles; 
+
         // Start is called before the first frame update
         void Start()
         {
@@ -89,6 +99,18 @@ namespace Diffraction
 
             // Scale wavelength (nm) to Unity cm
             wfValue *= Mathf.Pow(10, -3);
+
+            // Configure particle system for displaying points
+            _intersectionDraws = new GameObject("Intersection Visuals");
+            _drawsParticleSystem = _intersectionDraws.AddComponent<ParticleSystem>();
+            _drawsParticleSystem.GetComponent<ParticleSystemRenderer>().material = new Material(Shader.Find("Particles/Standard Unlit"));
+            ParticleSystem.MainModule mainModule = _drawsParticleSystem.main;
+            mainModule.startSize = 0.1f;
+            mainModule.duration = Single.MaxValue;
+            mainModule.startLifetime = 1f;
+            mainModule.startLifetime = new ParticleSystem.MinMaxCurve(1f);
+
+            InvokeRepeating(nameof(RefreshDrawIntersectionPoints), 0f, 1f);
         }
 
         // Update is called once per frame
@@ -144,7 +166,8 @@ namespace Diffraction
                             print("Checking myWave " + myWaveIndex + " against otherWave " + otherWaveIndex);
                             GameObject otherWaveFrontGameObject = otherWaveFront.WaveGameObject;
                             // first, check if these waves will collide
-                            if (curWaveGameObject.transform.localScale.x + otherWaveFrontGameObject.transform.localScale.x >=
+                            if (curWaveGameObject.transform.localScale.x +
+                                otherWaveFrontGameObject.transform.localScale.x >=
                                 sourceDist)
                             {
                                 print("These waves will collide");
@@ -205,10 +228,10 @@ namespace Diffraction
                                       (curWaveFront.IsPositiveWave ? "positive" : "negative"));
                                 print("Other Wave is " +
                                       (otherWaveFront.IsPositiveWave ? "positive" : "negative"));
-                                
+
                                 bool curWaveIsPositive = curWaveFront.IsPositiveWave;
                                 bool otherWaveIsPositive = otherWaveFront.IsPositiveWave;
-                                
+
                                 if (curWaveIsPositive && otherWaveIsPositive)
                                 {
                                     interferenceType = InterferenceType.PositiveConstructive;
@@ -243,23 +266,76 @@ namespace Diffraction
                 }
 
                 // SECTION: draw intersections
-                foreach (List<WaveIntersection> intersectionPoint in _intersectionPoints)
+                for (int i = 0; i < _particles.Length; i++)
                 {
-                    foreach (WaveIntersection waveIntersection in intersectionPoint)
+                    ParticleSystem.Particle particle = _particles[i];
+
+                    Vector3 givenIntersectionPoint = _pointsToDraw[i].IntersectionPoints[0];
+                    if (givenIntersectionPoint.x > 4)
                     {
-                        foreach (Vector3 waveIntersectionIntersectionPoint in waveIntersection.IntersectionPoints)
-                        {
-                            Debug.DrawLine(_myPos, waveIntersectionIntersectionPoint, Color.red, 0.01f);
-                            
-                        }
+                        givenIntersectionPoint.x = 4;
                     }
+
+                    particle.position = givenIntersectionPoint;
+                    particle.startColor = _pointsToDraw[i].InterferenceType == InterferenceType.PositiveConstructive
+                        ? positiveMaterial.color
+                        : negativeMaterial.color;
                 }
+                _drawsParticleSystem.SetParticles(_particles,_particles.Length);
+                // foreach (List<WaveIntersection> intersectionPoint in _intersectionPoints)
+                // {
+                //     foreach (WaveIntersection waveIntersection in intersectionPoint)
+                //     {
+                //         foreach (Vector3 waveIntersectionIntersectionPoint in waveIntersection.IntersectionPoints)
+                //         {
+                //             Debug.DrawLine(_myPos, waveIntersectionIntersectionPoint, Color.red, 0.01f);
+                //             
+                //         }
+                //     }
+                // }
 
                 print("======================\n\n======================");
             }
         }
 
         // SECTION: Private functions
+        private void RefreshDrawIntersectionPoints()
+        {
+            // Count number of intersections
+            _pointsToDraw.Clear();
+            foreach (List<WaveIntersection> waves in _intersectionPoints)
+            {
+                foreach (WaveIntersection waveIntersection in waves)
+                {
+                    foreach (Vector3 intersectionPoint in waveIntersection.IntersectionPoints)
+                    {
+                        if (intersectionPoint.x < 0)
+                        {
+                            continue;
+                        }
+
+                        if (waveIntersection.InterferenceType == InterferenceType.Destructive)
+                        {
+                            continue;
+                        }
+
+                        _pointsToDraw.Add(new WaveIntersection(new List<Vector3> {intersectionPoint},
+                            waveIntersection.InterferenceType));
+                        
+                    }
+                }
+            }
+            
+            // emits that many particles
+            _drawsParticleSystem.Emit(_pointsToDraw.Count);
+            
+            // resets the particle NativeArray and reloads it
+            _particles.Dispose();
+            _particles = new NativeArray<ParticleSystem.Particle>();
+
+            _drawsParticleSystem.GetParticles(_particles);
+        }
+
         private GameObject CreateNewWave(float drawWidth = 0.1f)
         {
             GameObject wave = Instantiate(waveFrontGameObject, _myPos, Quaternion.identity);
