@@ -51,6 +51,7 @@
             <e p="WithinColliderTest.cs" t="Include" />
           </e>
           <e p="PointLight.cs" t="Include" />
+          <e p="PresentationCamera.cs" t="Include" />
           <e p="Primitive Labs" t="Include">
             <e p="MathLabs.cs" t="Include" />
             <e p="PrimitiveLabs.cs" t="Include" />

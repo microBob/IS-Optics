@@ -11,23 +11,26 @@ namespace Diffraction
         public bool isPositiveWave;
 
         public Material positiveMaterial;
+
         public Material negativeMaterial;
+
         // Start is called before the first frame update
         void Start()
         {
             List<Vector3> vertices = new List<Vector3>();
-            for (int i = 0; i < 181; i++)
+            for (int i = 0; i < 46; i++)
             {
-                vertices.Add(new Vector3(Mathf.Cos(Mathf.Deg2Rad * i*2),Mathf.Sin(Mathf.Deg2Rad * i*2)));
+                float deg = Mathf.Deg2Rad * (i * 4 - 90) ;
+                vertices.Add(new Vector3(Mathf.Cos(deg), Mathf.Sin(deg)));
             }
 
-            lineRenderer.positionCount = 181;
+            lineRenderer.positionCount = 46;
             lineRenderer.SetPositions(vertices.ToArray());
 
             lineRenderer.material = isPositiveWave ? positiveMaterial : negativeMaterial;
-            
+
             lineRenderer.useWorldSpace = false;
-            
+
             lineRenderer.startWidth = lineWidth;
             lineRenderer.endWidth = lineWidth;
         }

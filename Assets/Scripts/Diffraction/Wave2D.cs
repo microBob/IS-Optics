@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections;
 using UnityEditor;
 using UnityEngine;
 
@@ -14,7 +16,7 @@ namespace Diffraction
 
     public struct WaveIntersection
     {
-        public List<Vector3> IntersectionPoints;
+        public readonly List<Vector3> IntersectionPoints;
         public InterferenceType InterferenceType;
 
         public WaveIntersection(List<Vector3> ip, InterferenceType it)
@@ -50,6 +52,12 @@ namespace Diffraction
         public float maxRadius = 5;
         public float animationSpeedScale = 1;
 
+        public bool toDrawWaves;
+        public bool toDrawPoints = true;
+        public bool toDrawOnlyHit;
+
+        public GameObject destinationWall;
+
         public GameObject waveFrontGameObject;
         public Material positiveMaterial;
         public Material negativeMaterial;
@@ -68,6 +76,15 @@ namespace Diffraction
         private Wave2D _otherHandler;
 
         private List<List<WaveIntersection>> _intersectionPoints = new List<List<WaveIntersection>>();
+
+        private List<WaveIntersection> _pointsToDraw = new List<WaveIntersection>();
+        private List<GameObject> _drawnPoints = new List<GameObject>();
+
+        // private GameObject _intersectionDraws;
+        //
+        // private ParticleSystem _drawsParticleSystem;
+        //
+        // private NativeArray<ParticleSystem.Particle> _particles; 
 
         // Start is called before the first frame update
         void Start()
@@ -89,6 +106,18 @@ namespace Diffraction
 
             // Scale wavelength (nm) to Unity cm
             wfValue *= Mathf.Pow(10, -3);
+
+            // Configure particle system for displaying points
+            // _intersectionDraws = new GameObject("Intersection Visuals");
+            // _drawsParticleSystem = _intersectionDraws.AddComponent<ParticleSystem>();
+            // _drawsParticleSystem.GetComponent<ParticleSystemRenderer>().material = new Material(Shader.Find("Particles/Standard Unlit"));
+            // ParticleSystem.MainModule mainModule = _drawsParticleSystem.main;
+            // mainModule.startSize = 0.1f;
+            // mainModule.duration = Single.MaxValue;
+            // mainModule.startLifetime = 1f;
+            // mainModule.startLifetime = new ParticleSystem.MinMaxCurve(1f);
+            //
+            // InvokeRepeating(nameof(RefreshDrawIntersectionPoints), 0f, 1f);
         }
 
         // Update is called once per frame
@@ -144,8 +173,19 @@ namespace Diffraction
                             print("Checking myWave " + myWaveIndex + " against otherWave " + otherWaveIndex);
                             GameObject otherWaveFrontGameObject = otherWaveFront.WaveGameObject;
                             // first, check if these waves will collide
-                            if (curWaveGameObject.transform.localScale.x + otherWaveFrontGameObject.transform.localScale.x >=
-                                sourceDist)
+                            if (curWaveGameObject.transform.localScale.x >
+                                otherWaveFrontGameObject.transform.localScale.x + sourceDist)
+                            {
+                                print("This wave will be past the other wave (will not collide)");
+                            }
+                            else if (otherWaveFrontGameObject.transform.localScale.x >
+                                     curWaveGameObject.transform.localScale.x + sourceDist)
+                            {
+                                print("Other wave will be past the this wave (will not collide)");
+                            }
+                            else if (curWaveGameObject.transform.localScale.x +
+                                     otherWaveFrontGameObject.transform.localScale.x >=
+                                     sourceDist)
                             {
                                 print("These waves will collide");
                                 // Get constants
@@ -205,10 +245,10 @@ namespace Diffraction
                                       (curWaveFront.IsPositiveWave ? "positive" : "negative"));
                                 print("Other Wave is " +
                                       (otherWaveFront.IsPositiveWave ? "positive" : "negative"));
-                                
+
                                 bool curWaveIsPositive = curWaveFront.IsPositiveWave;
                                 bool otherWaveIsPositive = otherWaveFront.IsPositiveWave;
-                                
+
                                 if (curWaveIsPositive && otherWaveIsPositive)
                                 {
                                     interferenceType = InterferenceType.PositiveConstructive;
@@ -229,7 +269,7 @@ namespace Diffraction
                             }
                             else
                             {
-                                print("These waves will not collide");
+                                print("These waves are too far and will not collide");
                             }
 
                             otherWaveIndex++;
@@ -243,23 +283,109 @@ namespace Diffraction
                 }
 
                 // SECTION: draw intersections
-                foreach (List<WaveIntersection> intersectionPoint in _intersectionPoints)
+                RefreshDrawIntersectionPoints();
+                for (int i = 0; i < _pointsToDraw.Count; i++)
                 {
-                    foreach (WaveIntersection waveIntersection in intersectionPoint)
+                    _drawnPoints[i].SetActive(toDrawPoints);
+                    Vector3 drawPoint = _pointsToDraw[i].IntersectionPoints[0];
+                    print("Draw Position: " + drawPoint);
+                    if (drawPoint.x > destinationWall.transform.position.x)
                     {
-                        foreach (Vector3 waveIntersectionIntersectionPoint in waveIntersection.IntersectionPoints)
-                        {
-                            Debug.DrawLine(_myPos, waveIntersectionIntersectionPoint, Color.red, 0.01f);
-                            
-                        }
+                        drawPoint.x = destinationWall.transform.position.x;
+                        _drawnPoints[i].SetActive(toDrawOnlyHit);
                     }
+
+                    _drawnPoints[i].transform.position = drawPoint;
+                    _drawnPoints[i].GetComponent<Renderer>().material =
+                        _pointsToDraw[i].InterferenceType == InterferenceType.PositiveConstructive
+                            ? positiveMaterial
+                            : negativeMaterial;
                 }
+                // for (int i = 0; i < _particles.Length; i++)
+                // {
+                //     ParticleSystem.Particle particle = _particles[i];
+                //
+                //     Vector3 givenIntersectionPoint = _pointsToDraw[i].IntersectionPoints[0];
+                //     if (givenIntersectionPoint.x > 4)
+                //     {
+                //         givenIntersectionPoint.x = 4;
+                //     }
+                //
+                //     particle.position = givenIntersectionPoint;
+                //     particle.startColor = _pointsToDraw[i].InterferenceType == InterferenceType.PositiveConstructive
+                //         ? positiveMaterial.color
+                //         : negativeMaterial.color;
+                // }
+                // _drawsParticleSystem.SetParticles(_particles,_particles.Length);
+                // foreach (List<WaveIntersection> intersectionPoint in _intersectionPoints)
+                // {
+                //     foreach (WaveIntersection waveIntersection in intersectionPoint)
+                //     {
+                //         foreach (Vector3 waveIntersectionIntersectionPoint in waveIntersection.IntersectionPoints)
+                //         {
+                //             Debug.DrawLine(_myPos, waveIntersectionIntersectionPoint, Color.red, 0.01f);
+                //             
+                //         }
+                //     }
+                // }
 
                 print("======================\n\n======================");
             }
         }
 
         // SECTION: Private functions
+        private void RefreshDrawIntersectionPoints()
+        {
+            // Count number of intersections
+            _pointsToDraw.Clear();
+            foreach (List<WaveIntersection> waves in _intersectionPoints)
+            {
+                foreach (WaveIntersection waveIntersection in waves)
+                {
+                    foreach (Vector3 intersectionPoint in waveIntersection.IntersectionPoints)
+                    {
+                        if (intersectionPoint.x < 0)
+                        {
+                            continue;
+                        }
+
+                        if (waveIntersection.InterferenceType == InterferenceType.Destructive)
+                        {
+                            continue;
+                        }
+
+                        List<Vector3> intPointList = new List<Vector3> {intersectionPoint};
+                        _pointsToDraw.Add(new WaveIntersection(intPointList, waveIntersection.InterferenceType));
+                    }
+                }
+            }
+
+            // emits that many particles
+            print("Current drawPoints: "+_drawnPoints.Count+"; Current pointsToDraw: "+_pointsToDraw.Count);
+            if (_drawnPoints.Count < _pointsToDraw.Count)
+            {
+                for (int i = _drawnPoints.Count; i < _pointsToDraw.Count; i++)
+                {
+                    GameObject point = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                    point.transform.localScale = Vector3.one * 0.15f;
+                    _drawnPoints.Add(point);
+                }
+            }
+            else
+            {
+                print("Removing "+(_pointsToDraw.Count - _drawnPoints.Count)+" spheres");
+                _drawnPoints.RemoveRange(0, _drawnPoints.Count - _pointsToDraw.Count);
+            }
+
+            // _drawsParticleSystem.Emit(_pointsToDraw.Count);
+            //
+            // // resets the particle NativeArray and reloads it
+            // _particles.Dispose();
+            // _particles = new NativeArray<ParticleSystem.Particle>();
+            //
+            // _drawsParticleSystem.GetParticles(_particles);
+        }
+
         private GameObject CreateNewWave(float drawWidth = 0.1f)
         {
             GameObject wave = Instantiate(waveFrontGameObject, _myPos, Quaternion.identity);
@@ -269,6 +395,8 @@ namespace Diffraction
             WaveFront2D waveFrontHandler = wave.GetComponent<WaveFront2D>();
             waveFrontHandler.lineWidth = drawWidth;
             waveFrontHandler.isPositiveWave = _isPositiveWave;
+
+            wave.SetActive(toDrawWaves);
 
             return wave;
         }
