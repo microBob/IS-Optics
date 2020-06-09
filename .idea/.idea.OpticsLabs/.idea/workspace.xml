@@ -13,8 +13,6 @@
     <list default="true" id="3c9dcb34-c645-4c25-8257-5dca8332fb72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpticsLabs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Diffraction/Waves2D.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Diffraction/Waves2D.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Diffraction/Wave2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +238,8 @@
       <workItem from="1590984807506" duration="7231000" />
       <workItem from="1591024751130" duration="1621000" />
       <workItem from="1591047672343" duration="974000" />
-      <workItem from="1591052087082" duration="370000" />
+      <workItem from="1591052087082" duration="1017000" />
+      <workItem from="1591059738229" duration="9000" />
     </task>
     <servers />
   </component>
