@@ -8,3 +8,6 @@ You can see the results of this code in a [PowerPoint presentation here](https:/
 1. Clone this repo
 2. Install Unity. This project used Unity 2018.x LTS, but it should be compatible with 2019.x LTS
 3. Open the project in Unity, go to Assets/Scenes in the project explorer and pick a scene to checkout!
+
+## Notes
+* the user microBob and kyangEPS are both me, just different emails when working using different computers when some simulations required more power
