@@ -10,4 +10,4 @@ You can see the results of this code in a [PowerPoint presentation here](https:/
 3. Open the project in Unity, go to Assets/Scenes in the project explorer and pick a scene to checkout!
 
 ## Notes
-* the user microBob and kyangEPS are both me, just different emails when working using different computers when some simulations required more power
+* the user microBob and kyangEPS are both me, just different emails on different computers for when some simulations required more power
