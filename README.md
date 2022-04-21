@@ -2,7 +2,7 @@
 My 2020 Independent Study on Light Optics in Computer Graphics. Using Unity, I accurately simulate light physics in real-time.
 
 ## Demo videos
-You can see the results of this code in a [PowerPoint presentation here](https://eastsidepreparatory-my.sharepoint.com/:p:/g/personal/kyang_eastsideprep_org/EZyCPKpNtExMrRsshRYAUfQBrhRdocu1mh0J84B-j9CCJw?e=9O00XG).
+You can see the results of this code in a [PowerPoint presentation here](https://1drv.ms/p/s!An73-S_0mmcmgft62yT6IRjp8ccjOQ?e=KON40P).
 
 ## How to open the project yourself
 1. Clone this repo
